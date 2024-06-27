@@ -1,0 +1,128 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "7f5db48d-4c72-4f3f-8d37-44d788568b5b")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "SPI_MOSI"
+		(shape input)
+		(at 53.34 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "06994ada-0950-4f8f-979a-65a3198a7b0f")
+	)
+	(hierarchical_label "BUSY"
+		(shape input)
+		(at 33.02 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "64db8a58-ce8a-4660-a833-4ed28ddc91d7")
+	)
+	(hierarchical_label "I2C_D{slash}C"
+		(shape input)
+		(at 33.02 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "92d49e03-1182-4bbb-859a-411169140187")
+	)
+	(hierarchical_label "I2C_CS"
+		(shape input)
+		(at 33.02 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b7b171fb-b909-40b5-8299-f1b72c99c6a9")
+	)
+	(hierarchical_label "RES"
+		(shape input)
+		(at 33.02 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bc136805-b4e4-4ba0-9a18-794504946520")
+	)
+	(hierarchical_label "SPI_MISO"
+		(shape input)
+		(at 53.34 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c21def3c-24af-4aa5-bc22-d9dbe9517796")
+	)
+	(hierarchical_label "SPI_SCK"
+		(shape input)
+		(at 53.34 26.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cb6f0339-fe43-43fb-a9be-659cd48fa56e")
+	)
+	(hierarchical_label "I2C_SCL"
+		(shape input)
+		(at 33.02 29.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d0b485d1-dd61-4d79-9565-c7a7f4dca78b")
+	)
+	(hierarchical_label "I2C_SDA"
+		(shape input)
+		(at 33.02 26.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "de7b2b4e-590f-4f77-8dd2-77737380c813")
+	)
+	(hierarchical_label "SPI_NSS"
+		(shape input)
+		(at 53.34 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f46dd19b-cab0-4192-905c-fbb93afbedbf")
+	)
+)

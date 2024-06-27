@@ -1,0 +1,427 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "2adbba85-9270-4efb-857d-656bb51406ca")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 101.6 73.66) (xy 113.03 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18019993-bf91-4439-a9a8-6863165d4778")
+	)
+	(wire
+		(pts
+			(xy 153.67 76.2) (xy 168.91 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "297cb712-da85-4115-acc9-24bebf45487d")
+	)
+	(wire
+		(pts
+			(xy 101.6 71.12) (xy 113.03 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71672d25-bc30-4a63-b1b3-3b2f902efe75")
+	)
+	(wire
+		(pts
+			(xy 101.6 76.2) (xy 113.03 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "849c9089-4ffe-4cfe-b580-3abe17b144bc")
+	)
+	(wire
+		(pts
+			(xy 101.6 83.82) (xy 113.03 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a762a4bd-e270-411e-910d-9341acc0b93a")
+	)
+	(wire
+		(pts
+			(xy 101.6 81.28) (xy 113.03 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b684eaa5-703e-45bf-895c-66c3e7698159")
+	)
+	(wire
+		(pts
+			(xy 153.67 73.66) (xy 168.91 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1c58826-9ac5-45d5-abb0-b291f8405647")
+	)
+	(wire
+		(pts
+			(xy 153.67 78.74) (xy 168.91 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df3d1cf4-8089-4ce2-bf93-bb8ea6d0b0ae")
+	)
+	(wire
+		(pts
+			(xy 101.6 78.74) (xy 113.03 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e67a57a5-7ae3-4256-ba0d-fdebe9c14865")
+	)
+	(wire
+		(pts
+			(xy 153.67 71.12) (xy 168.91 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f62dcb24-d2a2-4ee4-9a76-96061e58c827")
+	)
+	(sheet
+		(at 168.91 63.5)
+		(size 45.72 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "95527a5c-8cb7-439d-944b-2d67c4df2ece")
+		(property "Sheetname" "NFC"
+			(at 168.91 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "NFC.kicad_sch"
+			(at 168.91 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SPI_MISO" input
+			(at 168.91 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8b678a59-2a7c-415b-abf3-58332d8b6cb8")
+		)
+		(pin "SPI_SCK" input
+			(at 168.91 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "39271312-56fa-45c7-905d-f8583e2283e7")
+		)
+		(pin "SPI_MOSI" input
+			(at 168.91 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a959e968-ee82-45d2-8283-54ef6200f47a")
+		)
+		(pin "SPI_NSS" input
+			(at 168.91 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1e1b3127-c972-4d6c-96e6-1900040ced75")
+		)
+		(instances
+			(project "Ecardz-Proto"
+				(path "/2adbba85-9270-4efb-857d-656bb51406ca"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 68.58 63.5)
+		(size 33.02 39.37)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a8646e5d-e29c-4dc0-b052-9a424836bd67")
+		(property "Sheetname" "EINK"
+			(at 68.58 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "EINK.kicad_sch"
+			(at 68.58 103.4546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RES" input
+			(at 101.6 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b6731b4b-a87a-4455-a942-951159433c0b")
+		)
+		(pin "BUSY" input
+			(at 101.6 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3e7e7e50-8e36-480c-b806-ab40bd1d459b")
+		)
+		(pin "I2C_SCL" input
+			(at 101.6 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2f73d6c3-52d3-4c02-8a61-76261f901a0d")
+		)
+		(pin "I2C_CS" input
+			(at 101.6 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7d682874-96f0-4a07-9c55-c33b7da17693")
+		)
+		(pin "I2C_D{slash}C" input
+			(at 101.6 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f2be0037-85d5-479f-9d18-5ac79ee93e8e")
+		)
+		(pin "I2C_SDA" input
+			(at 101.6 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "24f5ddf7-cd7f-4904-aec3-e6e51327f878")
+		)
+		(instances
+			(project "Ecardz-Proto"
+				(path "/2adbba85-9270-4efb-857d-656bb51406ca"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 113.03 63.5)
+		(size 40.64 34.29)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fb28d19f-d7f8-44fd-bba1-2dc19a83839b")
+		(property "Sheetname" "STM"
+			(at 113.03 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "STM.kicad_sch"
+			(at 113.03 98.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2C_SDA" input
+			(at 113.03 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9ab952a3-b7f1-4f50-8844-a7058d185be1")
+		)
+		(pin "I2C_CS" input
+			(at 113.03 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9667f016-5cc2-4f15-8a36-0838ccf903be")
+		)
+		(pin "RES" input
+			(at 113.03 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0799b0e7-2933-4f42-af3a-c1657593da7d")
+		)
+		(pin "BUSY" input
+			(at 113.03 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "66a52136-e126-49af-9b6d-6a13d27443f6")
+		)
+		(pin "I2C_SCL" input
+			(at 113.03 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bd1e9d5e-1645-4335-a835-7171ce0ef220")
+		)
+		(pin "I2C_D{slash}C" input
+			(at 113.03 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "24efc024-5f0d-4ff9-ace5-1820bea49087")
+		)
+		(pin "SPI_SCK" input
+			(at 153.67 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a8441640-cefd-42a8-a32b-62a8121cf6e4")
+		)
+		(pin "SPI_MOSI" input
+			(at 153.67 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5447df8a-8b04-4fce-ab6a-042b0be8e7c2")
+		)
+		(pin "SPI_MISO" input
+			(at 153.67 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3cc29aba-4bc8-4a33-8cf3-016450db4233")
+		)
+		(pin "SPI_NSS" input
+			(at 153.67 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d04c9469-58a6-4527-b827-182a3332400c")
+		)
+		(instances
+			(project "Ecardz-Proto"
+				(path "/2adbba85-9270-4efb-857d-656bb51406ca"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
