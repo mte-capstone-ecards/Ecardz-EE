@@ -397,6 +397,10 @@
     [
       "95527a5c-8cb7-439d-944b-2d67c4df2ece",
       "NFC"
+    ],
+    [
+      "4d1fc006-2080-410a-b165-b94a651dfa6e",
+      "EEPROM"
     ]
   ],
   "text_variables": {}
