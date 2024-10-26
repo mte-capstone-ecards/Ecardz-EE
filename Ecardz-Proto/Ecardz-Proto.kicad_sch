@@ -47,6 +47,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 71.12) (xy 231.14 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7100881-ea78-46a4-a8f6-7a35d17ac8d2")
+	)
+	(wire
+		(pts
 			(xy 101.6 83.82) (xy 113.03 83.82)
 		)
 		(stroke
@@ -144,6 +154,54 @@
 		)
 	)
 	(sheet
+		(at 231.14 66.04)
+		(size 35.56 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "84f51730-dff5-466b-a719-c56b42e57938")
+		(property "Sheetname" "ENERGYHARVESTING"
+			(at 231.14 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "energyharvesting.kicad_sch"
+			(at 231.14 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_HARVEST" input
+			(at 231.14 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5da7453d-71fe-456d-8092-40764936c91e")
+		)
+		(instances
+			(project "Ecardz-Proto"
+				(path "/2adbba85-9270-4efb-857d-656bb51406ca"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 168.91 63.5)
 		(size 45.72 38.1)
 		(fields_autoplaced yes)
@@ -212,6 +270,16 @@
 				(justify left)
 			)
 			(uuid "1e1b3127-c972-4d6c-96e6-1900040ced75")
+		)
+		(pin "V_HARVEST" output
+			(at 214.63 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "faeca37e-3804-4bd9-b083-bb6e6a7e0371")
 		)
 		(instances
 			(project "Ecardz-Proto"

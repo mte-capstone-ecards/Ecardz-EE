@@ -285,6 +285,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -401,6 +402,10 @@
     [
       "4d1fc006-2080-410a-b165-b94a651dfa6e",
       "EEPROM"
+    ],
+    [
+      "84f51730-dff5-466b-a719-c56b42e57938",
+      "ENERGYHARVESTING"
     ]
   ],
   "text_variables": {}
