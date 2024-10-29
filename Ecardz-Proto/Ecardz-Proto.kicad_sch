@@ -5,9 +5,21 @@
 	(uuid "2adbba85-9270-4efb-857d-656bb51406ca")
 	(paper "A4")
 	(lib_symbols)
+	(junction
+		(at 106.68 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b561144-5015-474e-afb4-3d19800831a7")
+	)
+	(junction
+		(at 104.14 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da301dc3-f531-4fdb-a9e3-20a332e7c4ea")
+	)
 	(wire
 		(pts
-			(xy 101.6 73.66) (xy 113.03 73.66)
+			(xy 101.6 73.66) (xy 106.68 73.66)
 		)
 		(stroke
 			(width 0)
@@ -27,13 +39,73 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 71.12) (xy 113.03 71.12)
+			(xy 113.03 34.29) (xy 106.68 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b5a1b17-2333-4f8e-9859-b230b8cb5f83")
+	)
+	(wire
+		(pts
+			(xy 153.67 31.75) (xy 229.87 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3836ffd7-16ea-4671-a5f2-62803c9278e1")
+	)
+	(wire
+		(pts
+			(xy 106.68 34.29) (xy 106.68 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d617321-0bcc-481d-bf31-c9252374559d")
+	)
+	(wire
+		(pts
+			(xy 229.87 31.75) (xy 229.87 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b347438-4687-4841-9e3f-38341bc68ce8")
+	)
+	(wire
+		(pts
+			(xy 229.87 71.12) (xy 214.63 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ca5c878-a925-41d4-abce-da3c14730c0c")
+	)
+	(wire
+		(pts
+			(xy 101.6 71.12) (xy 104.14 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "71672d25-bc30-4a63-b1b3-3b2f902efe75")
+	)
+	(wire
+		(pts
+			(xy 104.14 71.12) (xy 113.03 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ce7ccf3-61d1-4e5a-ad2a-6e31b79cca4d")
 	)
 	(wire
 		(pts
@@ -47,13 +119,13 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 71.12) (xy 231.14 71.12)
+			(xy 104.14 31.75) (xy 113.03 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a7100881-ea78-46a4-a8f6-7a35d17ac8d2")
+		(uuid "84c43a5e-4249-498f-8cf5-d6d125c81220")
 	)
 	(wire
 		(pts
@@ -87,6 +159,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 73.66) (xy 113.03 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3298f8b-32db-4d7f-ad24-2eeea3353943")
+	)
+	(wire
+		(pts
 			(xy 153.67 78.74) (xy 168.91 78.74)
 		)
 		(stroke
@@ -104,6 +186,16 @@
 			(type default)
 		)
 		(uuid "e67a57a5-7ae3-4256-ba0d-fdebe9c14865")
+	)
+	(wire
+		(pts
+			(xy 104.14 31.75) (xy 104.14 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f212ace0-061c-4dbf-b1ca-6afada384331")
 	)
 	(wire
 		(pts
@@ -154,8 +246,8 @@
 		)
 	)
 	(sheet
-		(at 231.14 66.04)
-		(size 35.56 25.4)
+		(at 113.03 26.67)
+		(size 40.64 25.4)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -166,7 +258,7 @@
 		)
 		(uuid "84f51730-dff5-466b-a719-c56b42e57938")
 		(property "Sheetname" "ENERGYHARVESTING"
-			(at 231.14 65.3284 0)
+			(at 113.03 25.9584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -175,7 +267,7 @@
 			)
 		)
 		(property "Sheetfile" "energyharvesting.kicad_sch"
-			(at 231.14 92.0246 0)
+			(at 113.03 52.6546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -184,14 +276,34 @@
 			)
 		)
 		(pin "V_HARVEST" input
-			(at 231.14 71.12 180)
+			(at 153.67 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5da7453d-71fe-456d-8092-40764936c91e")
+		)
+		(pin "SCL" bidirectional
+			(at 113.03 31.75 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5da7453d-71fe-456d-8092-40764936c91e")
+			(uuid "8aa52ed1-4620-4865-ba28-64b7ebe10f01")
+		)
+		(pin "SDA" bidirectional
+			(at 113.03 34.29 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8194b950-21ad-40ea-b4b8-18d9333539bd")
 		)
 		(instances
 			(project "Ecardz-Proto"
