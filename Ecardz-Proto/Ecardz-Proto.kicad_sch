@@ -7,16 +7,6 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 101.6 73.66) (xy 113.03 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18019993-bf91-4439-a9a8-6863165d4778")
-	)
-	(wire
-		(pts
 			(xy 153.67 76.2) (xy 168.91 76.2)
 		)
 		(stroke
@@ -24,6 +14,16 @@
 			(type default)
 		)
 		(uuid "297cb712-da85-4115-acc9-24bebf45487d")
+	)
+	(wire
+		(pts
+			(xy 153.67 87.63) (xy 168.91 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40dfb11b-bace-48ce-96a7-a232dd6553d8")
 	)
 	(wire
 		(pts
@@ -77,6 +77,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 73.66) (xy 113.03 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3298f8b-32db-4d7f-ad24-2eeea3353943")
+	)
+	(wire
+		(pts
 			(xy 153.67 78.74) (xy 168.91 78.74)
 		)
 		(stroke
@@ -104,44 +114,6 @@
 			(type default)
 		)
 		(uuid "f62dcb24-d2a2-4ee4-9a76-96061e58c827")
-	)
-	(sheet
-		(at 114.3 115.57)
-		(size 40.64 34.29)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "4d1fc006-2080-410a-b165-b94a651dfa6e")
-		(property "Sheetname" "EEPROM"
-			(at 114.3 114.8584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "EEPROM.kicad_sch"
-			(at 114.3 150.4446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Ecardz-Proto"
-				(path "/2adbba85-9270-4efb-857d-656bb51406ca"
-					(page "5")
-				)
-			)
-		)
 	)
 	(sheet
 		(at 168.91 63.5)
@@ -212,6 +184,16 @@
 				(justify left)
 			)
 			(uuid "1e1b3127-c972-4d6c-96e6-1900040ced75")
+		)
+		(pin "V_HARVEST" output
+			(at 168.91 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "faeca37e-3804-4bd9-b083-bb6e6a7e0371")
 		)
 		(instances
 			(project "Ecardz-Proto"
@@ -448,6 +430,16 @@
 				(justify right)
 			)
 			(uuid "d04c9469-58a6-4527-b827-182a3332400c")
+		)
+		(pin "V_HARVEST" input
+			(at 153.67 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "917588d9-b079-4bfc-8f7d-cbb60bfb86be")
 		)
 		(instances
 			(project "Ecardz-Proto"
