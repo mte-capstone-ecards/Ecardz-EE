@@ -7,93 +7,13 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 153.67 76.2) (xy 168.91 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "297cb712-da85-4115-acc9-24bebf45487d")
-	)
-	(wire
-		(pts
-			(xy 153.67 87.63) (xy 168.91 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40dfb11b-bace-48ce-96a7-a232dd6553d8")
-	)
-	(wire
-		(pts
 			(xy 101.6 71.12) (xy 113.03 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "71672d25-bc30-4a63-b1b3-3b2f902efe75")
-	)
-	(wire
-		(pts
-			(xy 101.6 76.2) (xy 113.03 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "849c9089-4ffe-4cfe-b580-3abe17b144bc")
-	)
-	(wire
-		(pts
-			(xy 101.6 83.82) (xy 113.03 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a762a4bd-e270-411e-910d-9341acc0b93a")
-	)
-	(wire
-		(pts
-			(xy 101.6 81.28) (xy 113.03 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b684eaa5-703e-45bf-895c-66c3e7698159")
-	)
-	(wire
-		(pts
-			(xy 153.67 73.66) (xy 168.91 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1c58826-9ac5-45d5-abb0-b291f8405647")
-	)
-	(wire
-		(pts
-			(xy 101.6 73.66) (xy 113.03 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3298f8b-32db-4d7f-ad24-2eeea3353943")
-	)
-	(wire
-		(pts
-			(xy 153.67 78.74) (xy 168.91 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df3d1cf4-8089-4ce2-bf93-bb8ea6d0b0ae")
+		(uuid "034886c4-d811-4657-b910-22652dbbee48")
 	)
 	(wire
 		(pts
@@ -103,17 +23,77 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "e67a57a5-7ae3-4256-ba0d-fdebe9c14865")
+		(uuid "23642bca-646e-43c8-bc95-93e4c4f9b6af")
 	)
 	(wire
 		(pts
-			(xy 153.67 71.12) (xy 168.91 71.12)
+			(xy 101.6 73.66) (xy 113.03 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f62dcb24-d2a2-4ee4-9a76-96061e58c827")
+		(uuid "2c2432c9-6580-458c-a4ba-761214bea2eb")
+	)
+	(wire
+		(pts
+			(xy 153.67 78.74) (xy 168.91 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d107359-3264-4088-88ae-007dd2d65194")
+	)
+	(wire
+		(pts
+			(xy 153.67 76.2) (xy 168.91 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f0c2bb1-2bc2-485f-9e80-288f8a844d1a")
+	)
+	(wire
+		(pts
+			(xy 101.6 86.36) (xy 113.03 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ba60f85-a290-4bc0-99cb-5dec0954faec")
+	)
+	(wire
+		(pts
+			(xy 101.6 83.82) (xy 113.03 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8841d4c0-a0c4-45ad-aa1c-954ac50a2209")
+	)
+	(wire
+		(pts
+			(xy 153.67 73.66) (xy 168.91 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de13222e-4d19-41ee-b397-6bd75819d52d")
+	)
+	(wire
+		(pts
+			(xy 101.6 76.2) (xy 113.03 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0512c27-3f1b-4660-a776-e3e202751916")
 	)
 	(sheet
 		(at 168.91 63.5)
@@ -145,27 +125,7 @@
 				(justify left top)
 			)
 		)
-		(pin "SPI_MISO" input
-			(at 168.91 76.2 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "8b678a59-2a7c-415b-abf3-58332d8b6cb8")
-		)
-		(pin "SPI_SCK" input
-			(at 168.91 71.12 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "39271312-56fa-45c7-905d-f8583e2283e7")
-		)
-		(pin "SPI_MOSI" input
+		(pin "I2C_NFC_SDA" input
 			(at 168.91 73.66 180)
 			(effects
 				(font
@@ -173,9 +133,9 @@
 				)
 				(justify left)
 			)
-			(uuid "a959e968-ee82-45d2-8283-54ef6200f47a")
+			(uuid "e57acd4b-6097-408f-bfb0-83dbaac490a6")
 		)
-		(pin "SPI_NSS" input
+		(pin "NFC_BUSY" input
 			(at 168.91 78.74 180)
 			(effects
 				(font
@@ -183,17 +143,17 @@
 				)
 				(justify left)
 			)
-			(uuid "1e1b3127-c972-4d6c-96e6-1900040ced75")
+			(uuid "7333a554-887a-4570-9a62-34ff2904c7bb")
 		)
-		(pin "V_HARVEST" output
-			(at 168.91 87.63 180)
+		(pin "I2C_NFC_SCL" input
+			(at 168.91 76.2 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "faeca37e-3804-4bd9-b083-bb6e6a7e0371")
+			(uuid "9f0120a6-48d5-4178-a9db-13831282e97f")
 		)
 		(instances
 			(project "Ecardz-Proto"
@@ -233,17 +193,7 @@
 				(justify left top)
 			)
 		)
-		(pin "RES" input
-			(at 101.6 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "b6731b4b-a87a-4455-a942-951159433c0b")
-		)
-		(pin "BUSY" input
+		(pin "EINK_RES#" input
 			(at 101.6 83.82 0)
 			(effects
 				(font
@@ -251,9 +201,39 @@
 				)
 				(justify right)
 			)
-			(uuid "3e7e7e50-8e36-480c-b806-ab40bd1d459b")
+			(uuid "440366cc-07cd-445e-b5f0-c7021aee41d6")
 		)
-		(pin "I2C_SCL" input
+		(pin "EINK_BUSY" input
+			(at 101.6 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "74ff4e45-50dc-490d-b854-f8ef380e2555")
+		)
+		(pin "TSCL" input
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "15d87312-a7d4-4fcb-9e7b-717fb1b68b87")
+		)
+		(pin "TSDA" input
+			(at 101.6 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "721f2e25-1351-4c58-b491-c083bc7f077e")
+		)
+		(pin "SPI_EINK_SDA" input
 			(at 101.6 71.12 0)
 			(effects
 				(font
@@ -261,19 +241,9 @@
 				)
 				(justify right)
 			)
-			(uuid "2f73d6c3-52d3-4c02-8a61-76261f901a0d")
+			(uuid "09c125f4-721e-4360-867c-9005ce9a5f53")
 		)
-		(pin "I2C_CS" input
-			(at 101.6 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "7d682874-96f0-4a07-9c55-c33b7da17693")
-		)
-		(pin "I2C_D{slash}C" input
+		(pin "SPI_EINK_D{slash}C#" input
 			(at 101.6 78.74 0)
 			(effects
 				(font
@@ -281,9 +251,9 @@
 				)
 				(justify right)
 			)
-			(uuid "f2be0037-85d5-479f-9d18-5ac79ee93e8e")
+			(uuid "193e524a-1a50-4c2c-bf0e-ad0b7e1ca39b")
 		)
-		(pin "I2C_SDA" input
+		(pin "SPI_EINK_SCL" input
 			(at 101.6 73.66 0)
 			(effects
 				(font
@@ -291,7 +261,17 @@
 				)
 				(justify right)
 			)
-			(uuid "24f5ddf7-cd7f-4904-aec3-e6e51327f878")
+			(uuid "9f23c8e0-eed4-41e4-87ad-c4caaca0efcf")
+		)
+		(pin "SPI_EINK_CS#" input
+			(at 101.6 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "da456d87-77cd-4763-aca3-af52c4488c83")
 		)
 		(instances
 			(project "Ecardz-Proto"
@@ -331,47 +311,7 @@
 				(justify left top)
 			)
 		)
-		(pin "I2C_SDA" input
-			(at 113.03 73.66 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "9ab952a3-b7f1-4f50-8844-a7058d185be1")
-		)
-		(pin "I2C_CS" input
-			(at 113.03 76.2 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "9667f016-5cc2-4f15-8a36-0838ccf903be")
-		)
-		(pin "RES" input
-			(at 113.03 81.28 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "0799b0e7-2933-4f42-af3a-c1657593da7d")
-		)
-		(pin "BUSY" input
-			(at 113.03 83.82 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "66a52136-e126-49af-9b6d-6a13d27443f6")
-		)
-		(pin "I2C_SCL" input
+		(pin "SPI_EINK_SDA" input
 			(at 113.03 71.12 180)
 			(effects
 				(font
@@ -379,9 +319,29 @@
 				)
 				(justify left)
 			)
-			(uuid "bd1e9d5e-1645-4335-a835-7171ce0ef220")
+			(uuid "6b017e03-d88b-48f7-a226-a74f6569ecea")
 		)
-		(pin "I2C_D{slash}C" input
+		(pin "SPI_EINK_CS#" input
+			(at 113.03 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e772c854-03dd-4b89-a216-aad7aeac7844")
+		)
+		(pin "SPI_EINK_SCL" input
+			(at 113.03 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "04cee41a-e4f1-404f-82d8-2d617b0b6485")
+		)
+		(pin "SPI_EINK_D{slash}C#" input
 			(at 113.03 78.74 180)
 			(effects
 				(font
@@ -389,39 +349,29 @@
 				)
 				(justify left)
 			)
-			(uuid "24efc024-5f0d-4ff9-ace5-1820bea49087")
+			(uuid "60a146ed-f33c-497a-9446-28b9d285baf2")
 		)
-		(pin "SPI_SCK" input
-			(at 153.67 71.12 0)
+		(pin "EINK_BUSY" input
+			(at 113.03 86.36 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
-			(uuid "a8441640-cefd-42a8-a32b-62a8121cf6e4")
+			(uuid "c8dc2373-5f87-4e4b-817a-697f2d412b6f")
 		)
-		(pin "SPI_MOSI" input
-			(at 153.67 73.66 0)
+		(pin "EINK_RES#" input
+			(at 113.03 83.82 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
-			(uuid "5447df8a-8b04-4fce-ab6a-042b0be8e7c2")
+			(uuid "c58526ad-2104-45ba-bb5d-e5416e9f3243")
 		)
-		(pin "SPI_MISO" input
-			(at 153.67 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "3cc29aba-4bc8-4a33-8cf3-016450db4233")
-		)
-		(pin "SPI_NSS" input
+		(pin "NFC_BUSY" input
 			(at 153.67 78.74 0)
 			(effects
 				(font
@@ -429,17 +379,27 @@
 				)
 				(justify right)
 			)
-			(uuid "d04c9469-58a6-4527-b827-182a3332400c")
+			(uuid "022dc77b-ffd7-404b-8ff8-dbca854e0d69")
 		)
-		(pin "V_HARVEST" input
-			(at 153.67 87.63 0)
+		(pin "I2C_NFC_SCL" input
+			(at 153.67 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "917588d9-b079-4bfc-8f7d-cbb60bfb86be")
+			(uuid "f4b0c058-9316-4eb5-addd-81c792bf057d")
+		)
+		(pin "I2C_NFC_SDA" input
+			(at 153.67 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d9baa539-4b9e-40fc-afaf-8f79d86beaeb")
 		)
 		(instances
 			(project "Ecardz-Proto"

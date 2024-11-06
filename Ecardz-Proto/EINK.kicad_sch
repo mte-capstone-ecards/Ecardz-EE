@@ -1746,6 +1746,126 @@
 				)
 			)
 		)
+		(symbol "power:VCC"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 121.92 69.85)
@@ -1826,6 +1946,12 @@
 		(uuid "8281aebc-b773-4606-bf44-c770d501dcab")
 	)
 	(junction
+		(at 220.98 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a12cab0d-b0c5-4d57-aa51-ceab8c51adee")
+	)
+	(junction
 		(at 96.52 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1854,12 +1980,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef878210-d6d8-484f-8210-abd8297ca34a")
-	)
-	(junction
-		(at 228.6 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f133dc18-8b63-471e-8e11-cbe58bede05a")
 	)
 	(junction
 		(at 255.27 101.6)
@@ -1903,7 +2023,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 59.69) (xy 204.47 59.69)
+			(xy 208.28 59.69) (xy 204.47 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1923,7 +2043,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 49.53) (xy 228.6 49.53)
+			(xy 204.47 49.53) (xy 220.98 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2183,7 +2303,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 72.39) (xy 259.08 72.39)
+			(xy 232.41 72.39) (xy 259.08 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2233,7 +2353,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 44.45) (xy 259.08 44.45)
+			(xy 220.98 44.45) (xy 259.08 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2403,7 +2523,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 59.69) (xy 228.6 59.69)
+			(xy 215.9 59.69) (xy 220.98 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2513,7 +2633,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 44.45) (xy 228.6 49.53)
+			(xy 220.98 44.45) (xy 220.98 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2663,7 +2783,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 59.69) (xy 228.6 49.53)
+			(xy 220.98 59.69) (xy 220.98 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2955,7 +3075,7 @@
 		)
 		(uuid "fd5e8658-32de-430f-badf-41ce3c2cd21b")
 	)
-	(hierarchical_label "BUSY"
+	(hierarchical_label "EINK_BUSY"
 		(shape input)
 		(at 241.3 46.99 180)
 		(fields_autoplaced yes)
@@ -2967,7 +3087,7 @@
 		)
 		(uuid "04a0daec-9c19-4ee3-a2fb-ad143ab3cdb3")
 	)
-	(hierarchical_label "SCL"
+	(hierarchical_label "SPI_EINK_SCL"
 		(shape input)
 		(at 241.3 57.15 180)
 		(fields_autoplaced yes)
@@ -2978,18 +3098,6 @@
 			(justify right)
 		)
 		(uuid "1c81690c-1416-46ae-b7a2-f8246968beaf")
-	)
-	(hierarchical_label "VPP"
-		(shape input)
-		(at 241.3 72.39 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3607404a-5925-4421-ac3f-3333a307721d")
 	)
 	(hierarchical_label "TSCL"
 		(shape input)
@@ -3003,7 +3111,7 @@
 		)
 		(uuid "3eee01f2-34fd-4c47-b17b-84af9a075100")
 	)
-	(hierarchical_label "D{slash}C#"
+	(hierarchical_label "SPI_EINK_D{slash}C#"
 		(shape input)
 		(at 241.3 52.07 180)
 		(fields_autoplaced yes)
@@ -3015,7 +3123,7 @@
 		)
 		(uuid "69a944e7-ee28-4a53-bce7-368b29771cee")
 	)
-	(hierarchical_label "CS#"
+	(hierarchical_label "SPI_EINK_CS#"
 		(shape input)
 		(at 241.3 54.61 180)
 		(fields_autoplaced yes)
@@ -3039,7 +3147,7 @@
 		)
 		(uuid "7524827f-1728-4c19-a667-13b8947d7925")
 	)
-	(hierarchical_label "RES#"
+	(hierarchical_label "EINK_RES#"
 		(shape input)
 		(at 241.3 49.53 180)
 		(fields_autoplaced yes)
@@ -3051,7 +3159,7 @@
 		)
 		(uuid "8d34befb-33a6-4e8e-b54c-9078572937f2")
 	)
-	(hierarchical_label "SDA"
+	(hierarchical_label "SPI_EINK_SDA"
 		(shape input)
 		(at 241.3 59.69 180)
 		(fields_autoplaced yes)
@@ -3937,7 +4045,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 218.44 59.69 90)
+		(at 212.09 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3946,7 +4054,7 @@
 		(fields_autoplaced yes)
 		(uuid "6696cdfb-b597-4250-8eda-792fc46c34ae")
 		(property "Reference" "R2"
-			(at 218.44 53.34 90)
+			(at 212.09 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3954,7 +4062,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 218.44 55.88 90)
+			(at 212.09 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3962,7 +4070,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 218.694 58.674 90)
+			(at 212.344 58.674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3971,7 +4079,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 218.44 59.69 0)
+			(at 212.09 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3980,7 +4088,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 218.44 59.69 0)
+			(at 212.09 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3989,7 +4097,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "RC0603JR-070RL"
-			(at 218.44 59.69 0)
+			(at 212.09 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3998,7 +4106,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 218.44 59.69 0)
+			(at 212.09 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4007,7 +4115,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 218.44 59.69 0)
+			(at 212.09 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4016,7 +4124,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 218.44 59.69 0)
+			(at 212.09 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5265,6 +5373,71 @@
 			(project "Ecardz-Proto"
 				(path "/2adbba85-9270-4efb-857d-656bb51406ca/a8646e5d-e29c-4dc0-b052-9a424836bd67"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 232.41 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4e666cc-0091-4825-9a8a-850a7911bc1f")
+		(property "Reference" "#PWR012"
+			(at 236.22 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 234.188 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 232.41 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3eb7209-e8d0-4c55-863c-4cb60f831405")
+		)
+		(instances
+			(project "Ecardz-Proto"
+				(path "/2adbba85-9270-4efb-857d-656bb51406ca/a8646e5d-e29c-4dc0-b052-9a424836bd67"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
