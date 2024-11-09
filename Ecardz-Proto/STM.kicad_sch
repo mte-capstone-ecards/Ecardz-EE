@@ -5799,7 +5799,7 @@
 		)
 		(uuid "d27a33fe-a8bb-41a7-a8be-30026be253b8")
 	)
-	(label "VCC_MEAS"
+	(label "VDD_MEAS"
 		(at 118.11 91.44 0)
 		(fields_autoplaced yes)
 		(effects
