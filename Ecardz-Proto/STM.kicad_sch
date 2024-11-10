@@ -2914,6 +2914,18 @@
 		(uuid "213ef916-8e1c-4223-a2f4-e0c2c9d6249b")
 	)
 	(junction
+		(at 85.09 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "248a84d4-7653-41b1-bfac-c40b6de896e6")
+	)
+	(junction
+		(at 68.58 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27cb3f40-18da-47e8-962b-53cd5e4b86a7")
+	)
+	(junction
 		(at 116.84 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2924,6 +2936,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2f2cc583-1d1f-44ba-b775-c76a7cbbb86d")
+	)
+	(junction
+		(at 60.96 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30accd9d-4d8b-40fe-9f81-30ac12ce593d")
 	)
 	(junction
 		(at 238.76 91.44)
@@ -2978,12 +2996,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f0c3c9e-f5d4-4198-98ad-60ecd201f33f")
-	)
-	(junction
-		(at 52.07 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "708a254e-713c-4556-b2f7-1904f7803c47")
 	)
 	(junction
 		(at 194.31 116.84)
@@ -3094,10 +3106,22 @@
 		(uuid "dcbb83bb-354e-4327-9b79-9339481f25fa")
 	)
 	(junction
+		(at 77.47 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dcf7e394-3258-4c0c-9b73-d6a03bacc00d")
+	)
+	(junction
 		(at 74.93 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de4db54a-0f2b-4359-ad29-9e9851ef4817")
+	)
+	(junction
+		(at 90.17 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1c0ea60-3a5f-40f5-adbd-48fa38bf94c4")
 	)
 	(junction
 		(at 173.99 116.84)
@@ -3152,8 +3176,16 @@
 		(uuid "0887aab9-fa5c-4467-b7c4-88fa70e8adc8")
 	)
 	(no_connect
+		(at 107.95 116.84)
+		(uuid "0dd2c882-5998-4921-bd49-d39927b9039d")
+	)
+	(no_connect
 		(at 226.06 106.68)
 		(uuid "0e424c27-9ab3-4e43-a867-e72a65ccb360")
+	)
+	(no_connect
+		(at 77.47 99.06)
+		(uuid "24599337-5754-41d5-bbc1-97521181f2fb")
 	)
 	(no_connect
 		(at 142.24 177.8)
@@ -3164,8 +3196,32 @@
 		(uuid "57bf988d-8859-4988-a01c-de9af8055731")
 	)
 	(no_connect
+		(at 77.47 109.22)
+		(uuid "6bafc8ab-9e31-49e1-8128-9437e2103d8f")
+	)
+	(no_connect
+		(at 77.47 101.6)
+		(uuid "af6250c8-5950-499e-9d35-d6bf24791b8b")
+	)
+	(no_connect
 		(at 154.94 177.8)
 		(uuid "b40ab456-bf85-491f-b01f-308755ead112")
+	)
+	(no_connect
+		(at 107.95 114.3)
+		(uuid "b8583ef3-069b-4fc5-8bf6-baffecfdcb3c")
+	)
+	(no_connect
+		(at 77.47 111.76)
+		(uuid "d7c7ac48-1c28-49e7-a97e-8156ec8468af")
+	)
+	(no_connect
+		(at 107.95 88.9)
+		(uuid "dc25f085-2eb6-412e-b214-413763cc400c")
+	)
+	(no_connect
+		(at 77.47 106.68)
+		(uuid "ea8538df-aca1-4afd-8bca-9e13dc44f5ff")
 	)
 	(wire
 		(pts
@@ -3206,6 +3262,16 @@
 			(type default)
 		)
 		(uuid "0970aff5-d597-4498-8ad2-b38bf32c1b40")
+	)
+	(wire
+		(pts
+			(xy 68.58 68.58) (xy 68.58 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a51e441-32b8-4366-a8c6-839253b079e1")
 	)
 	(wire
 		(pts
@@ -3259,6 +3325,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 64.77) (xy 85.09 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "165076f7-2227-4565-af5a-aafa4ce2eb0e")
+	)
+	(wire
+		(pts
 			(xy 154.94 172.72) (xy 165.1 172.72)
 		)
 		(stroke
@@ -3266,6 +3342,16 @@
 			(type default)
 		)
 		(uuid "1aff3a55-fa8b-4949-8f54-8191f9b2d604")
+	)
+	(wire
+		(pts
+			(xy 68.58 77.47) (xy 68.58 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bedaa9e-ab83-4b59-a65d-f4c257601e4e")
 	)
 	(wire
 		(pts
@@ -3479,6 +3565,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 64.77) (xy 77.47 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "330b13f2-d767-498f-8d6d-8611709234f1")
+	)
+	(wire
+		(pts
 			(xy 238.76 91.44) (xy 238.76 86.36)
 		)
 		(stroke
@@ -3516,16 +3612,6 @@
 			(type default)
 		)
 		(uuid "38618e4e-b0db-445d-a6cd-8cd0c0426ca9")
-	)
-	(wire
-		(pts
-			(xy 90.17 71.12) (xy 90.17 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38a3b05a-fdfd-4857-835e-5d13a256d39d")
 	)
 	(wire
 		(pts
@@ -3699,6 +3785,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 64.77) (xy 90.17 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e4cba3d-471a-4836-a5fc-bb6e28571308")
+	)
+	(wire
+		(pts
 			(xy 135.89 125.73) (xy 135.89 130.81)
 		)
 		(stroke
@@ -3726,16 +3822,6 @@
 			(type default)
 		)
 		(uuid "5048bab3-64c5-4ef9-bd8a-476130623134")
-	)
-	(wire
-		(pts
-			(xy 52.07 100.33) (xy 52.07 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "519512d3-c42b-4d8c-8374-68bce8ed5dca")
 	)
 	(wire
 		(pts
@@ -3786,6 +3872,16 @@
 			(type default)
 		)
 		(uuid "5d69e017-b682-4bd4-9e25-68f39f9bf458")
+	)
+	(wire
+		(pts
+			(xy 90.17 62.23) (xy 90.17 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ea1cf36-bea7-47dc-b483-615b51fa44fa")
 	)
 	(wire
 		(pts
@@ -4079,6 +4175,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 64.77) (xy 60.96 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "883579fd-0f22-4433-b191-e51b878118d9")
+	)
+	(wire
+		(pts
 			(xy 161.29 116.84) (xy 173.99 116.84)
 		)
 		(stroke
@@ -4086,6 +4192,16 @@
 			(type default)
 		)
 		(uuid "8a28f623-d582-4e01-970c-3a13aa3e123e")
+	)
+	(wire
+		(pts
+			(xy 60.96 64.77) (xy 68.58 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a59895d-bd69-4bfd-8b18-9b0edbce893c")
 	)
 	(wire
 		(pts
@@ -4136,6 +4252,16 @@
 			(type default)
 		)
 		(uuid "92cfbe6f-3ef1-4b68-89a0-6b308718c83b")
+	)
+	(wire
+		(pts
+			(xy 90.17 64.77) (xy 90.17 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "945f3d46-c599-4620-bdfc-7ef9ff747b44")
 	)
 	(wire
 		(pts
@@ -4206,16 +4332,6 @@
 			(type default)
 		)
 		(uuid "9d5cbdc4-6c1c-4946-a8a7-dd995dc1df04")
-	)
-	(wire
-		(pts
-			(xy 52.07 73.66) (xy 90.17 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a143d2a3-54b6-4dde-a5d1-82a2e7d5c17d")
 	)
 	(wire
 		(pts
@@ -4339,6 +4455,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 64.77) (xy 52.07 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b228077e-6482-43cf-ae38-d422d4059f92")
+	)
+	(wire
+		(pts
 			(xy 179.07 109.22) (xy 213.36 109.22)
 		)
 		(stroke
@@ -4346,6 +4472,16 @@
 			(type default)
 		)
 		(uuid "b3258125-2307-4dd9-a168-8a307162392f")
+	)
+	(wire
+		(pts
+			(xy 60.96 68.58) (xy 60.96 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3d5d6fb-f898-4ef0-b8ad-8d3a554c1140")
 	)
 	(wire
 		(pts
@@ -4429,13 +4565,13 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 88.9) (xy 52.07 73.66)
+			(xy 60.96 77.47) (xy 60.96 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c145e34a-9871-43fc-a66e-c0f5e88cadf0")
+		(uuid "be74f03c-1f74-4316-b149-eb8417e04289")
 	)
 	(wire
 		(pts
@@ -4509,6 +4645,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 77.47) (xy 77.47 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca751f99-21bc-452d-b16e-8091262a5050")
+	)
+	(wire
+		(pts
 			(xy 66.04 172.72) (xy 66.04 185.42)
 		)
 		(stroke
@@ -4526,6 +4672,16 @@
 			(type default)
 		)
 		(uuid "cb55c181-083a-40ba-889e-67bcab6162e7")
+	)
+	(wire
+		(pts
+			(xy 85.09 68.58) (xy 85.09 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd0f1042-f382-443c-b56b-20a16d5d05d8")
 	)
 	(wire
 		(pts
@@ -4749,6 +4905,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 68.58) (xy 77.47 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5118a0c-c03e-4cc9-acca-bcee15448f4c")
+	)
+	(wire
+		(pts
 			(xy 113.03 156.21) (xy 113.03 180.34)
 		)
 		(stroke
@@ -4766,6 +4932,16 @@
 			(type default)
 		)
 		(uuid "f7e61486-a3ee-434d-a460-fff5b0c67d25")
+	)
+	(wire
+		(pts
+			(xy 85.09 77.47) (xy 85.09 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f88a76f6-cf55-4f42-aecb-1d897ab0eee6")
 	)
 	(wire
 		(pts
@@ -6996,7 +7172,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_3.0x3.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 189.23 119.38 0)
 			(effects
 				(font
@@ -7030,6 +7206,72 @@
 			(project "Ecardz-Proto"
 				(path "/2adbba85-9270-4efb-857d-656bb51406ca/fb28d19f-d7f8-44fd-bba1-2dc19a83839b"
 					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 68.58 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39086064-0954-4c7f-ad14-c44d126a4265")
+		(property "Reference" "#PWR024"
+			(at 68.58 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 68.58 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 68.58 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79df6c6b-04db-40b5-91f7-8f9a8f4a5a5d")
+		)
+		(instances
+			(project "Ecardz-Proto"
+				(path "/2adbba85-9270-4efb-857d-656bb51406ca/fb28d19f-d7f8-44fd-bba1-2dc19a83839b"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -7096,6 +7338,177 @@
 			(project "Ecardz-Proto"
 				(path "/2adbba85-9270-4efb-857d-656bb51406ca/fb28d19f-d7f8-44fd-bba1-2dc19a83839b"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b295de1-36c0-457d-9584-04603fb1227b")
+		(property "Reference" "#PWR017"
+			(at 60.96 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79f2091a-6045-4e70-be0d-3c8266a37fdf")
+		)
+		(instances
+			(project "Ecardz-Proto"
+				(path "/2adbba85-9270-4efb-857d-656bb51406ca/fb28d19f-d7f8-44fd-bba1-2dc19a83839b"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 60.96 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5769f13c-9f18-4938-a124-1f7a472540bd")
+		(property "Reference" "C4"
+			(at 59.944 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 60.452 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 59.9948 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/mlcc/upy-gphc_x5r_4v-to-50v.pdf"
+			(at 60.96 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 60.96 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "CC0603KRX5R8BB105"
+			(at 60.96 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 60.96 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 60.96 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 60.96 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad7a11b4-f8d4-4588-b18d-2addbc650198")
+		)
+		(pin "2"
+			(uuid "d4e45673-14d4-4c3e-8513-81efc7d19985")
+		)
+		(instances
+			(project "Ecardz-Proto"
+				(path "/2adbba85-9270-4efb-857d-656bb51406ca/fb28d19f-d7f8-44fd-bba1-2dc19a83839b"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -7201,6 +7614,111 @@
 			(project "Ecardz-Proto"
 				(path "/2adbba85-9270-4efb-857d-656bb51406ca/fb28d19f-d7f8-44fd-bba1-2dc19a83839b"
 					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 85.09 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "602b4d71-ba8d-4dc0-baf6-b1d1fd1a9fbf")
+		(property "Reference" "C19"
+			(at 84.074 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 84.582 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 84.1248 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/mlcc/upy-gphc_x5r_4v-to-50v.pdf"
+			(at 85.09 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 85.09 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "CC0603KRX5R8BB105"
+			(at 85.09 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 85.09 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 85.09 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 85.09 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c4e7e19-16bb-4e74-a7ff-d439e18a8336")
+		)
+		(pin "2"
+			(uuid "f6e00903-5b25-41a8-a1d7-320d8278d15e")
+		)
+		(instances
+			(project "Ecardz-Proto"
+				(path "/2adbba85-9270-4efb-857d-656bb51406ca/fb28d19f-d7f8-44fd-bba1-2dc19a83839b"
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -7626,7 +8144,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 90.17 71.12 0)
+		(at 90.17 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7635,7 +8153,7 @@
 		(fields_autoplaced yes)
 		(uuid "6b758755-61f5-4992-9515-1401e1c3bcbb")
 		(property "Reference" "#PWR03"
-			(at 90.17 74.93 0)
+			(at 90.17 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7644,7 +8162,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 90.17 66.04 0)
+			(at 90.17 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7652,7 +8170,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 71.12 0)
+			(at 90.17 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7661,7 +8179,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 71.12 0)
+			(at 90.17 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7670,7 +8188,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 90.17 71.12 0)
+			(at 90.17 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7685,72 +8203,6 @@
 			(project "Ecardz-Proto"
 				(path "/2adbba85-9270-4efb-857d-656bb51406ca/fb28d19f-d7f8-44fd-bba1-2dc19a83839b"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 52.07 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c5db34b-556c-44a9-8265-c0aac0123b0b")
-		(property "Reference" "#PWR017"
-			(at 52.07 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 52.07 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c935024a-8b2f-4e02-a7cd-e484f0315e06")
-		)
-		(instances
-			(project "Ecardz-Proto"
-				(path "/2adbba85-9270-4efb-857d-656bb51406ca/fb28d19f-d7f8-44fd-bba1-2dc19a83839b"
-					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -7851,7 +8303,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_3.0x3.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 186.69 125.73 0)
 			(effects
 				(font
@@ -8289,6 +8741,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 85.09 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9687e979-da08-472a-a765-48d172f49b5f")
+		(property "Reference" "#PWR026"
+			(at 85.09 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 85.09 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 85.09 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46111624-f82c-42f1-948c-447e6686d1a9")
+		)
+		(instances
+			(project "Ecardz-Proto"
+				(path "/2adbba85-9270-4efb-857d-656bb51406ca/fb28d19f-d7f8-44fd-bba1-2dc19a83839b"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 181.61 101.6 90)
 		(unit 1)
@@ -8392,6 +8910,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 68.58 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96f4678c-a41b-48c0-bfb9-342467996194")
+		(property "Reference" "C17"
+			(at 67.564 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 68.072 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 67.6148 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/mlcc/upy-gphc_x5r_4v-to-50v.pdf"
+			(at 68.58 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 68.58 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "CC0603KRX5R8BB105"
+			(at 68.58 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 68.58 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 68.58 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 68.58 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f57d9c3-7f44-4ca1-9533-d560b6ba6183")
+		)
+		(pin "2"
+			(uuid "48ea16d7-0520-4911-9a09-ea6be93ff11a")
+		)
+		(instances
+			(project "Ecardz-Proto"
+				(path "/2adbba85-9270-4efb-857d-656bb51406ca/fb28d19f-d7f8-44fd-bba1-2dc19a83839b"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 17.78 184.15 0)
 		(unit 1)
@@ -8419,7 +9042,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_3.0x3.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 22.86 184.15 0)
 			(effects
 				(font
@@ -8670,7 +9293,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_3.0x3.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 26.67 129.54 0)
 			(effects
 				(font
@@ -8737,7 +9360,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_3.0x3.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 49.53 162.56 0)
 			(effects
 				(font
@@ -8909,7 +9532,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_3.0x3.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 69.85 166.37 0)
 			(effects
 				(font
@@ -8943,6 +9566,177 @@
 			(project "Ecardz-Proto"
 				(path "/2adbba85-9270-4efb-857d-656bb51406ca/fb28d19f-d7f8-44fd-bba1-2dc19a83839b"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 77.47 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c685a8e1-6d2f-45a1-8385-6e62157a7b85")
+		(property "Reference" "C18"
+			(at 76.454 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 76.962 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 76.5048 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/mlcc/upy-gphc_x5r_4v-to-50v.pdf"
+			(at 77.47 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 77.47 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "CC0603KRX5R8BB105"
+			(at 77.47 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 77.47 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 77.47 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 77.47 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34f0b6e8-280f-4628-90bc-c78af05b897a")
+		)
+		(pin "2"
+			(uuid "d5e4883b-564e-44e9-a290-5b5ce5d992cb")
+		)
+		(instances
+			(project "Ecardz-Proto"
+				(path "/2adbba85-9270-4efb-857d-656bb51406ca/fb28d19f-d7f8-44fd-bba1-2dc19a83839b"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 77.47 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc352fa8-4cd3-47a3-ab4e-3b01d11ae1e1")
+		(property "Reference" "#PWR025"
+			(at 77.47 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 77.47 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 77.47 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3dc70bc-2c16-41f8-9551-89944bfd9883")
+		)
+		(instances
+			(project "Ecardz-Proto"
+				(path "/2adbba85-9270-4efb-857d-656bb51406ca/fb28d19f-d7f8-44fd-bba1-2dc19a83839b"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -9243,7 +10037,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_3.0x3.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 171.45 124.46 0)
 			(effects
 				(font
@@ -9387,111 +10181,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 52.07 92.71 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d395e978-4aaf-4852-bc27-3ec17cf3d4d7")
-		(property "Reference" "C4"
-			(at 51.054 95.758 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 51.562 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 51.1048 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/mlcc/upy-gphc_x5r_4v-to-50v.pdf"
-			(at 52.07 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 52.07 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "CC0603KRX5R8BB105"
-			(at 52.07 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 52.07 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 52.07 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 52.07 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "84313a36-757d-4f76-ad93-87dd75c0cb71")
-		)
-		(pin "2"
-			(uuid "c5dd653f-f0a0-435c-bf33-7c88b97db84b")
-		)
-		(instances
-			(project "Ecardz-Proto"
-				(path "/2adbba85-9270-4efb-857d-656bb51406ca/fb28d19f-d7f8-44fd-bba1-2dc19a83839b"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 58.42 162.56 180)
 		(unit 1)
@@ -9622,7 +10311,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_3.0x3.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 173.99 118.11 0)
 			(effects
 				(font
@@ -9964,7 +10653,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_3.0x3.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 83.82 166.37 0)
 			(effects
 				(font
@@ -10031,7 +10720,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_3.0x3.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 43.18 156.21 0)
 			(effects
 				(font
@@ -10165,7 +10854,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_3.0x3.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 99.06 166.37 0)
 			(effects
 				(font

@@ -5,6 +5,108 @@
 	(uuid "6477e5af-f512-4494-aa59-24f0d28c4d21")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x24"
 			(pin_names
 				(offset 1.016) hide)
@@ -1958,6 +2060,12 @@
 		(uuid "a25ccde0-4ce9-4caf-93df-277fe624d37b")
 	)
 	(junction
+		(at 186.69 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b567508d-0178-4489-9254-ee36ca52fc4f")
+	)
+	(junction
 		(at 135.89 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2050,6 +2158,16 @@
 			(type default)
 		)
 		(uuid "08ac6196-1a9f-402d-bbc6-10b9aa0a6e5c")
+	)
+	(wire
+		(pts
+			(xy 223.52 72.39) (xy 259.08 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a667af8-95ad-4e49-ac7e-6c3e4f1c8630")
 	)
 	(wire
 		(pts
@@ -2373,13 +2491,13 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 62.23) (xy 204.47 62.23)
+			(xy 186.69 55.88) (xy 186.69 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6ace1314-234b-4312-96b1-042cd513f9b7")
+		(uuid "6d5fd9c5-d016-4a3b-9738-d91c376b39ca")
 	)
 	(wire
 		(pts
@@ -2400,16 +2518,6 @@
 			(type default)
 		)
 		(uuid "785b86a1-8067-47cd-8a76-8224e99d590d")
-	)
-	(wire
-		(pts
-			(xy 240.03 72.39) (xy 259.08 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78735d1b-3d34-4407-8120-bde74827115d")
 	)
 	(wire
 		(pts
@@ -2500,6 +2608,16 @@
 			(type default)
 		)
 		(uuid "8fd224fb-325f-46f6-aed3-91be5e131a3b")
+	)
+	(wire
+		(pts
+			(xy 186.69 62.23) (xy 204.47 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fff891f-81ad-46ea-a5f8-fe8d5fac0769")
 	)
 	(wire
 		(pts
@@ -2743,16 +2861,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 72.39) (xy 232.41 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e640eb1f-f90d-4b47-87e7-4e751afc168a")
-	)
-	(wire
-		(pts
 			(xy 135.89 77.47) (xy 135.89 80.01)
 		)
 		(stroke
@@ -2854,7 +2962,7 @@
 		)
 		(uuid "2a395ea5-bd85-4958-ba46-8f4aa5de4d76")
 	)
-	(label "VDD"
+	(label "VDD_1.8V"
 		(at 248.92 69.85 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3288,33 +3396,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 236.22 72.39 90)
+		(lib_id "power:VCC")
+		(at 186.69 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3dc96f08-55f1-4c8b-af8f-3c24e30b6e72")
-		(property "Reference" "R19"
-			(at 236.22 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DNP"
-			(at 236.22 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 236.474 71.374 90)
+		(uuid "1a032560-7262-4de6-8fa2-1f10379f7852")
+		(property "Reference" "#PWR012"
+			(at 186.69 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3322,8 +3413,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 236.22 72.39 0)
+		(property "Value" "VDD"
+			(at 189.484 56.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3331,8 +3430,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 236.22 72.39 0)
+		(property "Datasheet" ""
+			(at 186.69 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3340,35 +3439,8 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER PART NUMBER" "RC0603JR-070RL"
-			(at 236.22 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 236.22 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 236.22 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 236.22 72.39 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 186.69 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3377,15 +3449,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "39e17b76-7ce3-4e85-811e-5e07f8a853eb")
-		)
-		(pin "2"
-			(uuid "5b481233-50e6-489a-9b3c-278017d342ca")
+			(uuid "f912414b-abf4-40b1-b25c-455b020742ea")
 		)
 		(instances
 			(project "Ecardz-Proto"
 				(path "/2adbba85-9270-4efb-857d-656bb51406ca/a8646e5d-e29c-4dc0-b052-9a424836bd67"
-					(reference "R19")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -3808,178 +3877,6 @@
 			(project "Ecardz-Proto"
 				(path "/2adbba85-9270-4efb-857d-656bb51406ca/a8646e5d-e29c-4dc0-b052-9a424836bd67"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x24")
-		(at 264.16 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5c5aa3ce-f558-4c0a-bca5-f6ba69a6504b")
-		(property "Reference" "J2"
-			(at 266.7 54.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x24"
-			(at 266.7 57.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_FFC-FPC:TE_2-1734839-4_1x24-1MP_P0.5mm_Horizontal"
-			(at 264.16 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.ca/datasheet/2/418/7/ENG_CD_1734839_C_C_1734839-2017397.pdf"
-			(at 264.16 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x24, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 264.16 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 264.16 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 264.16 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 264.16 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "4-1734839-5"
-			(at 264.16 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "23"
-			(uuid "0c3d7008-aca4-41ba-aac0-e375966f0c1c")
-		)
-		(pin "7"
-			(uuid "4e5d06e8-5bdf-4cb8-9cc0-53a2cb54568d")
-		)
-		(pin "3"
-			(uuid "d6a0dbc1-9203-4ba8-a3cd-0bf4a07ed868")
-		)
-		(pin "21"
-			(uuid "23df52e0-b54e-4e9c-ab3f-78b5eb187431")
-		)
-		(pin "19"
-			(uuid "cebadfdd-8fa6-4d17-bb09-2e6be48f865b")
-		)
-		(pin "17"
-			(uuid "8f159685-2969-4165-ba0c-134c63d7800d")
-		)
-		(pin "15"
-			(uuid "7200d1f7-46f2-48e0-bb66-a9fc556b42c1")
-		)
-		(pin "22"
-			(uuid "3e37462b-8f5b-4318-a71a-0b600809343d")
-		)
-		(pin "20"
-			(uuid "859ce1e6-952a-4be3-9729-b6137b24badc")
-		)
-		(pin "12"
-			(uuid "fd3ca473-a390-4e5b-8733-10a70b7bf046")
-		)
-		(pin "8"
-			(uuid "d50030b5-f01e-4d80-b9c5-f63eb1528e76")
-		)
-		(pin "5"
-			(uuid "e25c5640-1ef8-4c04-b8b1-bd2c11b1802d")
-		)
-		(pin "18"
-			(uuid "0bce42b2-4e3c-411c-b0c4-fd0f301b9cb0")
-		)
-		(pin "9"
-			(uuid "765adca0-b72e-485e-8639-50b1934a8f32")
-		)
-		(pin "11"
-			(uuid "0ceaa3be-b5a8-4cb8-b9a8-edb5d43a2769")
-		)
-		(pin "4"
-			(uuid "52143e4f-7c98-4ca2-98e0-ede7b302f7e1")
-		)
-		(pin "13"
-			(uuid "69a72835-b3e9-4731-aee7-d24024f12197")
-		)
-		(pin "1"
-			(uuid "f45b041e-95e8-4a54-b434-dd8a651a3f98")
-		)
-		(pin "24"
-			(uuid "0830941b-b8ec-4e96-b57b-4731d33ad0be")
-		)
-		(pin "6"
-			(uuid "3d59f6c8-ba91-42ae-8c7b-e5651b26e042")
-		)
-		(pin "14"
-			(uuid "46fc645e-8c77-4d3e-a374-82f3fdcb45c4")
-		)
-		(pin "10"
-			(uuid "c51c8362-2d9f-4145-81de-31705f0c6450")
-		)
-		(pin "16"
-			(uuid "3d759ff4-1696-4f77-8000-b7b7f8b4d3ed")
-		)
-		(pin "2"
-			(uuid "e1fb1795-bc49-457a-a961-625e8f0a43b3")
-		)
-		(instances
-			(project "Ecardz-Proto"
-				(path "/2adbba85-9270-4efb-857d-656bb51406ca/a8646e5d-e29c-4dc0-b052-9a424836bd67"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -4466,6 +4363,178 @@
 			(project "Ecardz-Proto"
 				(path "/2adbba85-9270-4efb-857d-656bb51406ca/a8646e5d-e29c-4dc0-b052-9a424836bd67"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x24")
+		(at 264.16 57.15 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d20bd49-9464-4c0d-aa47-b4ccd921bf6a")
+		(property "Reference" "J2"
+			(at 266.7 57.1501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x24"
+			(at 266.7 54.6101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_FFC-FPC:TE_2-1734839-4_1x24-1MP_P0.5mm_Horizontal"
+			(at 264.16 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.ca/datasheet/2/418/7/ENG_CD_1734839_C_C_1734839-2017397.pdf"
+			(at 264.16 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x24, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 264.16 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 264.16 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 264.16 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 264.16 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "4-1734839-5"
+			(at 264.16 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "23"
+			(uuid "6c0cf958-fe59-4e3f-8e19-d081ee5ab12b")
+		)
+		(pin "7"
+			(uuid "d5fd397d-e132-45ec-90ec-dd0feb0f02db")
+		)
+		(pin "3"
+			(uuid "ee6ce3bd-214e-423d-b9b9-df1e016f1196")
+		)
+		(pin "21"
+			(uuid "d5484842-eb9b-4389-ac1a-87d22fd26823")
+		)
+		(pin "19"
+			(uuid "aa3c8f55-89a5-4b06-aef7-7f711ef64d49")
+		)
+		(pin "17"
+			(uuid "c025890a-b803-400f-9cbb-17dc6ffd818d")
+		)
+		(pin "15"
+			(uuid "ef5de531-7277-4a2e-8da2-29660995becf")
+		)
+		(pin "22"
+			(uuid "d72e2c29-b352-4e10-abfe-742af103ae73")
+		)
+		(pin "20"
+			(uuid "12d8f8af-8094-4529-9fe1-2e2f6951467e")
+		)
+		(pin "12"
+			(uuid "17ed283b-4146-4423-a192-77f7b78d5776")
+		)
+		(pin "8"
+			(uuid "937bdd80-c99c-4b04-9373-1c44d14ac010")
+		)
+		(pin "5"
+			(uuid "bbdfbfe4-9959-4c2c-bebf-ca54cd8c13ec")
+		)
+		(pin "18"
+			(uuid "b40cbc06-3ed6-469f-a499-795963918560")
+		)
+		(pin "9"
+			(uuid "36de72ba-7bf4-41b3-8d5b-83bb77b8bcfc")
+		)
+		(pin "11"
+			(uuid "367b520c-ee5e-4749-84e0-ce4b53fcd53e")
+		)
+		(pin "4"
+			(uuid "e8f2b887-6493-4e7c-8750-45af383d14f4")
+		)
+		(pin "13"
+			(uuid "03202f1d-c576-4d93-9c40-2c790b20e82e")
+		)
+		(pin "1"
+			(uuid "688d04c3-5ff8-413d-961f-5dc8e79f8bbf")
+		)
+		(pin "24"
+			(uuid "afc952a1-d3f0-4d37-ba13-39c0d05a8127")
+		)
+		(pin "6"
+			(uuid "c8f1fd8f-fea9-4c92-83af-47c6251bbc36")
+		)
+		(pin "14"
+			(uuid "60be88c4-b11e-4b66-94d3-f8e2020c508c")
+		)
+		(pin "10"
+			(uuid "4ea59b13-4285-4022-8c4c-1d150606dff8")
+		)
+		(pin "16"
+			(uuid "95127737-e307-44d1-928e-550f2f37e772")
+		)
+		(pin "2"
+			(uuid "143a35e7-7fef-4e45-af9f-a0631da8b704")
+		)
+		(instances
+			(project "Ecardz-Proto"
+				(path "/2adbba85-9270-4efb-857d-656bb51406ca/a8646e5d-e29c-4dc0-b052-9a424836bd67"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -5493,71 +5562,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 223.52 72.39 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c4e666cc-0091-4825-9a8a-850a7911bc1f")
-		(property "Reference" "#PWR012"
-			(at 227.33 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD"
-			(at 225.298 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 223.52 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e3eb7209-e8d0-4c55-863c-4cb60f831405")
-		)
-		(instances
-			(project "Ecardz-Proto"
-				(path "/2adbba85-9270-4efb-857d-656bb51406ca/a8646e5d-e29c-4dc0-b052-9a424836bd67"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 171.45 40.64 0)
 		(unit 1)
@@ -5658,6 +5662,70 @@
 			(project "Ecardz-Proto"
 				(path "/2adbba85-9270-4efb-857d-656bb51406ca/a8646e5d-e29c-4dc0-b052-9a424836bd67"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 223.52 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb29d519-5a1d-402f-976b-bad9244c7b25")
+		(property "Reference" "TP7"
+			(at 224.536 71.374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 214.63 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 223.52 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 223.52 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf72b898-8a41-4dd6-909a-113cd5c60906")
+		)
+		(instances
+			(project "Ecardz-Proto"
+				(path "/2adbba85-9270-4efb-857d-656bb51406ca/a8646e5d-e29c-4dc0-b052-9a424836bd67"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
