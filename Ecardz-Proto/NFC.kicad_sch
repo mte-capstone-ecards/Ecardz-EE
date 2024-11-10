@@ -1199,16 +1199,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 29.21) (xy 118.11 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b58de5c-93fc-43e6-83d9-be8fd5a31b90")
-	)
-	(wire
-		(pts
 			(xy 97.79 22.86) (xy 97.79 24.13)
 		)
 		(stroke
@@ -1381,7 +1371,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 240.9952 36.83 0)
 			(effects
 				(font
@@ -1516,7 +1506,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 119.0752 44.45 0)
 			(effects
 				(font
@@ -1586,7 +1576,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 218.1352 36.83 0)
 			(effects
 				(font
@@ -1620,7 +1610,7 @@
 			(uuid "a327b9cb-e740-42ea-b375-3b9d492f5761")
 		)
 		(instances
-			(project ""
+			(project "Ecardz-Proto"
 				(path "/2adbba85-9270-4efb-857d-656bb51406ca/95527a5c-8cb7-439d-944b-2d67c4df2ece"
 					(reference "C8")
 					(unit 1)
@@ -1901,7 +1891,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 205.4352 36.83 0)
 			(effects
 				(font
@@ -2160,7 +2150,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "DNP"
 			(at 111.76 29.2099 0)
 			(effects
 				(font
@@ -2407,7 +2397,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 229.5652 36.83 0)
 			(effects
 				(font
