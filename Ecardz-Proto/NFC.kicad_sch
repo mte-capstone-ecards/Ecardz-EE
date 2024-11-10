@@ -1399,6 +1399,17 @@
 		)
 		(uuid "fb7961fb-bb55-43ff-a020-2cdfb86cfb8f")
 	)
+	(label "VDD_NFC"
+		(at 121.92 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "95806318-2fd0-4ddf-ba72-dea414c064b8")
+	)
 	(hierarchical_label "I2C_NFC_SDA"
 		(shape input)
 		(at 139.7 41.91 180)
@@ -1865,7 +1876,7 @@
 				)
 			)
 		)
-		(property "Value" "M24LR04E-RDW6T_2"
+		(property "Value" "M24LR04E-RMN6T/2"
 			(at 158.75 29.21 0)
 			(effects
 				(font
@@ -1873,7 +1884,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P640X120-8N"
+		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
 			(at 143.51 129.21 0)
 			(effects
 				(font
