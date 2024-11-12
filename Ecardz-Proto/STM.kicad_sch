@@ -2712,6 +2712,12 @@
 		(uuid "30accd9d-4d8b-40fe-9f81-30ac12ce593d")
 	)
 	(junction
+		(at 147.32 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38bdfb38-1be7-428d-bb88-751f06afe001")
+	)
+	(junction
 		(at 238.76 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2966,10 +2972,6 @@
 		(uuid "d7c7ac48-1c28-49e7-a97e-8156ec8468af")
 	)
 	(no_connect
-		(at 107.95 88.9)
-		(uuid "dc25f085-2eb6-412e-b214-413763cc400c")
-	)
-	(no_connect
 		(at 77.47 106.68)
 		(uuid "ea8538df-aca1-4afd-8bca-9e13dc44f5ff")
 	)
@@ -3025,6 +3027,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 74.93) (xy 147.32 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ab9d9fc-ae30-40e6-9784-1fe9496154c3")
+	)
+	(wire
+		(pts
 			(xy 107.95 111.76) (xy 161.29 111.76)
 		)
 		(stroke
@@ -3042,6 +3054,16 @@
 			(type default)
 		)
 		(uuid "0d49cdf2-9a85-4615-b66e-6d0057393297")
+	)
+	(wire
+		(pts
+			(xy 142.24 88.9) (xy 107.95 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d8d9703-0fcc-4dfc-8852-4042e883d833")
 	)
 	(wire
 		(pts
@@ -3575,6 +3597,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 85.09) (xy 147.32 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "590a32aa-9cf8-4cd0-b29c-abcbfc54271f")
+	)
+	(wire
+		(pts
 			(xy 246.38 111.76) (xy 246.38 151.13)
 		)
 		(stroke
@@ -3715,6 +3747,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 74.93) (xy 142.24 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71a51fe1-edbd-4206-b961-cf4babcf8d20")
+	)
+	(wire
+		(pts
 			(xy 58.42 156.21) (xy 58.42 158.75)
 		)
 		(stroke
@@ -3792,6 +3834,16 @@
 			(type default)
 		)
 		(uuid "7b6fda56-3dba-4a15-aafe-f30b2b59bb6f")
+	)
+	(wire
+		(pts
+			(xy 147.32 74.93) (xy 142.24 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bda8501-1b46-477f-87d9-913ac2eaae43")
 	)
 	(wire
 		(pts
@@ -4132,6 +4184,16 @@
 			(type default)
 		)
 		(uuid "af363cf3-1102-414c-b826-c507e53422eb")
+	)
+	(wire
+		(pts
+			(xy 147.32 72.39) (xy 147.32 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b05370ba-45ed-4526-861f-5be633eeb8b7")
 	)
 	(wire
 		(pts
@@ -4612,6 +4674,16 @@
 			(type default)
 		)
 		(uuid "f88a76f6-cf55-4f42-aecb-1d897ab0eee6")
+	)
+	(wire
+		(pts
+			(xy 147.32 59.69) (xy 147.32 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9d8bb25-04db-4f46-b214-7d2f1e531a72")
 	)
 	(wire
 		(pts
@@ -6150,6 +6222,18 @@
 			(justify left)
 		)
 		(uuid "ad87eac7-df6c-4ab5-ae3f-df6c25104eb7")
+	)
+	(hierarchical_label "V_E_HARVEST"
+		(shape input)
+		(at 147.32 59.69 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b1ee388f-bc8c-4114-9c9c-5f52a796f609")
 	)
 	(hierarchical_label "SPI_EINK_CS#"
 		(shape input)
@@ -8182,6 +8266,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 147.32 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d39c7d1-f198-468a-b261-976fc639c29b")
+		(property "Reference" "R24"
+			(at 148.59 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 148.336 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 148.336 81.534 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 147.32 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "100kR"
+			(at 147.32 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 147.32 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 147.32 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 147.32 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "30cd866a-ff3a-4d86-8b85-645f5bd7a2b7")
+		)
+		(pin "1"
+			(uuid "2cb99e68-4bd6-4b8f-921b-3ef4156200cc")
+		)
+		(instances
+			(project "Ecardz-Proto"
+				(path "/2adbba85-9270-4efb-857d-656bb51406ca/fb28d19f-d7f8-44fd-bba1-2dc19a83839b"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 135.89 130.81 0)
 		(unit 1)
@@ -9004,6 +9193,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 147.32 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be6dfc0a-d878-4942-a8c0-b4bc74f84240")
+		(property "Reference" "#PWR022"
+			(at 147.32 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 147.32 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 147.32 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59ff7898-0784-431a-8a21-29cd6f2153d7")
+		)
+		(instances
+			(project "Ecardz-Proto"
+				(path "/2adbba85-9270-4efb-857d-656bb51406ca/fb28d19f-d7f8-44fd-bba1-2dc19a83839b"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 40.64 92.71 0)
 		(unit 1)
@@ -9779,6 +10034,111 @@
 			(project "Ecardz-Proto"
 				(path "/2adbba85-9270-4efb-857d-656bb51406ca/fb28d19f-d7f8-44fd-bba1-2dc19a83839b"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 147.32 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4cbb988-a985-46d7-b171-f13afb583ec7")
+		(property "Reference" "R19"
+			(at 148.59 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 148.336 71.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 148.336 68.834 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 147.32 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "100kR"
+			(at 147.32 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 147.32 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 147.32 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 147.32 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4f4e0d23-846e-4362-8a0c-a4f2dfa388c9")
+		)
+		(pin "1"
+			(uuid "70448732-31c8-45c9-a715-d07555b46222")
+		)
+		(instances
+			(project "Ecardz-Proto"
+				(path "/2adbba85-9270-4efb-857d-656bb51406ca/fb28d19f-d7f8-44fd-bba1-2dc19a83839b"
+					(reference "R19")
 					(unit 1)
 				)
 			)

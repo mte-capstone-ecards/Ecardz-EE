@@ -294,6 +294,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 81.28) (xy 168.91 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3de10180-de8c-425c-8c96-04f4e59b916b")
+	)
+	(wire
+		(pts
 			(xy 153.67 76.2) (xy 168.91 76.2)
 		)
 		(stroke
@@ -776,6 +786,16 @@
 			)
 			(uuid "9f0120a6-48d5-4178-a9db-13831282e97f")
 		)
+		(pin "V_E_HARVEST" input
+			(at 168.91 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "592e4e8e-8ee6-49ef-97db-5d9f5dfdc2b5")
+		)
 		(instances
 			(project "Ecardz-Proto"
 				(path "/2adbba85-9270-4efb-857d-656bb51406ca"
@@ -1021,6 +1041,16 @@
 				(justify right)
 			)
 			(uuid "d9baa539-4b9e-40fc-afaf-8f79d86beaeb")
+		)
+		(pin "V_E_HARVEST" input
+			(at 153.67 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "664f5608-5215-44e0-9f82-54a7153673fa")
 		)
 		(instances
 			(project "Ecardz-Proto"
