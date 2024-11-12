@@ -5165,7 +5165,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Neosid_SM-PIC0602H"
+		(property "Footprint" "parts-lib:CDRH5D18"
 			(at 133.35 50.8 0)
 			(effects
 				(font
