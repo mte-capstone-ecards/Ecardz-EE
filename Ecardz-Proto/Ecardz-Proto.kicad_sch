@@ -447,6 +447,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 92.71 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f41c640e-d6d9-4586-b7de-f105010be4d8")
 		)
@@ -506,6 +515,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 41.91 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" ""
 			(at 41.91 19.05 0)
 			(effects
 				(font
@@ -647,6 +665,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 17.78 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e96da959-f490-4bd4-aa39-e9256344c844")
 		)
@@ -706,6 +733,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 67.31 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" ""
 			(at 67.31 19.05 0)
 			(effects
 				(font

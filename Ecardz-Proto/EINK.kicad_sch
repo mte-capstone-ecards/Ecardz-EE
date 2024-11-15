@@ -3380,6 +3380,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" "311-1445-2-ND"
+			(at 80.01 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "22e37840-e266-4ae9-888f-bcad84663cfe")
 		)
@@ -3551,6 +3560,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" "311-1445-2-ND"
+			(at 207.01 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "19b6002b-0a24-4b6e-a39c-9cb0191fbf82")
 		)
@@ -3649,6 +3667,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 217.17 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "311-1445-2-ND"
 			(at 217.17 83.82 0)
 			(effects
 				(font
@@ -3763,6 +3790,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" "311-1445-2-ND"
+			(at 186.69 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9c741190-9304-4d7f-b674-b7e73e593141")
 		)
@@ -3859,6 +3895,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 68.58 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "MBR0530T1GOSTR-ND"
 			(at 68.58 38.1 0)
 			(effects
 				(font
@@ -3965,6 +4010,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 198.12 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "311-1445-2-ND"
 			(at 198.12 73.66 0)
 			(effects
 				(font
@@ -4143,6 +4197,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" "311-0.0GRTR-ND"
+			(at 212.09 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bbe3636e-2033-4e6d-9a34-c31680f93343")
 		)
@@ -4241,6 +4304,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 228.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "311-1445-2-ND"
 			(at 228.6 88.9 0)
 			(effects
 				(font
@@ -4353,6 +4425,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" "311-0.0GRTR-ND"
+			(at 200.66 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aaef49b6-a9c7-42a9-bff9-8f5bd9271fba")
 		)
@@ -4451,6 +4532,15 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "4-1734839-5"
+			(at 264.16 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "A101358TR-ND"
 			(at 264.16 57.15 0)
 			(effects
 				(font
@@ -4631,6 +4721,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" "MBR0530T1GOSTR-ND"
+			(at 96.52 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2e8fb77e-f822-4fd0-8394-37332999bffc")
 		)
@@ -4729,6 +4828,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 121.92 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "311-2.2HRTR-ND"
 			(at 121.92 73.66 0)
 			(effects
 				(font
@@ -4843,6 +4951,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" "IRLML2803PBFTR-ND"
+			(at 124.46 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "c03b6512-71a8-438d-8050-78ee1dc461aa")
 		)
@@ -4934,7 +5051,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "980ec1a1-c6da-40ed-8d02-d830390a5cd5")
 		(property "Reference" "C3"
@@ -5010,6 +5127,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 135.89 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" ""
 			(at 135.89 73.66 0)
 			(effects
 				(font
@@ -5124,6 +5250,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" "311-1445-2-ND"
+			(at 115.57 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b589d599-3725-4e5c-b0ef-ce9038c5a2b0")
 		)
@@ -5220,6 +5355,15 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "CDRH5D18NP-470NC"
+			(at 133.35 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "308-2060-2-ND"
 			(at 133.35 50.8 0)
 			(effects
 				(font
@@ -5334,6 +5478,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" "MBR0530T1GOSTR-ND"
+			(at 80.01 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "99fc02b8-3df7-4ea5-8523-3d7dca91df26")
 		)
@@ -5440,6 +5593,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" "311-1445-2-ND"
+			(at 48.26 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f9747266-af19-489a-a758-24539d3687fc")
 		)
@@ -5462,7 +5624,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c2709bf4-2045-4da3-a3cb-0d979d917d8e")
 		(property "Reference" "R4"
@@ -5538,6 +5700,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 146.05 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" ""
 			(at 146.05 63.5 0)
 			(effects
 				(font
@@ -5652,6 +5823,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" "311-1445-2-ND"
+			(at 171.45 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4b76c768-1b6e-42ea-840e-8a28a1013297")
 		)
@@ -5711,6 +5891,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 223.52 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" ""
 			(at 223.52 72.39 0)
 			(effects
 				(font

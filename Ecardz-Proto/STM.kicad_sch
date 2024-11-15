@@ -6254,7 +6254,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0626869c-1acd-4987-b3e7-95b9fb379c89")
 		(property "Reference" "R15"
 			(at 68.072 147.574 90)
@@ -6335,6 +6335,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 69.85 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "777b412f-5e26-45d8-84ec-7908484b6de2")
 		)
@@ -6404,7 +6413,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER PART NUMBER" "100kR"
+		(property "MANUFACTURER PART NUMBER" "RC0603FR-0710KL"
 			(at 135.89 82.55 0)
 			(effects
 				(font
@@ -6440,6 +6449,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" "311-10.0KHRTR-ND"
+			(at 135.89 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1cde86f5-98fe-4168-8934-3fdac4c87169")
 		)
@@ -6462,7 +6480,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "15bc1165-fc8a-4d1f-905d-dd6c387277ab")
 		(property "Reference" "R11"
 			(at 176.276 104.902 90)
@@ -6535,6 +6553,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 181.61 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" ""
 			(at 181.61 106.68 0)
 			(effects
 				(font
@@ -6678,6 +6705,24 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" "1175-1632-ND"
+			(at 149.86 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "3220-14-0300-00"
+			(at 149.86 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "ea41b578-8dbf-426b-8283-36955887de90")
 		)
@@ -6736,7 +6781,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "271e59e3-1066-4996-b03a-a24a32afb61c")
 		(property "Reference" "R16"
 			(at 96.774 177.038 90)
@@ -6817,6 +6862,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 91.44 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "51ca0e1f-34dd-471a-ad68-df16331e9a44")
 		)
@@ -6879,6 +6933,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 194.31 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" ""
 			(at 194.31 119.38 0)
 			(effects
 				(font
@@ -7187,6 +7250,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" "311-1445-2-ND"
+			(at 60.96 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ad7a11b4-f8d4-4588-b18d-2addbc650198")
 		)
@@ -7256,7 +7328,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER PART NUMBER" "100kR"
+		(property "MANUFACTURER PART NUMBER" "RC0603FR-0710KL"
 			(at 135.89 121.92 0)
 			(effects
 				(font
@@ -7284,6 +7356,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 135.89 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "311-10.0KHRTR-ND"
 			(at 135.89 121.92 0)
 			(effects
 				(font
@@ -7397,6 +7478,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" "311-1445-2-ND"
+			(at 85.09 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4c4e7e19-16bb-4e74-a7ff-d439e18a8336")
 		)
@@ -7419,7 +7509,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "60ac4e93-cdc2-4c2e-a8df-e39db925f6e3")
 		(property "Reference" "R5"
 			(at 35.814 89.154 0)
@@ -7502,6 +7592,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 35.56 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dd6cec63-e0cc-45ec-a819-8ce0e7aafc34")
 		)
@@ -7524,7 +7623,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "613c9f64-b33b-4a20-a460-e278bfe2ce39")
 		(property "Reference" "R7"
 			(at 111.506 78.232 0)
@@ -7607,6 +7706,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 110.49 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2d0bc167-7229-4add-a116-ee6f6dcf5cef")
 		)
@@ -7629,7 +7737,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "67055b3e-864f-43b7-b7c0-485c918d93ee")
 		(property "Reference" "R8"
 			(at 118.11 78.232 0)
@@ -7712,6 +7820,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 116.84 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5f43c54c-1aab-4a75-a797-97ac7f32752f")
 		)
@@ -7734,7 +7851,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6af7c5d0-346a-479e-a920-32f078880f89")
 		(property "Reference" "R13"
 			(at 85.344 179.578 90)
@@ -7807,6 +7924,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 80.01 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" ""
 			(at 80.01 177.8 0)
 			(effects
 				(font
@@ -8018,6 +8144,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 191.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "610d2214-d5de-4efd-9af5-5989d602ddd8")
 		)
@@ -8037,7 +8172,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7607587d-b437-4932-a910-5ee790187820")
 		(property "Reference" "R17"
 			(at 109.474 174.498 90)
@@ -8110,6 +8245,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 104.14 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" ""
 			(at 104.14 172.72 0)
 			(effects
 				(font
@@ -8319,7 +8463,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER PART NUMBER" "100kR"
+		(property "MANUFACTURER PART NUMBER" "RC0603FR-0710KL"
 			(at 147.32 81.28 0)
 			(effects
 				(font
@@ -8347,6 +8491,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 147.32 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "311-10.0KHRTR-ND"
 			(at 147.32 81.28 0)
 			(effects
 				(font
@@ -8470,7 +8623,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "literally any headers "
+		(property "Datasheet" "literally any headers"
 			(at 218.44 109.22 0)
 			(effects
 				(font
@@ -8480,6 +8633,33 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 218.44 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "PH2-12-UA"
+			(at 218.44 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "732-5297-ND"
+			(at 218.44 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "2057-PH2-12-UA-ND"
 			(at 218.44 109.22 0)
 			(effects
 				(font
@@ -8606,7 +8786,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "96b838aa-8f2e-4172-9431-290eade089dd")
 		(property "Reference" "R10"
 			(at 176.276 99.822 90)
@@ -8679,6 +8859,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 181.61 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" ""
 			(at 181.61 101.6 0)
 			(effects
 				(font
@@ -8792,6 +8981,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" "311-1445-2-ND"
+			(at 68.58 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9f57d9c3-7f44-4ca1-9533-d560b6ba6183")
 		)
@@ -8862,6 +9060,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 17.78 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "91f07ae3-f13e-42a6-ab13-696fad26bb20")
 		)
@@ -8881,7 +9088,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a477c54d-fcb2-44b0-8a7a-730fb8afced1")
 		(property "Reference" "R14"
 			(at 62.992 132.334 90)
@@ -8962,6 +9169,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 64.77 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d20e02f1-3565-4841-bb18-3221b3a98590")
 		)
@@ -9023,6 +9239,15 @@
 			)
 		)
 		(property "Description" "Tag-Connect ARM Cortex SWD JTAG connector, 6 pin, no legs"
+			(at 35.56 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" ""
 			(at 35.56 172.72 0)
 			(effects
 				(font
@@ -9113,6 +9338,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 31.75 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "40652bd6-b992-4625-97da-f1976e9ddef5")
 		)
@@ -9172,6 +9406,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 44.45 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" ""
 			(at 44.45 162.56 0)
 			(effects
 				(font
@@ -9265,7 +9508,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "beeda998-9ec8-4937-8a2d-8d8fcec0920b")
 		(property "Reference" "R6"
 			(at 41.402 88.9 0)
@@ -9348,6 +9591,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 40.64 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "83c25f6b-74a1-4486-9de7-7a0af07c7b0b")
 		)
@@ -9410,6 +9662,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 64.77 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" ""
 			(at 64.77 166.37 0)
 			(effects
 				(font
@@ -9520,6 +9781,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" "311-1445-2-ND"
+			(at 77.47 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "34f0b6e8-280f-4628-90bc-c78af05b897a")
 		)
@@ -9608,7 +9878,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "cd7fe52a-7881-4c3e-a7b6-617b89d6b770")
 		(property "Reference" "R12"
 			(at 65.532 105.664 90)
@@ -9689,6 +9959,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 67.31 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "38168143-7443-4e94-ae5b-0f80ca2d0b1d")
 		)
@@ -9752,6 +10031,24 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M0+ MCU, 64KB flash, 20KB RAM, 32 MHz, 1.65-3.6V, 23 GPIO, UFQFPN32"
+			(at 92.71 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "497-18576-ND"
+			(at 92.71 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "STM32L071K8U6"
 			(at 92.71 109.22 0)
 			(effects
 				(font
@@ -9923,6 +10220,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 176.53 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4790e507-59d4-42ce-b0a3-c641ab114ca9")
 		)
@@ -9942,7 +10248,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d10fbc66-ae13-4ae1-a605-d4e8585abe85")
 		(property "Reference" "R9"
@@ -10024,6 +10330,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 229.87 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cfd8758e-c74e-48b9-b481-4fb722e454cd")
 		)
@@ -10093,7 +10408,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER PART NUMBER" "100kR"
+		(property "MANUFACTURER PART NUMBER" "RC0603FR-0710KL"
 			(at 147.32 68.58 0)
 			(effects
 				(font
@@ -10129,6 +10444,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" "311-10.0KHRTR-ND"
+			(at 147.32 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4f4e0d23-846e-4362-8a0c-a4f2dfa388c9")
 		)
@@ -10151,7 +10475,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d5cf14eb-535d-4cc5-b0a3-1eb09650f9f7")
 		(property "Reference" "R18"
 			(at 60.96 159.258 0)
@@ -10232,6 +10556,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 58.42 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bfb6d1a2-6ee8-4554-8687-fac18acb6600")
 		)
@@ -10294,6 +10627,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 179.07 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" ""
 			(at 179.07 118.11 0)
 			(effects
 				(font
@@ -10567,6 +10909,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 78.74 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "73e87196-703e-4aa0-a599-b3523f198524")
 		)
@@ -10626,6 +10977,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 38.1 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" ""
 			(at 38.1 156.21 0)
 			(effects
 				(font
@@ -10760,6 +11120,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 93.98 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" ""
 			(at 93.98 166.37 0)
 			(effects
 				(font

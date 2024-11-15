@@ -1698,7 +1698,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "02a55a80-2c7b-42e5-9251-3f88063afe79")
 		(property "Reference" "C12"
@@ -1738,6 +1738,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 262.89 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" ""
 			(at 262.89 33.02 0)
 			(effects
 				(font
@@ -1947,6 +1956,24 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER PART NUMBER" "C0603C102K5RACTU"
+			(at 118.11 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "399-C0603C102K5RACTUTR-ND"
+			(at 118.11 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "82351deb-2a62-4911-bd34-f246ac4ae9a7")
 		)
@@ -1969,7 +1996,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "29d673d4-12d0-4774-a1e3-3a604535bc5a")
 		(property "Reference" "C8"
 			(at 220.98 31.7499 0)
@@ -2008,6 +2035,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 217.17 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" ""
 			(at 217.17 33.02 0)
 			(effects
 				(font
@@ -2093,6 +2129,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" "541-590HTR-ND"
+			(at 232.41 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "143c4dcc-05d6-4557-a234-1884c53f38a6")
 		)
@@ -2156,6 +2201,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 185.42 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "GRM0335C1E7R0CA01D"
+			(at 185.42 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "490-13324-2-ND"
 			(at 185.42 85.09 0)
 			(effects
 				(font
@@ -2293,6 +2356,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" "497-12879-2-ND"
+			(at 177.8 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "2a8c5980-6473-43d1-b00d-0b19ae16c9d1")
 		)
@@ -2333,7 +2405,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "63690499-2dcb-496e-8cb6-f708b0cbb663")
 		(property "Reference" "R22"
@@ -2417,6 +2489,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 97.79 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d62be5eb-e317-4346-b5df-c022ef7426e9")
 		)
@@ -2440,7 +2521,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "685f727c-91db-4f3a-9cbb-6861527c3c85")
 		(property "Reference" "C14"
@@ -2480,6 +2561,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 204.47 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" ""
 			(at 204.47 33.02 0)
 			(effects
 				(font
@@ -2708,7 +2798,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b156b4dc-cfa5-4948-b41e-23f11dc65a04")
 		(property "Reference" "R23"
@@ -2784,6 +2874,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 109.22 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" ""
 			(at 109.22 27.94 0)
 			(effects
 				(font
@@ -2929,6 +3028,15 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "MMSZ4684T1G"
+			(at 237.49 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "MMSZ4684T1GOSTR-ND"
 			(at 237.49 31.75 0)
 			(effects
 				(font
@@ -3140,6 +3248,24 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER PART NUMBER" "GRM0335C1E7R0CA01D"
+			(at 196.85 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "490-13324-2-ND"
+			(at 196.85 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "10f584dd-7b6d-41de-952c-f0aea4bba6f9")
 		)
@@ -3162,7 +3288,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "faba0ad5-ae88-46ee-aa04-bd4863b4756c")
 		(property "Reference" "C10"
@@ -3202,6 +3328,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 251.46 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" ""
 			(at 251.46 33.02 0)
 			(effects
 				(font
