@@ -1,0 +1,893 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "74270717-a116-451e-ac88-5a07ab66056e")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 105.41 90.17) (xy 99.06 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ac6532d-fbca-4dc2-8359-9790f341ad6a")
+	)
+	(wire
+		(pts
+			(xy 101.6 92.71) (xy 105.41 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c15259f-8482-41f2-8413-389cfc488466")
+	)
+	(wire
+		(pts
+			(xy 99.06 90.17) (xy 99.06 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19a8d583-f32a-418c-8805-6d81a3e302b9")
+	)
+	(wire
+		(pts
+			(xy 147.32 86.36) (xy 161.29 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27f74b51-e052-46ab-96fa-03ffe757b5cb")
+	)
+	(wire
+		(pts
+			(xy 147.32 55.88) (xy 161.29 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "318fc232-1524-4806-96f5-73fcfedc89e6")
+	)
+	(wire
+		(pts
+			(xy 92.71 127) (xy 92.71 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37d1b290-ac5f-4e4c-8e24-c15559efddbe")
+	)
+	(wire
+		(pts
+			(xy 88.9 58.42) (xy 105.41 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "446124a1-66b4-4300-8e05-ff741ed10a8c")
+	)
+	(wire
+		(pts
+			(xy 88.9 127) (xy 92.71 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46e27a94-b28b-4147-8e69-328bc7a4489e")
+	)
+	(wire
+		(pts
+			(xy 147.32 58.42) (xy 161.29 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52033fef-73f9-475f-8f3d-0e7ed80756a0")
+	)
+	(wire
+		(pts
+			(xy 147.32 68.58) (xy 161.29 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e0253cf-6e4b-423a-bd30-cb54059d64c9")
+	)
+	(wire
+		(pts
+			(xy 147.32 71.12) (xy 161.29 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62ccb81c-40ec-41da-be5d-5b84ee5704f0")
+	)
+	(wire
+		(pts
+			(xy 88.9 63.5) (xy 105.41 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63290743-a9d8-4e17-9ddb-cc7415021d3c")
+	)
+	(wire
+		(pts
+			(xy 147.32 81.28) (xy 161.29 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "688d268c-62e0-4a38-b61e-0ae294141a0e")
+	)
+	(wire
+		(pts
+			(xy 147.32 66.04) (xy 161.29 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d0dad17-745b-42dd-83b8-132a3227690e")
+	)
+	(wire
+		(pts
+			(xy 88.9 60.96) (xy 105.41 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8389e33b-ee71-4031-a7b7-a20967e188ac")
+	)
+	(wire
+		(pts
+			(xy 147.32 76.2) (xy 161.29 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84f714c3-53f5-4819-9c4b-22d5ff69b9ee")
+	)
+	(wire
+		(pts
+			(xy 147.32 88.9) (xy 161.29 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8883bc00-16bb-447d-b41a-88b6a88c70c0")
+	)
+	(wire
+		(pts
+			(xy 147.32 63.5) (xy 161.29 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8934ef0a-664c-4ccf-8b33-3d2e8d747efd")
+	)
+	(wire
+		(pts
+			(xy 95.25 67.31) (xy 95.25 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f0da9d4-1abc-4072-ab18-65decb503004")
+	)
+	(wire
+		(pts
+			(xy 147.32 78.74) (xy 161.29 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a02cf482-fcea-4da6-a999-2350d374f9e2")
+	)
+	(wire
+		(pts
+			(xy 88.9 143.51) (xy 105.41 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6250ceb-50f3-4e10-b6a8-a1de7103926b")
+	)
+	(wire
+		(pts
+			(xy 95.25 130.81) (xy 88.9 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf45f178-eabe-4d53-8a1e-4c421938d2c3")
+	)
+	(wire
+		(pts
+			(xy 99.06 129.54) (xy 105.41 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c069e97a-0db4-4f3d-8bf3-b08997087ddf")
+	)
+	(wire
+		(pts
+			(xy 92.71 102.87) (xy 88.9 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c50e12ea-becf-4449-bc72-fba09e3d5eb2")
+	)
+	(wire
+		(pts
+			(xy 101.6 127) (xy 101.6 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0611f40-d1f6-4179-a8c9-fa9972cf7692")
+	)
+	(wire
+		(pts
+			(xy 105.41 67.31) (xy 95.25 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef5cfe63-751e-4123-8443-41fa0b62e287")
+	)
+	(wire
+		(pts
+			(xy 147.32 83.82) (xy 161.29 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f109bcf0-8be1-4c2d-890d-4eef317ad8c8")
+	)
+	(wire
+		(pts
+			(xy 105.41 127) (xy 101.6 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffa9a2b2-d176-4161-bc6b-7f71cb480aa3")
+	)
+	(text "EINK OR LCD SCREEN\nBUTTONS\nBUZZER\n"
+		(exclude_from_sim no)
+		(at 183.388 45.974 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dd0af2aa-6dd5-466c-90d0-39f30e1a8879")
+	)
+	(sheet
+		(at 105.41 50.8)
+		(size 41.91 57.15)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "24ee7b4c-70f3-405d-afd9-1146a9b5f360")
+		(property "Sheetname" "MCU"
+			(at 105.41 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 105.41 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "NFC_BUSY" input
+			(at 105.41 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8099f61d-76f5-4d1e-94e4-5c703d3e2fe4")
+		)
+		(pin "I2C_NFC_SCL" input
+			(at 105.41 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ea522208-3d7f-4ccf-9375-b5dc0cc804a4")
+		)
+		(pin "I2C_NFC_SDA" input
+			(at 105.41 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "18f0be46-12d3-40e5-9a21-f6a82d117f7a")
+		)
+		(pin "MCU_POWER" input
+			(at 105.41 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1e4a8c0a-79dc-4969-a8fb-4a2d0a6b511c")
+		)
+		(pin "SPI_LCD_CS" input
+			(at 147.32 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5088c180-14a1-4b58-99a0-02cc17f2b25c")
+		)
+		(pin "SPI_LCD_MISO" input
+			(at 147.32 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "63e96f9b-e597-4a97-a191-e34a8d1d0566")
+		)
+		(pin "SPI_LCD_SCK" input
+			(at 147.32 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c542ff61-2375-4911-a203-53c2cf9a61b6")
+		)
+		(pin "BUTTONS" input
+			(at 147.32 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "66eb9add-6825-47ac-934f-6f7181467c4c")
+		)
+		(pin "SPI_LCD_MOSI" input
+			(at 147.32 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f205604e-b367-493f-846f-0c26df5f07d9")
+		)
+		(pin "SPI_EINK_SCL" input
+			(at 147.32 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e879dd9d-4dcf-4c2c-9b65-b1a8a944dc54")
+		)
+		(pin "SPI_EINK_CS" input
+			(at 147.32 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c422f5f8-cdbd-4edb-adb3-474700f052b8")
+		)
+		(pin "SPI_EINK_SDA" input
+			(at 147.32 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bf3c8c6b-5865-4644-9f8c-0cf1a4a2492b")
+		)
+		(pin "EINK_RES" input
+			(at 147.32 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "45089748-0966-40fe-9b69-5bb04c98a936")
+		)
+		(pin "EINK_BUSY" input
+			(at 147.32 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f0f1ce9e-f1c1-475d-8980-991cc1b74017")
+		)
+		(pin "SPI_EINK_D{slash}C" input
+			(at 147.32 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "77b5b5bf-cb3e-4f3b-a63e-915e8333013f")
+		)
+		(pin "USBC_UART_TX" input
+			(at 105.41 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "208d3e10-d0aa-4725-809a-f7604ed0d184")
+		)
+		(pin "USBC_UART_RX" input
+			(at 105.41 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "af194dc5-c2fb-448f-9102-9a79815eb53a")
+		)
+		(pin "BUZZER" input
+			(at 147.32 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "03995449-959e-4f47-b582-03028247f51e")
+		)
+		(instances
+			(project "Ecardz-Controller"
+				(path "/74270717-a116-451e-ac88-5a07ab66056e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 59.69 50.8)
+		(size 29.21 57.15)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "414d1147-8205-4839-9169-5f8f29a4e15a")
+		(property "Sheetname" "NFC"
+			(at 59.69 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "NFC.kicad_sch"
+			(at 59.69 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2C_NFC_SDA" input
+			(at 88.9 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7d9ca095-2f2a-4b25-8fb7-48bfdc078a4b")
+		)
+		(pin "I2C_NFC_SCL" input
+			(at 88.9 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "06113630-caef-400a-9a9a-132dbe994ebb")
+		)
+		(pin "NFC_BUSY" input
+			(at 88.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bd85d348-87de-454b-8f84-883952bc276e")
+		)
+		(pin "NFC_POWER" input
+			(at 88.9 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2f118e44-fbce-42ac-b77b-2bff04c0938b")
+		)
+		(instances
+			(project "Ecardz-Controller"
+				(path "/74270717-a116-451e-ac88-5a07ab66056e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 59.69 123.19)
+		(size 29.21 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "686e621e-6f68-4fb8-9509-95408ee4dcf7")
+		(property "Sheetname" "POWER"
+			(at 59.69 122.4784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "POWER.kicad_sch"
+			(at 59.69 149.1746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V_USBC" input
+			(at 88.9 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d29aee33-46ca-47b1-8e4e-70d0b034ab34")
+		)
+		(pin "NFC_POWER" input
+			(at 88.9 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9c69351c-2605-4805-8e11-81217f60ce9b")
+		)
+		(pin "MCU_POWER" input
+			(at 88.9 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7de29523-9220-496a-9f23-cdf75b79e053")
+		)
+		(instances
+			(project "Ecardz-Controller"
+				(path "/74270717-a116-451e-ac88-5a07ab66056e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 123.19)
+		(size 55.88 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "795903a0-6fb6-4696-956b-ef2670233793")
+		(property "Sheetname" "USBC_TO_UART"
+			(at 105.41 122.4784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USBC_TO_UART.kicad_sch"
+			(at 105.41 149.1746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USBC_UART_RX" input
+			(at 105.41 127 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4b2f6a2c-9e32-4b58-bf57-2cbcf680ecf1")
+		)
+		(pin "USBC_UART_TX" input
+			(at 105.41 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "10f19491-f22c-4d69-bd41-1f76ac5628d8")
+		)
+		(pin "5V_USBC" input
+			(at 105.41 143.51 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5a851d8f-5860-4497-8d8e-7cda653688a5")
+		)
+		(instances
+			(project "Ecardz-Controller"
+				(path "/74270717-a116-451e-ac88-5a07ab66056e"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 161.29 50.8)
+		(size 30.48 57.15)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c8fd81b3-86d5-41d1-a22c-ff1dbf0b272c")
+		(property "Sheetname" "INTERFACE"
+			(at 161.29 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "INTERFACE.kicad_sch"
+			(at 161.29 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BUTTONS" input
+			(at 161.29 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "994cbaf7-a800-4a9a-8e81-85680a7e4905")
+		)
+		(pin "SPI_LCD_CS" input
+			(at 161.29 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ec3cc6af-1842-44f7-8875-9a7f7e206b53")
+		)
+		(pin "SPI_LCD_MISO" input
+			(at 161.29 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0cd8794d-d347-4801-8e9d-ad2e7234b6d9")
+		)
+		(pin "SPI_LCD_MOSI" input
+			(at 161.29 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6c9c1e5a-f70b-4ec3-99c1-51d16627a04c")
+		)
+		(pin "SPI_LCD_SCK" input
+			(at 161.29 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d9d7e3eb-797e-4995-8e90-32e5c3483508")
+		)
+		(pin "SPI_EINK_SDA" input
+			(at 161.29 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e818ecc3-9526-4b01-bef5-2ac826a7475a")
+		)
+		(pin "SPI_EINK_SCL" input
+			(at 161.29 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f696911d-b4b6-4a29-9153-dc32a9aad058")
+		)
+		(pin "SPI_EINK_CS" input
+			(at 161.29 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e76e0adb-ddde-45e3-8d96-681af0234cd0")
+		)
+		(pin "SPI_EINK_D{slash}C" input
+			(at 161.29 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ed1b40b7-c02f-4943-920f-4144754f2f5d")
+		)
+		(pin "EINK_RES" input
+			(at 161.29 86.36 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "39ae94cb-97d3-4738-ab61-db0133517ce9")
+		)
+		(pin "EINK_BUSY" input
+			(at 161.29 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ad23b091-8dfc-4f37-b652-1367ece83c56")
+		)
+		(pin "BUZZER" input
+			(at 161.29 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a73ced51-2c06-4b07-a60b-3bee13d9e852")
+		)
+		(instances
+			(project "Ecardz-Controller"
+				(path "/74270717-a116-451e-ac88-5a07ab66056e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

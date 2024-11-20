@@ -1,0 +1,152 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "9c75228a-a1c1-4016-940f-524003af4c12")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "SPI_LCD_SCK"
+		(shape input)
+		(at 34.29 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "235d283d-6870-4d71-b49e-8f79e8afe226")
+	)
+	(hierarchical_label "SPI_LCD_MISO"
+		(shape input)
+		(at 34.29 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7ec57781-6759-46d1-897c-9fd5465f9101")
+	)
+	(hierarchical_label "EINK_BUSY"
+		(shape input)
+		(at 34.29 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9ba348ae-77b1-4363-b168-d10f0b666ddf")
+	)
+	(hierarchical_label "SPI_EINK_SDA"
+		(shape input)
+		(at 34.29 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a0552080-8901-461c-9670-9e044dc06be2")
+	)
+	(hierarchical_label "BUTTONS"
+		(shape input)
+		(at 34.29 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a4fae4f7-e60c-4f51-b63e-0468fb451694")
+	)
+	(hierarchical_label "SPI_EINK_CS"
+		(shape input)
+		(at 34.29 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "be09b05e-136a-453a-bf36-144ade2627de")
+	)
+	(hierarchical_label "SPI_EINK_SCL"
+		(shape input)
+		(at 34.29 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cfc23bb0-d44f-40bb-96ff-080bbe6bc68c")
+	)
+	(hierarchical_label "BUZZER"
+		(shape input)
+		(at 34.29 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d982aac6-33d9-4886-a7e7-5e0514ee82cb")
+	)
+	(hierarchical_label "EINK_RES"
+		(shape input)
+		(at 34.29 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dd943914-329c-417c-b110-b79dece16c06")
+	)
+	(hierarchical_label "SPI_LCD_CS"
+		(shape input)
+		(at 34.29 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e58f12eb-151a-4ae1-b7aa-6acefae935b7")
+	)
+	(hierarchical_label "SPI_EINK_D{slash}C"
+		(shape input)
+		(at 34.29 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e93a3d33-ee4b-4939-87b2-712aaab1ee14")
+	)
+	(hierarchical_label "SPI_LCD_MOSI"
+		(shape input)
+		(at 34.29 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eef9f37f-0a0d-4740-8bfd-81e2d29c8855")
+	)
+)

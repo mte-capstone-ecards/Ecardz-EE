@@ -1,0 +1,56 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "4d55d676-4db7-4628-97c7-b71a4b8e5453")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "I2C_NFC_SCL"
+		(shape input)
+		(at 50.8 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2508846e-36d6-4af1-aeb9-afe29decfc66")
+	)
+	(hierarchical_label "NFC_BUSY"
+		(shape input)
+		(at 50.8 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2d657406-1fc7-483e-a503-97c956b58ca3")
+	)
+	(hierarchical_label "I2C_NFC_SDA"
+		(shape input)
+		(at 50.8 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9ef2c15b-c7a5-45c0-9376-14d165f103c3")
+	)
+	(hierarchical_label "NFC_POWER"
+		(shape input)
+		(at 49.53 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e9fc68e7-ae59-47a0-bb98-8203a2cc20d3")
+	)
+)

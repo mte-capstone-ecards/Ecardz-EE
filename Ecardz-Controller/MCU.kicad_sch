@@ -1,0 +1,224 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ebbe11e2-2a8e-4e70-95d5-267402e44187")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "MCU_POWER"
+		(shape input)
+		(at 57.15 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "07929c60-9fbf-4d88-a01c-0eaee8ceb699")
+	)
+	(hierarchical_label "SPI_LCD_SCK"
+		(shape input)
+		(at 57.15 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0ec957d0-4530-4710-aedd-9a7416f5d43e")
+	)
+	(hierarchical_label "BUZZER"
+		(shape input)
+		(at 25.4 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "107846f7-f932-45d2-97e5-17b1ef6bff1a")
+	)
+	(hierarchical_label "SPI_EINK_SCL"
+		(shape input)
+		(at 25.4 27.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1b25ef6b-230e-4054-aef4-6e698b5deb96")
+	)
+	(hierarchical_label "I2C_NFC_SDA"
+		(shape input)
+		(at 57.15 25.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1fa78b49-fcdf-4af2-ad5b-dafcd7b8a4ec")
+	)
+	(hierarchical_label "USBC_UART_RX"
+		(shape input)
+		(at 30.48 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "22dfb2ab-b744-4c30-8eab-2edd77edc473")
+	)
+	(hierarchical_label "SPI_LCD_MOSI"
+		(shape input)
+		(at 57.15 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "277f5182-b848-4553-8249-b9f458ad7193")
+	)
+	(hierarchical_label "EINK_RES"
+		(shape input)
+		(at 25.4 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3c8a321d-cffe-44ae-8871-e4c26ed83c74")
+	)
+	(hierarchical_label "I2C_NFC_SCL"
+		(shape input)
+		(at 57.15 27.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5a7e1c5c-f985-425b-8167-ae0d82b4daf8")
+	)
+	(hierarchical_label "SPI_LCD_CS"
+		(shape input)
+		(at 57.15 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "63b73b9a-d1cb-4707-90e7-707130a9223d")
+	)
+	(hierarchical_label "SPI_EINK_SDA"
+		(shape input)
+		(at 25.4 25.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "67bfa4f8-2001-458c-b885-3f9324308596")
+	)
+	(hierarchical_label "SPI_EINK_CS"
+		(shape input)
+		(at 25.4 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6df53cef-4552-459c-837c-a5ce4f5bacea")
+	)
+	(hierarchical_label "NFC_BUSY"
+		(shape input)
+		(at 57.15 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7a212403-4c9b-4c51-b6c0-7e5ca202ad52")
+	)
+	(hierarchical_label "SPI_LCD_MISO"
+		(shape input)
+		(at 57.15 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9eac96d3-3c85-429c-85c4-4961775cb9b9")
+	)
+	(hierarchical_label "EINK_BUSY"
+		(shape input)
+		(at 25.4 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a28ff024-27e8-4054-9bc9-901044a8778d")
+	)
+	(hierarchical_label "BUTTONS"
+		(shape input)
+		(at 57.15 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b210591c-3716-4d3e-a053-97452552f5a1")
+	)
+	(hierarchical_label "USBC_UART_TX"
+		(shape input)
+		(at 30.48 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e6dd66de-2750-4711-8b99-6fad23c3dd8a")
+	)
+	(hierarchical_label "SPI_EINK_D{slash}C"
+		(shape input)
+		(at 25.4 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fd1c86bb-47d3-4af0-9d72-5e540ed1a4f8")
+	)
+)
