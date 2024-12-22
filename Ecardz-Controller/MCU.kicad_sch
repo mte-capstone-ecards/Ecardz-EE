@@ -3440,6 +3440,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 81.28) (xy 74.93 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46e30550-eec5-433a-8db1-f5da4b7fe05d")
+	)
+	(wire
+		(pts
 			(xy 231.14 116.84) (xy 231.14 119.38)
 		)
 		(stroke
@@ -3640,23 +3650,13 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 81.28) (xy 99.06 81.28)
+			(xy 137.16 50.8) (xy 161.29 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "663b9448-1cf5-4b30-8a3b-ea07e6a8e4e8")
-	)
-	(wire
-		(pts
-			(xy 74.93 78.74) (xy 99.06 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6816a4ee-4e67-402b-810e-7ea9e43c0255")
+		(uuid "65d7505a-bfee-401d-ae52-522d8760d04b")
 	)
 	(wire
 		(pts
@@ -3880,16 +3880,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 71.12) (xy 161.29 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85cbf158-5b0e-4a56-8114-f11b7baebe35")
-	)
-	(wire
-		(pts
 			(xy 129.54 26.67) (xy 144.78 26.67)
 		)
 		(stroke
@@ -3927,6 +3917,16 @@
 			(type default)
 		)
 		(uuid "8ef806d5-0f97-48de-9c58-f188ba83bde1")
+	)
+	(wire
+		(pts
+			(xy 137.16 76.2) (xy 161.29 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fa977c6-dbec-4bed-9652-b988566dad74")
 	)
 	(wire
 		(pts
@@ -4280,6 +4280,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 73.66) (xy 137.16 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "def2ae47-e00a-45d9-90c6-65c220150a48")
+	)
+	(wire
+		(pts
 			(xy 161.29 137.16) (xy 161.29 139.7)
 		)
 		(stroke
@@ -4287,6 +4297,16 @@
 			(type default)
 		)
 		(uuid "dfe21c45-0f0d-404e-938e-d947fba2fa9a")
+	)
+	(wire
+		(pts
+			(xy 161.29 71.12) (xy 137.16 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e04a2cf6-f6df-45dc-8fb6-23fb03c1deb3")
 	)
 	(wire
 		(pts
@@ -4347,16 +4367,6 @@
 			(type default)
 		)
 		(uuid "e7121f5f-3c8c-4b00-81af-615a56ecefd0")
-	)
-	(wire
-		(pts
-			(xy 137.16 73.66) (xy 161.29 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e75a5fbb-a659-4e5d-babb-53982724de40")
 	)
 	(wire
 		(pts
@@ -4547,6 +4557,17 @@
 		)
 		(uuid "1f203b69-f68e-48b1-9b22-b74f87e53949")
 	)
+	(label "BUTTON2"
+		(at 147.32 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "26bafae0-bc87-4c9c-b7d8-d0b2605f1540")
+	)
 	(label "EINK_MISO"
 		(at 139.7 60.96 0)
 		(fields_autoplaced yes)
@@ -4591,6 +4612,17 @@
 		)
 		(uuid "2f855915-a518-45e8-ab23-dc52cca721ea")
 	)
+	(label "BUTTON3"
+		(at 147.32 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "398dc10e-8edf-4a22-a01e-468786762568")
+	)
 	(label "BUTTON4"
 		(at 88.9 104.14 180)
 		(fields_autoplaced yes)
@@ -4624,16 +4656,16 @@
 		)
 		(uuid "440b75a1-8d23-41ba-ad92-606418a54459")
 	)
-	(label "BUTTON2"
-		(at 88.9 81.28 180)
+	(label "BUTTON1"
+		(at 139.7 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "48d42087-787a-4cb1-a5b0-3a09fdd83c8e")
+		(uuid "4e104d0f-f6b0-46a3-8e17-a17bfda9622c")
 	)
 	(label "LED_DISPLAY_G"
 		(at 139.7 121.92 0)
@@ -4667,17 +4699,6 @@
 			(justify right bottom)
 		)
 		(uuid "618b9b0f-73c0-47bb-9b08-10ac7824595e")
-	)
-	(label "BUTTON3"
-		(at 88.9 78.74 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8b13d747-05fd-43b3-854c-9b4bfb89dbec")
 	)
 	(label "SD_MISO"
 		(at 80.01 114.3 0)
@@ -4722,17 +4743,6 @@
 			(justify left bottom)
 		)
 		(uuid "b3c13a31-79de-4a6e-88a4-b21d4c0426c8")
-	)
-	(label "BUTTON1"
-		(at 139.7 71.12 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b3d2992f-2dab-44b8-8da5-c4fc626ad176")
 	)
 	(label "BUTTON6"
 		(at 53.34 58.42 0)
@@ -4906,6 +4916,18 @@
 		)
 		(uuid "287213be-6f7d-482d-b1de-f6907ac4fe32")
 	)
+	(hierarchical_label "BUZZER"
+		(shape input)
+		(at 74.93 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "40182046-e63f-4f6e-8b8e-4566d448d7cb")
+	)
 	(hierarchical_label "BUTTONS"
 		(shape input)
 		(at 48.26 43.18 180)
@@ -4990,6 +5012,18 @@
 		)
 		(uuid "9eac96d3-3c85-429c-85c4-4961775cb9b9")
 	)
+	(hierarchical_label "NFC_I_SENSE"
+		(shape input)
+		(at 161.29 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b2308778-95d7-44a8-aa4a-256068bfe117")
+	)
 	(hierarchical_label "USBC_UART_TX"
 		(shape input)
 		(at 237.49 116.84 0)
@@ -5013,18 +5047,6 @@
 			(justify right)
 		)
 		(uuid "fd1c86bb-47d3-4af0-9d72-5e540ed1a4f8")
-	)
-	(hierarchical_label "BUZZER"
-		(shape input)
-		(at 161.29 73.66 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ff1b677a-5968-4f21-b108-0ef3af7fa836")
 	)
 	(symbol
 		(lib_id "Device:LED")

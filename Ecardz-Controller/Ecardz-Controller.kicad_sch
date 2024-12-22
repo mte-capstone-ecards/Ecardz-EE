@@ -57,16 +57,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 127) (xy 92.71 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37d1b290-ac5f-4e4c-8e24-c15559efddbe")
-	)
-	(wire
-		(pts
 			(xy 88.9 58.42) (xy 105.41 58.42)
 		)
 		(stroke
@@ -74,16 +64,6 @@
 			(type default)
 		)
 		(uuid "446124a1-66b4-4300-8e05-ff741ed10a8c")
-	)
-	(wire
-		(pts
-			(xy 88.9 127) (xy 92.71 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46e27a94-b28b-4147-8e69-328bc7a4489e")
 	)
 	(wire
 		(pts
@@ -187,16 +167,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 67.31) (xy 95.25 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f0da9d4-1abc-4072-ab18-65decb503004")
-	)
-	(wire
-		(pts
 			(xy 147.32 78.74) (xy 161.29 78.74)
 		)
 		(stroke
@@ -217,13 +187,13 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 130.81) (xy 88.9 130.81)
+			(xy 88.9 66.04) (xy 105.41 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bf45f178-eabe-4d53-8a1e-4c421938d2c3")
+		(uuid "bf2c1554-9273-4744-8b8b-0815598a0c7f")
 	)
 	(wire
 		(pts
@@ -237,16 +207,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 102.87) (xy 88.9 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c50e12ea-becf-4449-bc72-fba09e3d5eb2")
-	)
-	(wire
-		(pts
 			(xy 101.6 127) (xy 101.6 92.71)
 		)
 		(stroke
@@ -254,16 +214,6 @@
 			(type default)
 		)
 		(uuid "d0611f40-d1f6-4179-a8c9-fa9972cf7692")
-	)
-	(wire
-		(pts
-			(xy 105.41 67.31) (xy 95.25 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef5cfe63-751e-4123-8443-41fa0b62e287")
 	)
 	(wire
 		(pts
@@ -354,16 +304,6 @@
 				(justify left)
 			)
 			(uuid "18f0be46-12d3-40e5-9a21-f6a82d117f7a")
-		)
-		(pin "MCU_POWER" input
-			(at 105.41 67.31 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "1e4a8c0a-79dc-4969-a8fb-4a2d0a6b511c")
 		)
 		(pin "SPI_LCD_CS" input
 			(at 147.32 63.5 0)
@@ -505,6 +445,16 @@
 			)
 			(uuid "03995449-959e-4f47-b582-03028247f51e")
 		)
+		(pin "NFC_I_SENSE" input
+			(at 105.41 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "da8242cc-fa0b-4f7c-b17e-b80d702f5090")
+		)
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e"
@@ -573,15 +523,15 @@
 			)
 			(uuid "bd85d348-87de-454b-8f84-883952bc276e")
 		)
-		(pin "NFC_POWER" input
-			(at 88.9 102.87 0)
+		(pin "NFC_I_SENSE" input
+			(at 88.9 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "2f118e44-fbce-42ac-b77b-2bff04c0938b")
+			(uuid "2f9b17c3-b7da-4faf-9e07-3e0236f3a0be")
 		)
 		(instances
 			(project "Ecardz-Controller"
@@ -630,26 +580,6 @@
 				(justify right)
 			)
 			(uuid "d29aee33-46ca-47b1-8e4e-70d0b034ab34")
-		)
-		(pin "NFC_POWER" input
-			(at 88.9 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "9c69351c-2605-4805-8e11-81217f60ce9b")
-		)
-		(pin "MCU_POWER" input
-			(at 88.9 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "7de29523-9220-496a-9f23-cdf75b79e053")
 		)
 		(instances
 			(project "Ecardz-Controller"
