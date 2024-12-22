@@ -708,7 +708,7 @@
 	)
 	(hierarchical_label "USBC_UART_RX"
 		(shape input)
-		(at 55.88 38.1 0)
+		(at 133.35 36.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -720,7 +720,7 @@
 	)
 	(hierarchical_label "USBC_UART_TX"
 		(shape input)
-		(at 55.88 41.91 0)
+		(at 133.35 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -732,7 +732,7 @@
 	)
 	(hierarchical_label "5V_USBC"
 		(shape input)
-		(at 55.88 33.02 0)
+		(at 133.35 31.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
