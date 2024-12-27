@@ -3350,6 +3350,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 73.66) (xy 161.29 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "359cddf4-91ed-47a6-be95-ed1ca62b47c6")
+	)
+	(wire
+		(pts
 			(xy 116.84 33.02) (xy 119.38 33.02)
 		)
 		(stroke
@@ -4060,6 +4070,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 71.12) (xy 161.29 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7984f56-c4b4-4112-8eb7-3eae1902e38a")
+	)
+	(wire
+		(pts
 			(xy 116.84 38.1) (xy 116.84 40.64)
 		)
 		(stroke
@@ -4280,16 +4300,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 73.66) (xy 137.16 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "def2ae47-e00a-45d9-90c6-65c220150a48")
-	)
-	(wire
-		(pts
 			(xy 161.29 137.16) (xy 161.29 139.7)
 		)
 		(stroke
@@ -4297,16 +4307,6 @@
 			(type default)
 		)
 		(uuid "dfe21c45-0f0d-404e-938e-d947fba2fa9a")
-	)
-	(wire
-		(pts
-			(xy 161.29 71.12) (xy 137.16 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e04a2cf6-f6df-45dc-8fb6-23fb03c1deb3")
 	)
 	(wire
 		(pts
@@ -4558,7 +4558,7 @@
 		(uuid "1f203b69-f68e-48b1-9b22-b74f87e53949")
 	)
 	(label "BUTTON2"
-		(at 147.32 73.66 0)
+		(at 139.7 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4613,7 +4613,7 @@
 		(uuid "2f855915-a518-45e8-ab23-dc52cca721ea")
 	)
 	(label "BUTTON3"
-		(at 147.32 71.12 0)
+		(at 139.7 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
