@@ -5,6 +5,108 @@
 	(uuid "4adce630-e6fa-4e0d-ae6c-5e9e907e55e5")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016) hide)
@@ -321,6 +423,176 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R_US"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
 					(name "~"
 						(effects
 							(font
@@ -1051,7 +1323,7 @@
 		(uuid "3d64ee74-f31b-41de-a842-8f2210f0100f")
 	)
 	(junction
-		(at 161.29 31.75)
+		(at 170.18 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f683c41-7d2e-4bae-ae09-6bd6893a345d")
@@ -1063,7 +1335,13 @@
 		(uuid "747fe4f1-0561-4c2a-99d1-6e65bfe5c096")
 	)
 	(junction
-		(at 165.1 49.53)
+		(at 88.9 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "813b298d-dc13-4299-8c99-52af52132c1f")
+	)
+	(junction
+		(at 173.99 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "815f6811-28e0-4bdd-bd3f-9e11cd32cfd1")
@@ -1073,6 +1351,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9edd05d0-92ca-4b45-9ffb-c5416762d4c3")
+	)
+	(junction
+		(at 77.47 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4daf021-6b5e-4922-8c37-26732d3d666a")
 	)
 	(no_connect
 		(at 129.54 81.28)
@@ -1107,10 +1391,6 @@
 		(uuid "b0ab9a76-eab2-472a-8408-fbab1f5f5846")
 	)
 	(no_connect
-		(at 129.54 63.5)
-		(uuid "b478efcf-6054-4825-9eb2-f8d6bdb0fa6d")
-	)
-	(no_connect
 		(at 129.54 91.44)
 		(uuid "cabec5d3-476d-4e16-bbe5-c948b8950883")
 	)
@@ -1135,10 +1415,6 @@
 		(uuid "e0669b33-e6d0-4b77-8204-a93bb7afa798")
 	)
 	(no_connect
-		(at 129.54 66.04)
-		(uuid "e07b165b-dc6d-447d-b0fb-fc9919fbd685")
-	)
-	(no_connect
 		(at 129.54 78.74)
 		(uuid "fc81651a-4f05-49e4-9e74-5e5ae1bf3242")
 	)
@@ -1154,6 +1430,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 40.64) (xy 149.86 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04658038-5865-4781-a2fa-179481f52505")
+	)
+	(wire
+		(pts
 			(xy 67.31 58.42) (xy 104.14 58.42)
 		)
 		(stroke
@@ -1161,6 +1447,16 @@
 			(type default)
 		)
 		(uuid "0b616c5e-2655-47fd-8f12-0c5ae5bfae1b")
+	)
+	(wire
+		(pts
+			(xy 77.47 29.21) (xy 88.9 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ed4fc67-f62c-4fe0-8ff8-ef7d53d2ee5c")
 	)
 	(wire
 		(pts
@@ -1184,7 +1480,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 31.75) (xy 161.29 31.75)
+			(xy 116.84 31.75) (xy 170.18 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1234,13 +1530,23 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 41.91) (xy 161.29 49.53)
+			(xy 170.18 41.91) (xy 170.18 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "51a6d1bd-be36-45f2-8992-b30048ce67d6")
+	)
+	(wire
+		(pts
+			(xy 77.47 39.37) (xy 77.47 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "644b1cb8-db2e-4bd7-b6a9-9dd8a4edb662")
 	)
 	(wire
 		(pts
@@ -1274,7 +1580,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 40.64) (xy 139.7 40.64)
+			(xy 129.54 40.64) (xy 137.16 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1291,6 +1597,16 @@
 			(type default)
 		)
 		(uuid "791d86fe-b347-4c28-b3c5-e877c6f14775")
+	)
+	(wire
+		(pts
+			(xy 88.9 41.91) (xy 88.9 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88430b3d-6c6e-40fd-8e67-ac2f3b6739db")
 	)
 	(wire
 		(pts
@@ -1334,7 +1650,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 49.53) (xy 165.1 49.53)
+			(xy 182.88 49.53) (xy 173.99 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1364,6 +1680,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 41.91) (xy 88.9 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1788a44-5ffa-4d1a-b90e-3b64c756ebc9")
+	)
+	(wire
+		(pts
 			(xy 129.54 73.66) (xy 140.97 73.66)
 		)
 		(stroke
@@ -1374,7 +1700,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 31.75) (xy 161.29 34.29)
+			(xy 170.18 31.75) (xy 170.18 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1384,7 +1710,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 29.21) (xy 88.9 29.21)
+			(xy 43.18 29.21) (xy 77.47 29.21)
 		)
 		(stroke
 			(width 0)
@@ -1394,7 +1720,17 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 43.18) (xy 139.7 43.18)
+			(xy 129.54 63.5) (xy 134.62 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdaaae35-7f51-49f0-b933-30e410078902")
+	)
+	(wire
+		(pts
+			(xy 129.54 43.18) (xy 137.16 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1404,7 +1740,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 49.53) (xy 161.29 49.53)
+			(xy 173.99 49.53) (xy 170.18 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1414,7 +1750,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 31.75) (xy 167.64 31.75)
+			(xy 170.18 31.75) (xy 182.88 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1424,7 +1760,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 43.18) (xy 88.9 39.37)
+			(xy 88.9 43.18) (xy 88.9 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1454,7 +1790,17 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 31.75) (xy 167.64 34.29)
+			(xy 129.54 66.04) (xy 147.32 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8b07633-5585-480b-954f-8d3af4ad57d6")
+	)
+	(wire
+		(pts
+			(xy 182.88 31.75) (xy 182.88 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1464,7 +1810,27 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 41.91) (xy 167.64 49.53)
+			(xy 77.47 29.21) (xy 77.47 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0dc51c3-afea-4e53-9b69-00f409dc8b66")
+	)
+	(wire
+		(pts
+			(xy 144.78 43.18) (xy 149.86 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f28236c4-d994-4ebc-8956-1373ad78c673")
+	)
+	(wire
+		(pts
+			(xy 182.88 41.91) (xy 182.88 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1491,6 +1857,16 @@
 			)
 		)
 		(uuid "2b2a806b-27c3-4ae0-a0e9-1b0d4c7ead8f")
+	)
+	(text "Note: DNP C8 if using CP2102\n"
+		(exclude_from_sim no)
+		(at 151.384 71.628 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8ea97c75-b389-4e27-a29e-d979fe6fa5e5")
 	)
 	(text "LAYOUT: C10 NEAR REGIN"
 		(exclude_from_sim no)
@@ -1559,7 +1935,7 @@
 	)
 	(hierarchical_label "USBC_UART_RX"
 		(shape input)
-		(at 139.7 43.18 0)
+		(at 149.86 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1571,7 +1947,7 @@
 	)
 	(hierarchical_label "USBC_UART_TX"
 		(shape input)
-		(at 139.7 40.64 0)
+		(at 149.86 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1666,84 +2042,6 @@
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/795903a0-6fb6-4696-956b-ef2670233793"
 					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 161.29 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1c3f583e-21c4-42d0-a45d-02f010759315")
-		(property "Reference" "C7"
-			(at 163.322 35.052 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 163.068 41.148 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 162.2552 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/mlcc/upy-gphc_x5r_4v-to-50v.pdf"
-			(at 161.29 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 161.29 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "CC0603KRX5R8BB105"
-			(at 161.29 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "09a1ae48-0394-4153-a95e-e88a57e4eb51")
-		)
-		(pin "2"
-			(uuid "59990f18-9721-4260-89f4-e88277ccc91b")
-		)
-		(instances
-			(project "Ecardz-Controller"
-				(path "/74270717-a116-451e-ac88-5a07ab66056e/795903a0-6fb6-4696-956b-ef2670233793"
-					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -1976,8 +2274,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 147.32 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68546978-74db-4759-b432-e660362308ae")
+		(property "Reference" "TP6"
+			(at 149.86 61.4679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 149.86 64.0079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+			(at 152.4 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 147.32 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94b3e58d-ea1a-4b7d-bd41-a8d5d8bd432a")
+		)
+		(instances
+			(project "Ecardz-Controller"
+				(path "/74270717-a116-451e-ac88-5a07ab66056e/795903a0-6fb6-4696-956b-ef2670233793"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
-		(at 167.64 38.1 0)
+		(at 182.88 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1985,7 +2350,7 @@
 		(dnp no)
 		(uuid "6f63e22b-6011-47f4-962d-f4b521bd242e")
 		(property "Reference" "C9"
-			(at 169.164 35.052 0)
+			(at 184.404 35.052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1994,7 +2359,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 168.656 40.386 0)
+			(at 183.896 40.386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2003,7 +2368,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 168.6052 41.91 0)
+			(at 183.8452 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2012,7 +2377,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-			(at 167.64 38.1 0)
+			(at 182.88 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2021,7 +2386,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 167.64 38.1 0)
+			(at 182.88 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2030,7 +2395,7 @@
 			)
 		)
 		(property "Part Number" "CC0603KRX7R7BB104"
-			(at 167.64 38.1 0)
+			(at 182.88 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2199,8 +2564,188 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 140.97 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80052bd1-1c60-439e-a885-52d823577a64")
+		(property "Reference" "R17"
+			(at 140.97 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 140.97 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 141.224 39.624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 140.97 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 140.97 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "RC0603JR-070RL"
+			(at 140.97 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 140.97 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 140.97 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 140.97 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "311-0.0GRTR-ND"
+			(at 140.97 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4bfc0b1-35de-4d74-9086-2fbd656b08fd")
+		)
+		(pin "2"
+			(uuid "b9785762-d899-482b-865f-98632b56fdf8")
+		)
+		(instances
+			(project "Ecardz-Controller"
+				(path "/74270717-a116-451e-ac88-5a07ab66056e/795903a0-6fb6-4696-956b-ef2670233793"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 134.62 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88b3ae2c-507c-40b8-84f2-99a57eaf9fb0")
+		(property "Reference" "TP5"
+			(at 137.16 58.9279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 137.16 61.4679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+			(at 139.7 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 134.62 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0627563-b7ac-434c-b2a3-76330a7c8156")
+		)
+		(instances
+			(project "Ecardz-Controller"
+				(path "/74270717-a116-451e-ac88-5a07ab66056e/795903a0-6fb6-4696-956b-ef2670233793"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 165.1 49.53 0)
+		(at 173.99 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2209,7 +2754,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c2647aa-7885-46e2-9d3e-38d9a5bd8fc5")
 		(property "Reference" "#PWR014"
-			(at 165.1 55.88 0)
+			(at 173.99 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2218,7 +2763,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.1 54.61 0)
+			(at 173.99 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2226,7 +2771,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 49.53 0)
+			(at 173.99 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2235,7 +2780,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 49.53 0)
+			(at 173.99 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2244,7 +2789,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 49.53 0)
+			(at 173.99 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2259,6 +2804,85 @@
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/795903a0-6fb6-4696-956b-ef2670233793"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 170.18 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92b0a931-5a5e-4071-bf50-882998164924")
+		(property "Reference" "C11"
+			(at 173.99 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 173.99 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 171.1452 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL10A475KP8NNNC_Spec.pdf"
+			(at 170.18 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 170.18 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL10A475KP8NNNC"
+			(at 170.18 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ecdf493f-de63-47f7-b0dc-eb0e61197f33")
+		)
+		(pin "2"
+			(uuid "9470ef99-bef5-46f7-b373-5b185ef7663a")
+		)
+		(instances
+			(project "Ecardz-Controller"
+				(path "/74270717-a116-451e-ac88-5a07ab66056e/795903a0-6fb6-4696-956b-ef2670233793"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -2391,6 +3015,196 @@
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/795903a0-6fb6-4696-956b-ef2670233793"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 140.97 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d62444c3-2e4f-4bef-a49d-e3187c6f904f")
+		(property "Reference" "R18"
+			(at 140.97 45.466 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 140.97 47.752 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 141.224 42.164 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 140.97 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 140.97 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "RC0603JR-070RL"
+			(at 140.97 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 140.97 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 140.97 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 140.97 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "311-0.0GRTR-ND"
+			(at 140.97 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7bab25ca-fa75-4930-a3a2-4b9c27fc5084")
+		)
+		(pin "2"
+			(uuid "353d1c14-aff7-4b0c-b261-bac08547e559")
+		)
+		(instances
+			(project "Ecardz-Controller"
+				(path "/74270717-a116-451e-ac88-5a07ab66056e/795903a0-6fb6-4696-956b-ef2670233793"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 77.47 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8e00193-216f-48c4-abee-ab1e1a55cebd")
+		(property "Reference" "C7"
+			(at 78.994 32.512 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 78.486 37.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 78.4352 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
+			(at 77.47 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 77.47 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CC0603KRX7R7BB104"
+			(at 77.47 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "385e7e96-f7d8-403c-9c2f-380c11dad99d")
+		)
+		(pin "2"
+			(uuid "79baa79d-e03a-41ba-acdf-42645814050f")
+		)
+		(instances
+			(project "Ecardz-Controller"
+				(path "/74270717-a116-451e-ac88-5a07ab66056e/795903a0-6fb6-4696-956b-ef2670233793"
+					(reference "C7")
 					(unit 1)
 				)
 			)
