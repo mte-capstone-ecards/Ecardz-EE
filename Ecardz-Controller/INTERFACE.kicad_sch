@@ -9088,7 +9088,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.ca/datasheet/2/418/7/ENG_CD_1734839_C_C_1734839-2017397.pdf"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/amphenol-cs-fci/10051922-2410ELF/1001555"
 			(at 248.92 54.61 0)
 			(effects
 				(font
@@ -9133,7 +9133,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER PART NUMBER" "4-1734839-5"
+		(property "MANUFACTURER PART NUMBER" "10051922-2410ELF"
 			(at 248.92 54.61 0)
 			(effects
 				(font
@@ -9142,7 +9142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" "A101358TR-ND"
+		(property "Part Number" "10051922-2410ELF"
 			(at 248.92 54.61 0)
 			(effects
 				(font
