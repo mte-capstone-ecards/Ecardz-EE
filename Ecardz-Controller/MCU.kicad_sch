@@ -4050,6 +4050,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 93.98) (xy 161.29 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0aba594-e191-4e4f-91aa-4096db8819b2")
+	)
+	(wire
+		(pts
 			(xy 173.99 147.32) (xy 173.99 149.86)
 		)
 		(stroke
@@ -4267,6 +4277,16 @@
 			(type default)
 		)
 		(uuid "d3371a68-4cd5-4f2f-a1ce-61dd204e3016")
+	)
+	(wire
+		(pts
+			(xy 137.16 91.44) (xy 161.29 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d80abb87-14fc-4421-95d7-4616d787f5b7")
 	)
 	(wire
 		(pts
@@ -5024,6 +5044,18 @@
 		)
 		(uuid "b2308778-95d7-44a8-aa4a-256068bfe117")
 	)
+	(hierarchical_label "SPI_LCD_DC"
+		(shape input)
+		(at 161.29 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bf92db6c-b898-4769-b518-d1a580f070be")
+	)
 	(hierarchical_label "USBC_UART_TX"
 		(shape input)
 		(at 237.49 116.84 0)
@@ -5035,6 +5067,18 @@
 			(justify left)
 		)
 		(uuid "e6dd66de-2750-4711-8b99-6fad23c3dd8a")
+	)
+	(hierarchical_label "LCD_PWM_BRIGHT"
+		(shape input)
+		(at 161.29 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fa5c36f2-e4e9-4209-bc00-fb7b710e694d")
 	)
 	(hierarchical_label "SPI_EINK_D{slash}C"
 		(shape input)
