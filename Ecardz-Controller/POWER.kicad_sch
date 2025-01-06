@@ -872,6 +872,179 @@
 				)
 			)
 		)
+		(symbol "Regulator_Linear:MIC5504-3.3YM5"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MIC5504-3.3YM5"
+				(at -7.62 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf"
+				(at -6.35 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "300mA Low-dropout Voltage Regulator, Vout 3.3V, Vin up to 5.5V, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Micrel LDO voltage regulator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23?5*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MIC5504-3.3YM5_0_1"
+				(rectangle
+					(start -7.62 -5.08)
+					(end 7.62 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "MIC5504-3.3YM5_1_1"
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 7.62 -2.54 180)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Regulator_Switching:TPS62160DSG"
 			(pin_names
 				(offset 0.254)
@@ -1339,10 +1512,40 @@
 		)
 	)
 	(junction
+		(at 175.26 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03077ad9-471e-44ad-b994-a9faeb0e3531")
+	)
+	(junction
+		(at 152.4 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b965246-0099-4cb3-8dfd-c6b93117327f")
+	)
+	(junction
 		(at 152.4 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20f363a7-e8a2-482e-b896-4dafe645ca6a")
+	)
+	(junction
+		(at 180.34 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "294beb0f-e4c4-4e1c-9eaf-d48257055099")
+	)
+	(junction
+		(at 166.37 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "404852f3-ca2e-4219-8800-57fc8b2bfa0f")
+	)
+	(junction
+		(at 198.12 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47f97fd3-547f-46d1-aae5-b2045fba3e04")
 	)
 	(junction
 		(at 93.98 58.42)
@@ -1363,22 +1566,40 @@
 		(uuid "5e931d14-a786-4735-9399-cf3b270778f0")
 	)
 	(junction
+		(at 234.95 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fa3dc6f-73d3-4901-8b9b-d499fe216894")
+	)
+	(junction
+		(at 191.77 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fe702d9-0c6f-4f12-8807-d94a11cf2a0b")
+	)
+	(junction
 		(at 152.4 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a16df81-0454-4c64-aedf-8f106458a6fd")
 	)
 	(junction
-		(at 170.18 58.42)
+		(at 217.17 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7e2a9ea1-a42c-4b32-9b64-69bf759c7fd4")
+		(uuid "7e1fbbc6-e777-4283-a441-628dabb55ec5")
 	)
 	(junction
-		(at 152.4 58.42)
+		(at 200.66 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8b74a36d-1ee9-4539-a0ea-054c4213fa23")
+		(uuid "8de0cd13-0ba4-410c-b87e-58ba6970519f")
+	)
+	(junction
+		(at 191.77 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8eb2859d-4c12-4204-a8d0-a9b1344aebef")
 	)
 	(junction
 		(at 83.82 58.42)
@@ -1454,6 +1675,26 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 58.42) (xy 198.12 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0650103b-db82-47de-85df-e40743dc8b07")
+	)
+	(wire
+		(pts
+			(xy 180.34 46.99) (xy 179.07 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07295a29-63ea-414a-bfa1-87dcf2f39a5e")
+	)
+	(wire
+		(pts
 			(xy 107.95 68.58) (xy 107.95 43.18)
 		)
 		(stroke
@@ -1484,7 +1725,17 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 58.42) (xy 170.18 58.42)
+			(xy 168.91 43.18) (xy 168.91 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1333c6ca-d7ce-46aa-ab10-5f9f2fb139f9")
+	)
+	(wire
+		(pts
+			(xy 158.75 58.42) (xy 166.37 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1501,6 +1752,26 @@
 			(type default)
 		)
 		(uuid "1683bd97-2fad-48ce-b7c6-3bb7224a7e0b")
+	)
+	(wire
+		(pts
+			(xy 146.05 58.42) (xy 149.86 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18e59054-1421-4f50-8817-fb6f1969e9a9")
+	)
+	(wire
+		(pts
+			(xy 198.12 58.42) (xy 200.66 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19ec5b91-4c8c-4873-b7a8-525c5afc681c")
 	)
 	(wire
 		(pts
@@ -1544,6 +1815,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 34.29) (xy 200.66 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a3f53e5-c68d-4ecf-a1fd-13e45c25865d")
+	)
+	(wire
+		(pts
 			(xy 135.89 83.82) (xy 135.89 82.55)
 		)
 		(stroke
@@ -1554,6 +1835,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 46.99) (xy 180.34 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35ddae56-24bd-4c77-b2d0-4b42667e1404")
+	)
+	(wire
+		(pts
 			(xy 50.8 43.18) (xy 55.88 43.18)
 		)
 		(stroke
@@ -1561,6 +1852,16 @@
 			(type default)
 		)
 		(uuid "37396d17-4573-4dfc-8795-a4791c8c600d")
+	)
+	(wire
+		(pts
+			(xy 190.5 58.42) (xy 191.77 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39289a7f-785c-4416-be1e-09265f2ee4ff")
 	)
 	(wire
 		(pts
@@ -1584,6 +1885,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 82.55) (xy 217.17 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f60598b-7f2d-4ac6-8987-28c925bd1a2f")
+	)
+	(wire
+		(pts
 			(xy 93.98 58.42) (xy 114.3 58.42)
 		)
 		(stroke
@@ -1591,6 +1902,26 @@
 			(type default)
 		)
 		(uuid "409cc7d6-f5b4-449c-ab4b-27cae50a56a9")
+	)
+	(wire
+		(pts
+			(xy 234.95 68.58) (xy 234.95 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40c7532f-d16a-4e27-87b1-5adba645c01c")
+	)
+	(wire
+		(pts
+			(xy 200.66 58.42) (xy 207.01 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41374f18-42a0-480f-8fbc-1f22033d4f96")
 	)
 	(wire
 		(pts
@@ -1611,6 +1942,16 @@
 			(type default)
 		)
 		(uuid "4927e1fa-5002-4d4a-bac6-b20bacf5172e")
+	)
+	(wire
+		(pts
+			(xy 191.77 82.55) (xy 217.17 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d4ed9b0-80d7-418b-b0cb-8d1489214397")
 	)
 	(wire
 		(pts
@@ -1644,6 +1985,26 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 58.42) (xy 234.95 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e1b10af-6696-47b6-bc7e-5d818eafff30")
+	)
+	(wire
+		(pts
+			(xy 234.95 53.34) (xy 234.95 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f9fc239-c0cf-48c5-bcbf-57f2cafeac49")
+	)
+	(wire
+		(pts
 			(xy 45.72 82.55) (xy 45.72 83.82)
 		)
 		(stroke
@@ -1664,13 +2025,13 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 58.42) (xy 158.75 58.42)
+			(xy 166.37 58.42) (xy 175.26 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7c20a1db-47ed-42bf-99cc-0a3544e007e3")
+		(uuid "77e76e7d-a9af-4b71-afca-0d6af0bf67da")
 	)
 	(wire
 		(pts
@@ -1681,6 +2042,16 @@
 			(type default)
 		)
 		(uuid "7c80a583-9604-470f-b136-4180e275c3ac")
+	)
+	(wire
+		(pts
+			(xy 217.17 68.58) (xy 217.17 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c8503a2-2925-4270-94ee-556e3185c953")
 	)
 	(wire
 		(pts
@@ -1754,7 +2125,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 58.42) (xy 198.12 58.42)
+			(xy 175.26 58.42) (xy 180.34 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1784,6 +2155,36 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 58.42) (xy 158.75 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6d10b0d-c0ac-492b-b1cb-97def06f5958")
+	)
+	(wire
+		(pts
+			(xy 180.34 58.42) (xy 182.88 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abd52c77-75f4-4511-9d8e-30a2c1eed9e4")
+	)
+	(wire
+		(pts
+			(xy 175.26 82.55) (xy 191.77 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af8096c1-dd3f-4a83-8664-e7b397da929e")
+	)
+	(wire
+		(pts
 			(xy 152.4 68.58) (xy 152.4 69.85)
 		)
 		(stroke
@@ -1804,6 +2205,66 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 34.29) (xy 200.66 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5e88c90-d683-4c84-ae22-da94a3bda781")
+	)
+	(wire
+		(pts
+			(xy 234.95 58.42) (xy 234.95 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b682658e-a9ea-4cdd-87f1-5a682c3cd20a")
+	)
+	(wire
+		(pts
+			(xy 198.12 58.42) (xy 198.12 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b71c3c14-df41-487f-aa8f-29616a470629")
+	)
+	(wire
+		(pts
+			(xy 168.91 46.99) (xy 171.45 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8daa26e-2b53-4a38-824a-8306a42444a0")
+	)
+	(wire
+		(pts
+			(xy 184.15 34.29) (xy 186.69 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc0bb145-6ff7-4712-9574-8cfb435d250f")
+	)
+	(wire
+		(pts
+			(xy 191.77 69.85) (xy 191.77 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd600816-9dfa-46d5-b867-13ebde628e02")
+	)
+	(wire
+		(pts
 			(xy 45.72 60.96) (xy 45.72 82.55)
 		)
 		(stroke
@@ -1811,6 +2272,16 @@
 			(type default)
 		)
 		(uuid "bdf85f85-9b58-4081-834c-80231771d3df")
+	)
+	(wire
+		(pts
+			(xy 191.77 58.42) (xy 191.77 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c78a971f-cee2-4332-babd-0b5487b34b73")
 	)
 	(wire
 		(pts
@@ -1824,7 +2295,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 58.42) (xy 142.24 58.42)
+			(xy 134.62 58.42) (xy 138.43 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1944,13 +2415,24 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 58.42) (xy 175.26 58.42)
+			(xy 207.01 63.5) (xy 205.74 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f96db730-d7ba-4b13-a9cf-e7b86bf27c8a")
+		(uuid "f78234a2-15a7-4dcd-8161-aac9dad6d87a")
+	)
+	(text "Populate R32 and U5 for LDO only operation and no battery input\nPopulate R33 for Buck only \nPopulate R31 and U5 for Buck and LDO operation"
+		(exclude_from_sim no)
+		(at 208.788 32.258 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "38c44702-db93-4dab-b848-f93aaff4841a")
 	)
 	(text "AUX POWER\n"
 		(exclude_from_sim no)
@@ -1962,9 +2444,9 @@
 		)
 		(uuid "7532cc6f-cc03-458b-9cde-b8a70ae1f4be")
 	)
-	(text "R1 = R2(Vout/0.8-1)\nR1 = 625k\n"
+	(text "R1 = R2(Vout/0.8-1)\nR1 = 625k for 3.3Vout\nR1 = 800k for 4vout\n\n"
 		(exclude_from_sim no)
-		(at 130.302 78.994 0)
+		(at 128.524 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1982,6 +2464,28 @@
 			)
 		)
 		(uuid "b974d930-c013-4741-aaa4-781e595540f2")
+	)
+	(text "Max current 0.2A\nInput voltage 5-8V\nPeak to peak L current: 0.39167A @2.25MHz\nMax L current: 0.39584A"
+		(exclude_from_sim no)
+		(at 163.576 90.678 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e74c8fa2-5645-4372-9840-b154ebcae224")
+	)
+	(text "Rds(on) HS = 600m\nVin(min) = Vout(min) + Iout(Rds(on) + RL)\nRL must be less than 7.9R"
+		(exclude_from_sim no)
+		(at 114.3 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ef9aeef3-3ac5-4404-9635-5b7b40ba897d")
 	)
 	(label "VIN_PROT"
 		(at 93.98 58.42 0)
@@ -2027,6 +2531,18 @@
 			(justify right)
 		)
 		(uuid "046cd8d1-cab1-47c6-bf59-1e890ede49ab")
+	)
+	(hierarchical_label "5V_USBC"
+		(shape input)
+		(at 184.15 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "94f6d79f-8103-4e82-acbc-e265640ed4fa")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -2108,6 +2624,118 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 201.93 63.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "078150c3-248b-4f1a-abd7-a84c178b2a0b")
+		(property "Reference" "R34"
+			(at 202.692 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 202.692 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 201.676 64.516 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 201.93 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 201.93 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "RC0603JR-070RL"
+			(at 201.93 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 201.93 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 201.93 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 201.93 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "311-0.0GRTR-ND"
+			(at 201.93 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5f26f40-2921-4344-a38f-544a92ee60b1")
+		)
+		(pin "2"
+			(uuid "7c502ecd-6b33-4863-9d80-fc2ec1472eb3")
+		)
+		(instances
+			(project "Ecardz-Controller"
+				(path "/74270717-a116-451e-ac88-5a07ab66056e/686e621e-6f68-4fb8-9509-95408ee4dcf7"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 175.26 68.58 0)
 		(unit 1)
@@ -2181,6 +2809,119 @@
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/686e621e-6f68-4fb8-9509-95408ee4dcf7"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 186.69 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33f8c4f7-ded4-403c-b855-1c3a42e3ab6c")
+		(property "Reference" "R31"
+			(at 186.69 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 186.69 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 186.944 57.404 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 186.69 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 186.69 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "RC0603JR-070RL"
+			(at 186.69 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 186.69 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 186.69 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 186.69 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "311-0.0GRTR-ND"
+			(at 186.69 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54c2540e-3912-4ac1-b310-ba6dddaeccac")
+		)
+		(pin "2"
+			(uuid "2c8521fd-5990-4e82-bdc7-79fbd35ce39f")
+		)
+		(instances
+			(project "Ecardz-Controller"
+				(path "/74270717-a116-451e-ac88-5a07ab66056e/686e621e-6f68-4fb8-9509-95408ee4dcf7"
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -2286,76 +3027,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 152.4 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "448ba09c-ba94-4d94-a9ca-e76aacfc4511")
-		(property "Reference" "R1"
-			(at 154.94 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "625k"
-			(at 154.94 63.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.416 62.484 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 152.4 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3ad8d38e-f923-44cd-bdd8-64623af2862c")
-		)
-		(pin "2"
-			(uuid "198bcb40-3ac1-4815-ac07-9bae83b374f5")
-		)
-		(instances
-			(project "Ecardz-Controller"
-				(path "/74270717-a116-451e-ac88-5a07ab66056e/686e621e-6f68-4fb8-9509-95408ee4dcf7"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 76.2 58.42 0)
 		(unit 1)
@@ -2424,16 +3095,16 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 198.12 58.42 0)
+		(at 234.95 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "51a98801-17fe-40e3-bb23-76b9f7295df9")
+		(uuid "4d959624-8b37-4f4e-a6e1-4c78de912e14")
 		(property "Reference" "#PWR03"
-			(at 198.12 62.23 0)
+			(at 234.95 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2442,7 +3113,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 198.12 53.34 0)
+			(at 234.95 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2450,7 +3121,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 58.42 0)
+			(at 234.95 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2459,7 +3130,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 58.42 0)
+			(at 234.95 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2468,7 +3139,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 198.12 58.42 0)
+			(at 234.95 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2477,7 +3148,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6f94542a-c656-4b6d-ab3b-2d84e68345ad")
+			(uuid "1d00253a-f80c-41bc-aede-fecfe247b180")
 		)
 		(instances
 			(project "Ecardz-Controller"
@@ -2642,6 +3313,119 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 175.26 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ebb1bba-c7d1-4764-ae3d-a20f32e63e30")
+		(property "Reference" "R33"
+			(at 175.26 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DNP"
+			(at 175.26 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 175.514 45.974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 175.26 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 175.26 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "RC0603JR-070RL"
+			(at 175.26 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 175.26 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 175.26 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 175.26 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "311-0.0GRTR-ND"
+			(at 175.26 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da65d058-e570-4cfa-bbd7-b5ada86fd08c")
+		)
+		(pin "2"
+			(uuid "1bcd9bee-d0ff-4c46-8bfd-e322fa29e8f2")
+		)
+		(instances
+			(project "Ecardz-Controller"
+				(path "/74270717-a116-451e-ac88-5a07ab66056e/686e621e-6f68-4fb8-9509-95408ee4dcf7"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 135.89 83.82 0)
 		(unit 1)
@@ -2708,8 +3492,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 191.77 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c46ea30-6da2-40a9-8e82-df4d8b62ff55")
+		(property "Reference" "C22"
+			(at 193.04 63.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 193.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 192.7352 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/mlcc/upy-gphc_x5r_4v-to-50v.pdf"
+			(at 191.77 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 191.77 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CC0603KRX5R8BB105"
+			(at 191.77 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e1276db-dff9-43db-8015-ba89eba35c15")
+		)
+		(pin "2"
+			(uuid "524e3c0c-5347-4ae3-beb0-3bbe2b9018a5")
+		)
+		(instances
+			(project "Ecardz-Controller"
+				(path "/74270717-a116-451e-ac88-5a07ab66056e/686e621e-6f68-4fb8-9509-95408ee4dcf7"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 170.18 58.42 0)
+		(at 166.37 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2718,7 +3580,7 @@
 		(fields_autoplaced yes)
 		(uuid "93470bf2-0c5f-4639-933d-0330c1fdc773")
 		(property "Reference" "TP4"
-			(at 172.72 53.8479 0)
+			(at 168.91 53.8479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2727,7 +3589,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 172.72 56.3879 0)
+			(at 168.91 56.3879 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2736,7 +3598,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
-			(at 175.26 58.42 0)
+			(at 171.45 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2745,7 +3607,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 58.42 0)
+			(at 171.45 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2754,7 +3616,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 170.18 58.42 0)
+			(at 166.37 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2769,6 +3631,85 @@
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/686e621e-6f68-4fb8-9509-95408ee4dcf7"
 					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 152.4 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9583ca64-7b4c-4aee-8531-3b5b01089d98")
+		(property "Reference" "R1"
+			(at 154.94 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "800k"
+			(at 154.94 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 153.416 62.484 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+			(at 152.4 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 152.4 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "ERJ-3EKF7873V"
+			(at 152.4 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b327789-e2d9-43ed-839f-d294b16d1787")
+		)
+		(pin "2"
+			(uuid "83b807ab-1e9c-44a1-bf9d-e6869813acdb")
+		)
+		(instances
+			(project "Ecardz-Controller"
+				(path "/74270717-a116-451e-ac88-5a07ab66056e/686e621e-6f68-4fb8-9509-95408ee4dcf7"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -2869,7 +3810,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 153.416 73.914 90)
 			(effects
 				(font
@@ -2878,7 +3819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 152.4 73.66 0)
 			(effects
 				(font
@@ -2888,6 +3829,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 152.4 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603JR-07200KL"
 			(at 152.4 73.66 0)
 			(effects
 				(font
@@ -2979,6 +3929,150 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 168.91 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc756a03-ec34-4bc4-b3c1-39040a8e437d")
+		(property "Reference" "#PWR025"
+			(at 168.91 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 168.91 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 168.91 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbb4b91a-cb06-4bcd-b8eb-0e64feaf3306")
+		)
+		(instances
+			(project "Ecardz-Controller"
+				(path "/74270717-a116-451e-ac88-5a07ab66056e/686e621e-6f68-4fb8-9509-95408ee4dcf7"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 234.95 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c897d2d1-f719-4ed7-aa04-8244446b367a")
+		(property "Reference" "C23"
+			(at 236.22 61.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 236.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 235.9152 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/mlcc/upy-gphc_x5r_4v-to-50v.pdf"
+			(at 234.95 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 234.95 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CC0603KRX5R8BB105"
+			(at 234.95 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a346f0a-072c-4c2f-a7dc-f02b27ec3b9d")
+		)
+		(pin "2"
+			(uuid "54a33ddf-b151-4bd0-9cdf-c849955f4d9a")
+		)
+		(instances
+			(project "Ecardz-Controller"
+				(path "/74270717-a116-451e-ac88-5a07ab66056e/686e621e-6f68-4fb8-9509-95408ee4dcf7"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 59.69 43.18 0)
 		(mirror y)
@@ -3060,6 +4154,92 @@
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/686e621e-6f68-4fb8-9509-95408ee4dcf7"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:MIC5504-3.3YM5")
+		(at 217.17 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d228c807-04f0-46f2-a19e-3fbe82c576c4")
+		(property "Reference" "U5"
+			(at 217.17 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MIC5504-3.3YM5"
+			(at 217.17 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 217.17 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf"
+			(at 210.82 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "300mA Low-dropout Voltage Regulator, Vout 3.3V, Vin up to 5.5V, SOT-23"
+			(at 217.17 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "MIC5504-3.3YM5-TR"
+			(at 217.17 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f66a3b26-6f03-4466-8f2c-13f788a8d9f3")
+		)
+		(pin "1"
+			(uuid "65724b18-ade9-4ddf-b150-fa86cb26595a")
+		)
+		(pin "2"
+			(uuid "38ca9d58-8751-44e5-bb87-963fd364a838")
+		)
+		(pin "5"
+			(uuid "3ca1c3c1-5e25-4e05-ad1e-ceeb8f518e27")
+		)
+		(pin "4"
+			(uuid "deffc0cb-23b8-486c-8e20-c4e55b9ef71d")
+		)
+		(instances
+			(project "Ecardz-Controller"
+				(path "/74270717-a116-451e-ac88-5a07ab66056e/686e621e-6f68-4fb8-9509-95408ee4dcf7"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -3273,8 +4453,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 190.5 34.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6bae09e-61f9-40a2-9072-8b86cf17887e")
+		(property "Reference" "R32"
+			(at 190.5 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DNP"
+			(at 190.5 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 190.754 33.274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 190.5 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 190.5 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "RC0603JR-070RL"
+			(at 190.5 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 190.5 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 190.5 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 190.5 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "311-0.0GRTR-ND"
+			(at 190.5 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8344ef15-45bc-45ee-9bfd-aac805beb144")
+		)
+		(pin "2"
+			(uuid "d289f12e-fb07-4fca-bdcd-b2d66c8f70d3")
+		)
+		(instances
+			(project "Ecardz-Controller"
+				(path "/74270717-a116-451e-ac88-5a07ab66056e/686e621e-6f68-4fb8-9509-95408ee4dcf7"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
-		(at 146.05 58.42 90)
+		(at 142.24 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3283,23 +4576,23 @@
 		(fields_autoplaced yes)
 		(uuid "faec73cb-7e30-4be3-9e98-def64faf98cc")
 		(property "Reference" "L1"
-			(at 146.05 53.34 90)
+			(at 142.24 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "L"
-			(at 146.05 55.88 90)
+		(property "Value" "2.2uH"
+			(at 142.24 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 146.05 58.42 0)
+		(property "Footprint" "SamacSys_Parts:VLS2016"
+			(at 142.24 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3307,8 +4600,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 146.05 58.42 0)
+		(property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_vls201610cx-1_en.pdf"
+			(at 142.24 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3317,7 +4610,16 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 146.05 58.42 0)
+			(at 142.24 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "VLS201610CX-2R2M-1"
+			(at 142.24 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
