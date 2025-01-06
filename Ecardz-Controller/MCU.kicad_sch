@@ -4698,17 +4698,6 @@
 		)
 		(uuid "57c98b3b-dcaf-4052-b805-edd8174d2d2d")
 	)
-	(label "BUTTON6"
-		(at 139.7 68.58 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5c8400be-7470-4fe2-86b8-1c3b5982a858")
-	)
 	(label "LED_DEBUG_B"
 		(at 92.71 124.46 180)
 		(fields_autoplaced yes)
@@ -4719,6 +4708,17 @@
 			(justify right bottom)
 		)
 		(uuid "618b9b0f-73c0-47bb-9b08-10ac7824595e")
+	)
+	(label "BUTTON6"
+		(at 77.47 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "678aad84-f234-4cf2-8129-55a126f65245")
 	)
 	(label "SD_MISO"
 		(at 80.01 114.3 0)
@@ -4936,18 +4936,6 @@
 		)
 		(uuid "287213be-6f7d-482d-b1de-f6907ac4fe32")
 	)
-	(hierarchical_label "BUZZER"
-		(shape input)
-		(at 74.93 81.28 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "40182046-e63f-4f6e-8b8e-4566d448d7cb")
-	)
 	(hierarchical_label "BUTTONS"
 		(shape input)
 		(at 48.26 43.18 180)
@@ -5055,6 +5043,18 @@
 			(justify left)
 		)
 		(uuid "bf92db6c-b898-4769-b518-d1a580f070be")
+	)
+	(hierarchical_label "BUZZER"
+		(shape input)
+		(at 161.29 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e6732c2e-a8bd-4b36-bf06-4cc2ce2ba634")
 	)
 	(hierarchical_label "USBC_UART_TX"
 		(shape input)
