@@ -435,6 +435,10 @@
     [
       "795903a0-6fb6-4696-956b-ef2670233793",
       "USBC_TO_UART"
+    ],
+    [
+      "3b8422e5-15b3-4119-8716-a8aee757ed8b",
+      "ANTENNA"
     ]
   ],
   "text_variables": {}
