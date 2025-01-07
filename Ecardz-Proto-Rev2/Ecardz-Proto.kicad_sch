@@ -420,7 +420,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965"
 			(at 92.71 19.05 0)
 			(effects
 				(font
@@ -496,7 +496,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965"
 			(at 41.91 19.05 0)
 			(effects
 				(font
@@ -638,7 +638,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965"
 			(at 17.78 19.05 0)
 			(effects
 				(font
@@ -714,7 +714,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965"
 			(at 67.31 19.05 0)
 			(effects
 				(font
