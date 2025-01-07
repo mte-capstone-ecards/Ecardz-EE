@@ -1978,7 +1978,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a0543d7-bc64-47eb-92f1-2ced69919402")
-		(property "Reference" "C10"
+		(property "Reference" "C38"
 			(at 90.17 32.766 0)
 			(effects
 				(font
@@ -2041,7 +2041,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/795903a0-6fb6-4696-956b-ef2670233793"
-					(reference "C10")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -2057,7 +2057,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d31eaa2-048a-479f-8bd9-b70a2137379b")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR048"
 			(at 116.84 111.76 0)
 			(effects
 				(font
@@ -2107,7 +2107,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/795903a0-6fb6-4696-956b-ef2670233793"
-					(reference "#PWR012")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -2283,7 +2283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68546978-74db-4759-b432-e660362308ae")
-		(property "Reference" "TP6"
+		(property "Reference" "TP9"
 			(at 149.86 61.4679 0)
 			(effects
 				(font
@@ -2334,7 +2334,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/795903a0-6fb6-4696-956b-ef2670233793"
-					(reference "TP6")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -2349,7 +2349,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f63e22b-6011-47f4-962d-f4b521bd242e")
-		(property "Reference" "C9"
+		(property "Reference" "C41"
 			(at 184.404 35.052 0)
 			(effects
 				(font
@@ -2412,7 +2412,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/795903a0-6fb6-4696-956b-ef2670233793"
-					(reference "C9")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -2428,7 +2428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7552286f-1e22-427e-905c-87b8b39e470a")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR047"
 			(at 88.9 49.53 0)
 			(effects
 				(font
@@ -2478,7 +2478,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/795903a0-6fb6-4696-956b-ef2670233793"
-					(reference "#PWR015")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -2494,7 +2494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d855281-391c-4c04-8019-8e0ec5b04974")
-		(property "Reference" "C8"
+		(property "Reference" "C39"
 			(at 144.78 80.0099 0)
 			(effects
 				(font
@@ -2557,7 +2557,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/795903a0-6fb6-4696-956b-ef2670233793"
-					(reference "C8")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -2573,7 +2573,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80052bd1-1c60-439e-a885-52d823577a64")
-		(property "Reference" "R17"
+		(property "Reference" "R38"
 			(at 140.97 34.29 90)
 			(effects
 				(font
@@ -2670,7 +2670,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/795903a0-6fb6-4696-956b-ef2670233793"
-					(reference "R17")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -2686,7 +2686,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88b3ae2c-507c-40b8-84f2-99a57eaf9fb0")
-		(property "Reference" "TP5"
+		(property "Reference" "TP8"
 			(at 137.16 58.9279 0)
 			(effects
 				(font
@@ -2737,7 +2737,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/795903a0-6fb6-4696-956b-ef2670233793"
-					(reference "TP5")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -2753,7 +2753,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c2647aa-7885-46e2-9d3e-38d9a5bd8fc5")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR050"
 			(at 173.99 55.88 0)
 			(effects
 				(font
@@ -2803,7 +2803,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/795903a0-6fb6-4696-956b-ef2670233793"
-					(reference "#PWR014")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -2819,7 +2819,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92b0a931-5a5e-4071-bf50-882998164924")
-		(property "Reference" "C11"
+		(property "Reference" "C40"
 			(at 173.99 36.8299 0)
 			(effects
 				(font
@@ -2882,7 +2882,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/795903a0-6fb6-4696-956b-ef2670233793"
-					(reference "C11")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -2898,7 +2898,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d22d5a7e-a2f4-4e23-a4af-1378afeec0b7")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR046"
 			(at 45.72 45.72 0)
 			(effects
 				(font
@@ -2948,7 +2948,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/795903a0-6fb6-4696-956b-ef2670233793"
-					(reference "#PWR011")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -2964,7 +2964,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d495756a-41d7-415e-85a6-af19e989f21e")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR049"
 			(at 140.97 97.79 0)
 			(effects
 				(font
@@ -3014,7 +3014,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/795903a0-6fb6-4696-956b-ef2670233793"
-					(reference "#PWR013")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -3029,7 +3029,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d62444c3-2e4f-4bef-a49d-e3187c6f904f")
-		(property "Reference" "R18"
+		(property "Reference" "R39"
 			(at 140.97 45.466 90)
 			(effects
 				(font
@@ -3126,7 +3126,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/795903a0-6fb6-4696-956b-ef2670233793"
-					(reference "R18")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -3141,7 +3141,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e8e00193-216f-48c4-abee-ab1e1a55cebd")
-		(property "Reference" "C7"
+		(property "Reference" "C37"
 			(at 78.994 32.512 0)
 			(effects
 				(font
@@ -3204,7 +3204,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/795903a0-6fb6-4696-956b-ef2670233793"
-					(reference "C7")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -3221,7 +3221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fda8010d-ac83-48a2-80ac-0e0440dfd2eb")
-		(property "Reference" "J3"
+		(property "Reference" "J8"
 			(at 38.1 22.86 0)
 			(effects
 				(font
@@ -3279,7 +3279,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/795903a0-6fb6-4696-956b-ef2670233793"
-					(reference "J3")
+					(reference "J8")
 					(unit 1)
 				)
 			)

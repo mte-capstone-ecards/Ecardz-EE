@@ -686,7 +686,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42c04fac-da53-416f-ab7a-0d643b25ed96")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR01"
 			(at 31.75 187.96 0)
 			(effects
 				(font
@@ -736,7 +736,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e"
-					(reference "#PWR016")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
