@@ -1713,16 +1713,8 @@
 		(uuid "80708619-d3b1-4a70-96a9-52a695c774f3")
 	)
 	(no_connect
-		(at 195.58 83.82)
-		(uuid "9f6c89c0-8761-4575-a7bc-64c437579341")
-	)
-	(no_connect
 		(at 60.96 118.11)
 		(uuid "ae69d136-4011-4730-ac55-5dc1394dcd3e")
-	)
-	(no_connect
-		(at 195.58 81.28)
-		(uuid "c3cafaff-4d8d-4a52-b6d2-81350bc270c5")
 	)
 	(no_connect
 		(at 172.72 48.26)
@@ -2090,6 +2082,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 83.82) (xy 198.12 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3799e230-f621-4604-ab35-129dfb0ea087")
+	)
+	(wire
+		(pts
 			(xy 134.62 132.08) (xy 142.24 132.08)
 		)
 		(stroke
@@ -2127,6 +2129,16 @@
 			(type default)
 		)
 		(uuid "3d131836-dc8f-4752-bc5a-c82632ed41f8")
+	)
+	(wire
+		(pts
+			(xy 200.66 81.28) (xy 195.58 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ddcccbd-5bb2-4081-9a17-028bd37ecd75")
 	)
 	(wire
 		(pts
@@ -2187,6 +2199,16 @@
 			(type default)
 		)
 		(uuid "495d4b07-e292-4cf6-960c-87f8fb484966")
+	)
+	(wire
+		(pts
+			(xy 200.66 109.22) (xy 200.66 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a98ddb4-6a9d-4829-9e74-d0975552af21")
 	)
 	(wire
 		(pts
@@ -2360,6 +2382,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 83.82) (xy 198.12 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65a65774-ff8d-4af9-80d9-18a2dd94aa9e")
+	)
+	(wire
+		(pts
 			(xy 96.52 59.69) (xy 96.52 83.82)
 		)
 		(stroke
@@ -2507,6 +2539,16 @@
 			(type default)
 		)
 		(uuid "7f6e7e29-24cf-4256-8a47-208ef2697585")
+	)
+	(wire
+		(pts
+			(xy 198.12 111.76) (xy 237.49 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fcc0f16-51bb-442a-9e98-f5ed54392020")
 	)
 	(wire
 		(pts
@@ -2947,6 +2989,16 @@
 			(type default)
 		)
 		(uuid "c5eb8070-252a-40ad-92c2-2d11890f94aa")
+	)
+	(wire
+		(pts
+			(xy 237.49 109.22) (xy 200.66 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c60f5f7a-3801-46ba-a923-b7aa6f61bd53")
 	)
 	(wire
 		(pts
@@ -3862,7 +3914,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN50P500X500X100-33N-D"
+		(property "Footprint" "samacsys:QFN50P500X500X100-33N-D"
 			(at 191.77 150.8 0)
 			(effects
 				(font
@@ -5331,7 +5383,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
 			(at 151.13 54.61 0)
 			(effects
 				(font
@@ -5915,7 +5967,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XRCGB"
+		(property "Footprint" "samacsys:XRCGB"
 			(at 57.15 210.49 0)
 			(effects
 				(font
@@ -7181,7 +7233,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
 			(at 193.04 35.56 0)
 			(effects
 				(font
@@ -7860,6 +7912,26 @@
 				(justify left)
 			)
 			(uuid "b14bea0a-8563-40bb-9afc-55e7edf5f25a")
+		)
+		(pin "AAT_A" input
+			(at 237.49 111.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5eb0c40f-fd85-4f42-a72b-3804d053f2f6")
+		)
+		(pin "AAT_B" input
+			(at 237.49 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e4c99351-3e3c-478f-9f01-abdec34d1bab")
 		)
 		(instances
 			(project "Ecardz-Controller"

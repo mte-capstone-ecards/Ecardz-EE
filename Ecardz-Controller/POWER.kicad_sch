@@ -4273,7 +4273,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 159.766 49.784 90)
 			(effects
 				(font
@@ -4410,7 +4410,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 101.346 61.976 90)
 			(effects
 				(font
@@ -4591,7 +4591,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:VLS2016"
+		(property "Footprint" "samacsys:VLS2016"
 			(at 142.24 58.42 0)
 			(effects
 				(font

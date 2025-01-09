@@ -1782,7 +1782,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LXRW0YV600054"
+		(property "Footprint" "samacsys:LXRW0YV600054"
 			(at 96.52 125.4 0)
 			(effects
 				(font
@@ -2642,7 +2642,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LXRW0YV600054"
+		(property "Footprint" "samacsys:LXRW0YV600054"
 			(at 100.33 233.35 0)
 			(effects
 				(font
@@ -3062,7 +3062,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LXRW0YV600054"
+		(property "Footprint" "samacsys:LXRW0YV600054"
 			(at 100.33 257.48 0)
 			(effects
 				(font

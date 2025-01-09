@@ -2810,6 +2810,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 38.1 34.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e637029-ab92-4aee-9a48-b6133e366a4b")
+		(property "Reference" "J8"
+			(at 38.1 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 38.1 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 38.1 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 38.1 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ea5c729b-b794-45a2-b10d-cd93ef2cff10")
+		)
+		(pin "1"
+			(uuid "58c34eb2-e110-43d0-918d-f579eb1574f8")
+		)
+		(pin "4"
+			(uuid "ff7d2446-1412-463e-996f-b00bab810cc4")
+		)
+		(pin "2"
+			(uuid "cb815584-5fa9-456e-a28f-8626403429ff")
+		)
+		(instances
+			(project ""
+				(path "/74270717-a116-451e-ac88-5a07ab66056e/795903a0-6fb6-4696-956b-ef2670233793"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 170.18 38.1 0)
 		(unit 1)
@@ -3205,81 +3279,6 @@
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/795903a0-6fb6-4696-956b-ef2670233793"
 					(reference "C37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 38.1 31.75 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fda8010d-ac83-48a2-80ac-0e0440dfd2eb")
-		(property "Reference" "J8"
-			(at 38.1 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x04"
-			(at 38.1 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 38.1 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "e25959bf-24fb-483d-8d8c-175404ce5408")
-		)
-		(pin "2"
-			(uuid "eb2dbc4c-0761-4101-a2aa-9273f3ed9393")
-		)
-		(pin "1"
-			(uuid "fce48fc7-0f4a-4cd9-9c41-d9e5491b8432")
-		)
-		(pin "4"
-			(uuid "be03606a-d0aa-48c3-accf-14d8c1976782")
-		)
-		(instances
-			(project "Ecardz-Controller"
-				(path "/74270717-a116-451e-ac88-5a07ab66056e/795903a0-6fb6-4696-956b-ef2670233793"
-					(reference "J8")
 					(unit 1)
 				)
 			)
