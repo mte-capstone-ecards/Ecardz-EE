@@ -56,8 +56,7 @@
         "clearance|217000000|107100000|7cee220c-4ad5-4c5e-9f6e-febe79b5be7c|e15603a5-250a-4c30-82ee-7f7e6a7463e3",
         "clearance|217125000|111025000|74e262a1-a2af-413e-b4eb-8cd20b2a9e18|d1900d97-884b-4073-8044-aae7bc47f931",
         "clearance|221050000|107100000|1931e5c1-04d7-4b09-8c7a-5ee8a5d911aa|be58db09-345b-42b3-bded-d4a6efd2f4ff",
-        "clearance|221050000|110900000|6f0e3c99-5104-497a-a054-08b3372ef936|35fa8500-90a2-4ef0-9281-8c586f187a42",
-        "silk_over_copper|208725000|108412500|12926d52-ded3-4458-ab37-4c6be6fd8b8b|00000000-0000-0000-0000-000000000000"
+        "clearance|221050000|110900000|6f0e3c99-5104-497a-a054-08b3372ef936|35fa8500-90a2-4ef0-9281-8c586f187a42"
       ],
       "meta": {
         "version": 2
@@ -481,7 +480,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Ecardz-Controller.step",
       "svg": "",
       "vrml": ""
     },

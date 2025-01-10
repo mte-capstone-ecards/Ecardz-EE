@@ -753,28 +753,28 @@
 		)
 	)
 	(junction
-		(at 171.45 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0d2c1212-f30e-4706-b2e5-54f331bfae4c")
-	)
-	(junction
 		(at 111.76 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "11d76030-2c9f-40dd-8405-a7166d6cf12b")
 	)
 	(junction
-		(at 180.34 54.61)
+		(at 167.64 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1d0c60f8-dae5-4330-8bb1-ade6f3344648")
+		(uuid "314715b7-6b25-4bb3-98f7-5b112d1a0fd1")
 	)
 	(junction
 		(at 162.56 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3498ed92-e5f2-4fc2-8d3a-90a151c42192")
+	)
+	(junction
+		(at 167.64 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b0d36c2-deef-4e58-8928-756542074cf4")
 	)
 	(junction
 		(at 162.56 38.1)
@@ -807,12 +807,6 @@
 		(uuid "85fc3038-fb9a-45b7-8b79-612cb9d08cc1")
 	)
 	(junction
-		(at 180.34 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8e81dc72-5224-42e0-97e8-38b7d97ba20c")
-	)
-	(junction
 		(at 144.78 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -831,10 +825,10 @@
 		(uuid "c669867d-70ac-4760-ace0-07ba856613b6")
 	)
 	(junction
-		(at 171.45 54.61)
+		(at 176.53 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cd095320-4aca-4b70-97ea-4aed432e3beb")
+		(uuid "c96c9595-366d-435a-961e-5f4673281937")
 	)
 	(junction
 		(at 111.76 69.85)
@@ -847,6 +841,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e03a9807-3658-4a9c-9016-5fb3fc745c2c")
+	)
+	(junction
+		(at 176.53 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb381500-ddd0-4132-a502-682f12f9a5a2")
 	)
 	(junction
 		(at 123.19 54.61)
@@ -873,6 +873,16 @@
 			(type default)
 		)
 		(uuid "0557280e-56fc-4b80-87a7-80fb55f980fe")
+	)
+	(wire
+		(pts
+			(xy 189.23 86.36) (xy 222.25 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05d0e5d8-fddb-46a7-aa29-06226d567462")
 	)
 	(wire
 		(pts
@@ -1036,7 +1046,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 74.93) (xy 171.45 86.36)
+			(xy 167.64 74.93) (xy 167.64 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1056,13 +1066,23 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 74.93) (xy 180.34 86.36)
+			(xy 176.53 74.93) (xy 176.53 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "47503aef-5b3e-4225-a96a-3c3f208dabb9")
+	)
+	(wire
+		(pts
+			(xy 176.53 86.36) (xy 181.61 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49ec1330-308a-45de-9e8a-2060851fd067")
 	)
 	(wire
 		(pts
@@ -1076,16 +1096,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 86.36) (xy 171.45 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51b78161-bc45-4ba4-96b4-176ed1377502")
-	)
-	(wire
-		(pts
 			(xy 111.76 66.04) (xy 111.76 69.85)
 		)
 		(stroke
@@ -1096,23 +1106,13 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 54.61) (xy 171.45 54.61)
+			(xy 162.56 54.61) (xy 167.64 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "57a8fa56-36c8-4cbb-b84c-20eff9475fdd")
-	)
-	(wire
-		(pts
-			(xy 171.45 54.61) (xy 180.34 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58cc13c4-280f-4434-85c8-4c7290b09445")
 	)
 	(wire
 		(pts
@@ -1133,6 +1133,16 @@
 			(type default)
 		)
 		(uuid "5c758791-a18d-4fae-ba8b-18f0f5c7fb85")
+	)
+	(wire
+		(pts
+			(xy 167.64 54.61) (xy 176.53 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eb21de6-56b6-46f5-a014-d9c448b148d9")
 	)
 	(wire
 		(pts
@@ -1186,6 +1196,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 54.61) (xy 222.25 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fa44d44-ac04-4d4d-ad7c-86ad4dba7e4b")
+	)
+	(wire
+		(pts
 			(xy 114.3 30.48) (xy 123.19 30.48)
 		)
 		(stroke
@@ -1206,7 +1226,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 86.36) (xy 171.45 86.36)
+			(xy 162.56 86.36) (xy 167.64 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1266,7 +1286,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 54.61) (xy 180.34 67.31)
+			(xy 176.53 54.61) (xy 176.53 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1293,16 +1313,6 @@
 			(type default)
 		)
 		(uuid "8f7493d7-a9d2-4798-85b0-cb85aa10f78d")
-	)
-	(wire
-		(pts
-			(xy 180.34 54.61) (xy 222.25 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f7fe979-dc1d-488f-9622-dacb4ed3281d")
 	)
 	(wire
 		(pts
@@ -1386,6 +1396,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 54.61) (xy 222.25 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1de5170-7a8f-4377-973f-cd6b8ba1e583")
+	)
+	(wire
+		(pts
 			(xy 62.23 140.97) (xy 76.2 140.97)
 		)
 		(stroke
@@ -1436,6 +1456,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 54.61) (xy 181.61 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aff368ce-ad38-4b7c-a336-926f2fefd6ea")
+	)
+	(wire
+		(pts
 			(xy 119.38 168.91) (xy 104.14 168.91)
 		)
 		(stroke
@@ -1446,7 +1476,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 54.61) (xy 171.45 67.31)
+			(xy 167.64 54.61) (xy 167.64 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1486,6 +1516,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 86.36) (xy 176.53 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5656e26-0b29-4da3-9cf3-9c12666aeb02")
+	)
+	(wire
+		(pts
 			(xy 111.76 54.61) (xy 123.19 54.61)
 		)
 		(stroke
@@ -1503,16 +1543,6 @@
 			(type default)
 		)
 		(uuid "db2189b6-8be3-4ef8-82f5-e491ccfeadd5")
-	)
-	(wire
-		(pts
-			(xy 222.25 86.36) (xy 180.34 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd86de8a-8711-4736-91e5-df36a64cd346")
 	)
 	(wire
 		(pts
@@ -1554,16 +1584,6 @@
 		)
 		(uuid "fc84a825-e00b-4c5e-8f69-07d129357054")
 	)
-	(wire
-		(pts
-			(xy 222.25 54.61) (xy 222.25 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fca6ec37-3681-4a15-952c-c04cc81a16e1")
-	)
 	(rectangle
 		(start 191.77 45.72)
 		(end 232.41 95.25)
@@ -1585,6 +1605,17 @@
 			)
 		)
 		(uuid "b5b9b993-3a03-4d98-b9d4-8e0dbb354b47")
+	)
+	(label "ANTENNA_COIL"
+		(at 222.25 77.47 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e042ea40-d388-49a6-91bb-a7d612346539")
 	)
 	(hierarchical_label "AAT_A"
 		(shape input)
@@ -1680,7 +1711,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0b5ad398-2f4d-4d05-b6cd-32ecaa41c14a")
-		(property "Reference" "R41"
+		(property "Reference" "R42"
 			(at 114.3 132.08 90)
 			(effects
 				(font
@@ -1705,7 +1736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+		(property "Datasheet" ""
 			(at 114.3 138.43 0)
 			(effects
 				(font
@@ -1741,6 +1772,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "RMCF0603ZT0R00"
+			(at 114.3 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0abf9603-532b-4ff8-8e14-f8eaba5bbc77")
 		)
@@ -1750,7 +1790,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/414d1147-8205-4839-9169-5f8f29a4e15a/3b8422e5-15b3-4119-8716-a8aee757ed8b"
-					(reference "R41")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -1792,7 +1832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/LXRW0YV600-054.pdf"
+		(property "Datasheet" ""
 			(at 96.52 225.4 0)
 			(effects
 				(font
@@ -1861,6 +1901,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "LXRW0YV600-054"
+			(at 72.39 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "09de43b2-a030-46a1-b717-0c43effd7f51")
 		)
@@ -1918,7 +1967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/mlcc/upy-gphc_x5r_4v-to-50v.pdf"
+		(property "Datasheet" ""
 			(at 111.76 62.23 0)
 			(effects
 				(font
@@ -1981,6 +2030,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "VJ0603Y681KXACW1BC"
+			(at 111.76 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "62da31a2-1595-49f9-aa91-216fead03b5c")
 		)
@@ -2006,7 +2064,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "172c2e83-14ac-496a-9039-a50facd582c8")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR053"
 			(at 60.96 177.8 0)
 			(effects
 				(font
@@ -2056,7 +2114,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/414d1147-8205-4839-9169-5f8f29a4e15a/3b8422e5-15b3-4119-8716-a8aee757ed8b"
-					(reference "#PWR051")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -2072,7 +2130,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c7d5c7a-f057-47fa-8a1f-8dcfc0ac0e77")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR054"
 			(at 62.23 152.4 0)
 			(effects
 				(font
@@ -2122,7 +2180,102 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/414d1147-8205-4839-9169-5f8f29a4e15a/3b8422e5-15b3-4119-8716-a8aee757ed8b"
-					(reference "#PWR052")
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 185.42 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23affc5d-8d63-41b0-b160-986a23c863e4")
+		(property "Reference" "R49"
+			(at 185.42 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 185.42 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 185.674 85.344 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 185.42 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "CRCW0603590RFKEA"
+			(at 185.42 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "541-590HTR-ND"
+			(at 185.42 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RMCF0603ZT0R00"
+			(at 185.42 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81f9234d-8090-4bcf-af32-0f982cdf81df")
+		)
+		(pin "2"
+			(uuid "c07a8dc9-b213-4a9f-8652-91f4e457328a")
+		)
+		(instances
+			(project "Ecardz-Controller"
+				(path "/74270717-a116-451e-ac88-5a07ab66056e/414d1147-8205-4839-9169-5f8f29a4e15a/3b8422e5-15b3-4119-8716-a8aee757ed8b"
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -2164,7 +2317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/mlcc/upy-gphc_x5r_4v-to-50v.pdf"
+		(property "Datasheet" ""
 			(at 138.43 86.36 0)
 			(effects
 				(font
@@ -2219,6 +2372,15 @@
 			)
 		)
 		(property "Digikey Part Number" "311-1445-2-ND"
+			(at 138.43 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CC0603JRNPO0BN181"
 			(at 138.43 86.36 0)
 			(effects
 				(font
@@ -2278,7 +2440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/mlcc/upy-gphc_x5r_4v-to-50v.pdf"
+		(property "Datasheet" ""
 			(at 162.56 46.99 0)
 			(effects
 				(font
@@ -2341,6 +2503,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "C0603C100J5GACTU"
+			(at 162.56 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6b1f3144-4c86-4366-b7d2-3ad0b4784f6a")
 		)
@@ -2366,7 +2537,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3433fde7-b884-4d2a-a170-e5fcab97104d")
-		(property "Reference" "R40"
+		(property "Reference" "R41"
 			(at 110.49 24.13 90)
 			(effects
 				(font
@@ -2391,7 +2562,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+		(property "Datasheet" ""
 			(at 110.49 30.48 0)
 			(effects
 				(font
@@ -2427,6 +2598,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "RMCF0603ZT0R00"
+			(at 110.49 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1cc47b03-9c09-471f-9ae4-fce1efd9fddd")
 		)
@@ -2436,7 +2616,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/414d1147-8205-4839-9169-5f8f29a4e15a/3b8422e5-15b3-4119-8716-a8aee757ed8b"
-					(reference "R40")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -2452,7 +2632,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "489e1b80-9300-45cd-9bdc-33fa1e8d3d8f")
-		(property "Reference" "R43"
+		(property "Reference" "R44"
 			(at 123.19 162.56 90)
 			(effects
 				(font
@@ -2477,7 +2657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+		(property "Datasheet" ""
 			(at 123.19 168.91 0)
 			(effects
 				(font
@@ -2505,6 +2685,15 @@
 			)
 		)
 		(property "Digikey Part Number" "541-590HTR-ND"
+			(at 123.19 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RMCF0603ZT0R00"
 			(at 123.19 168.91 0)
 			(effects
 				(font
@@ -2522,7 +2711,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/414d1147-8205-4839-9169-5f8f29a4e15a/3b8422e5-15b3-4119-8716-a8aee757ed8b"
-					(reference "R43")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -2530,7 +2719,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 180.34 71.12 180)
+		(at 176.53 71.12 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2538,8 +2727,8 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4a667345-ba38-40b3-b666-5d98fa91b2e5")
-		(property "Reference" "R45"
-			(at 182.88 69.8499 0)
+		(property "Reference" "R46"
+			(at 179.07 69.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2548,7 +2737,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 182.88 72.3899 0)
+			(at 179.07 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2557,7 +2746,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 179.324 70.866 90)
+			(at 175.514 70.866 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2565,8 +2754,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 180.34 71.12 0)
+		(property "Datasheet" ""
+			(at 176.53 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2575,7 +2764,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 180.34 71.12 0)
+			(at 176.53 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2584,7 +2773,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "CRCW0603590RFKEA"
-			(at 180.34 71.12 0)
+			(at 176.53 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2593,7 +2782,16 @@
 			)
 		)
 		(property "Digikey Part Number" "541-590HTR-ND"
-			(at 180.34 71.12 0)
+			(at 176.53 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RMCF0603ZT0R00"
+			(at 176.53 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2610,7 +2808,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/414d1147-8205-4839-9169-5f8f29a4e15a/3b8422e5-15b3-4119-8716-a8aee757ed8b"
-					(reference "R45")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -2652,7 +2850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/LXRW0YV600-054.pdf"
+		(property "Datasheet" ""
 			(at 100.33 333.35 0)
 			(effects
 				(font
@@ -2721,6 +2919,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "LXRW0YV600-054"
+			(at 76.2 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "58a0600f-457a-4a15-82c2-0727b25a5682")
 		)
@@ -2752,7 +2959,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a05ea33-bafc-47ec-be11-d0c068a83221")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR058"
 			(at 189.23 38.1 0)
 			(effects
 				(font
@@ -2802,7 +3009,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/414d1147-8205-4839-9169-5f8f29a4e15a/3b8422e5-15b3-4119-8716-a8aee757ed8b"
-					(reference "#PWR056")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -2844,7 +3051,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/mlcc/upy-gphc_x5r_4v-to-50v.pdf"
+		(property "Datasheet" ""
 			(at 111.76 78.74 0)
 			(effects
 				(font
@@ -2899,6 +3106,15 @@
 			)
 		)
 		(property "Digikey Part Number" "311-1445-2-ND"
+			(at 111.76 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "VJ0603Y681KXACW1BC"
 			(at 111.76 78.74 0)
 			(effects
 				(font
@@ -2958,7 +3174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/mlcc/upy-gphc_x5r_4v-to-50v.pdf"
+		(property "Datasheet" ""
 			(at 162.56 30.48 0)
 			(effects
 				(font
@@ -3021,6 +3237,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "CC0603JRNPO9BN820"
+			(at 162.56 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e61c338c-c0d8-474f-b188-feb586030133")
 		)
@@ -3072,7 +3297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/LXRW0YV600-054.pdf"
+		(property "Datasheet" ""
 			(at 100.33 357.48 0)
 			(effects
 				(font
@@ -3141,6 +3366,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "LXRW0YV600-054"
+			(at 76.2 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "17935d18-ccf0-449f-9187-5a7a26ca4a79")
 		)
@@ -3198,7 +3432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/mlcc/upy-gphc_x5r_4v-to-50v.pdf"
+		(property "Datasheet" ""
 			(at 162.56 109.22 0)
 			(effects
 				(font
@@ -3253,6 +3487,15 @@
 			)
 		)
 		(property "Digikey Part Number" "311-1445-2-ND"
+			(at 162.56 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "C0603C100J5GACTU"
 			(at 162.56 109.22 0)
 			(effects
 				(font
@@ -3312,7 +3555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/mlcc/upy-gphc_x5r_4v-to-50v.pdf"
+		(property "Datasheet" ""
 			(at 138.43 54.61 0)
 			(effects
 				(font
@@ -3375,6 +3618,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "CC0603JRNPO0BN181"
+			(at 138.43 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "66efa622-3bdc-435f-a876-cd69dfd3d7f5")
 		)
@@ -3400,7 +3652,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "852bec82-fbd0-4d38-a34e-38c0a332e4c4")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR055"
 			(at 63.5 46.99 0)
 			(effects
 				(font
@@ -3450,7 +3702,102 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/414d1147-8205-4839-9169-5f8f29a4e15a/3b8422e5-15b3-4119-8716-a8aee757ed8b"
-					(reference "#PWR053")
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 185.42 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86cb6026-87b3-4498-b083-9edf46b6a0ea")
+		(property "Reference" "R48"
+			(at 185.42 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 185.42 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 185.674 53.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 185.42 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "CRCW0603590RFKEA"
+			(at 185.42 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "541-590HTR-ND"
+			(at 185.42 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RMCF0603ZT0R00"
+			(at 185.42 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2e38d47-9d3e-4bcb-84ce-d31b38842aa1")
+		)
+		(pin "2"
+			(uuid "f0b4cc7c-464b-4ec6-8f0b-04a4486204fa")
+		)
+		(instances
+			(project "Ecardz-Controller"
+				(path "/74270717-a116-451e-ac88-5a07ab66056e/414d1147-8205-4839-9169-5f8f29a4e15a/3b8422e5-15b3-4119-8716-a8aee757ed8b"
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -3482,7 +3829,7 @@
 				)
 			)
 		)
-		(property "Footprint" "parts-lib:CDRH5D18"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 85.09 54.61 0)
 			(effects
 				(font
@@ -3491,7 +3838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://products.sumida.com/products/pdf/CDRH5D18.pdf"
+		(property "Datasheet" ""
 			(at 85.09 54.61 0)
 			(effects
 				(font
@@ -3546,6 +3893,15 @@
 			)
 		)
 		(property "Digikey Part Number" "308-2060-2-ND"
+			(at 85.09 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "MLJ1608WR27JT000"
 			(at 85.09 54.61 0)
 			(effects
 				(font
@@ -3595,7 +3951,7 @@
 				)
 			)
 		)
-		(property "Footprint" "parts-lib:CDRH5D18"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 85.09 86.36 0)
 			(effects
 				(font
@@ -3604,7 +3960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://products.sumida.com/products/pdf/CDRH5D18.pdf"
+		(property "Datasheet" ""
 			(at 85.09 86.36 0)
 			(effects
 				(font
@@ -3667,6 +4023,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "MLJ1608WR27JT000"
+			(at 85.09 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "43c35c6c-5b6f-4e05-9649-183c8ae95628")
 		)
@@ -3692,7 +4057,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a10af7a0-9e0e-4f31-8efa-cabe80339196")
-		(property "Reference" "R44"
+		(property "Reference" "R45"
 			(at 165.1 175.2599 0)
 			(effects
 				(font
@@ -3719,7 +4084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+		(property "Datasheet" ""
 			(at 162.56 176.53 0)
 			(effects
 				(font
@@ -3755,6 +4120,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "RMCF0603ZT0R00"
+			(at 162.56 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "18a41a72-9ead-4f18-bb48-8f5af54a4fb7")
 		)
@@ -3764,7 +4138,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/414d1147-8205-4839-9169-5f8f29a4e15a/3b8422e5-15b3-4119-8716-a8aee757ed8b"
-					(reference "R44")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -3780,7 +4154,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ba1b3b82-f8c1-436d-b612-f03864c2d5bb")
-		(property "Reference" "R42"
+		(property "Reference" "R43"
 			(at 123.19 152.4 90)
 			(effects
 				(font
@@ -3805,7 +4179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+		(property "Datasheet" ""
 			(at 123.19 158.75 0)
 			(effects
 				(font
@@ -3841,6 +4215,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "RMCF0603ZT0R00"
+			(at 123.19 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "380e9597-c47a-4ac3-a3c3-8d36eedbe987")
 		)
@@ -3850,7 +4233,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/414d1147-8205-4839-9169-5f8f29a4e15a/3b8422e5-15b3-4119-8716-a8aee757ed8b"
-					(reference "R42")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -3858,7 +4241,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 171.45 71.12 180)
+		(at 167.64 71.12 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3866,7 +4249,7 @@
 		(dnp no)
 		(uuid "bfa68234-5c2e-4303-954c-88dafab18413")
 		(property "Reference" "C53"
-			(at 170.434 74.168 0)
+			(at 166.624 74.168 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3875,7 +4258,7 @@
 			)
 		)
 		(property "Value" "240pF"
-			(at 170.942 68.072 0)
+			(at 167.132 68.072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3884,7 +4267,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 170.4848 67.31 0)
+			(at 166.6748 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3892,8 +4275,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/mlcc/upy-gphc_x5r_4v-to-50v.pdf"
-			(at 171.45 71.12 0)
+		(property "Datasheet" ""
+			(at 167.64 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3902,7 +4285,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 171.45 71.12 0)
+			(at 167.64 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3911,7 +4294,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "CC0603KRX5R8BB105"
-			(at 171.45 71.12 0)
+			(at 167.64 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3920,7 +4303,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 171.45 71.12 0)
+			(at 167.64 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3929,7 +4312,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 171.45 71.12 0)
+			(at 167.64 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3938,7 +4321,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 171.45 71.12 0)
+			(at 167.64 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3947,7 +4330,16 @@
 			)
 		)
 		(property "Digikey Part Number" "311-1445-2-ND"
-			(at 171.45 71.12 0)
+			(at 167.64 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "C0603C241G5HACTU"
+			(at 167.64 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3980,7 +4372,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5177806-9766-48dc-a196-5d88f30bea12")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR056"
 			(at 95.25 80.01 0)
 			(effects
 				(font
@@ -4030,7 +4422,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/414d1147-8205-4839-9169-5f8f29a4e15a/3b8422e5-15b3-4119-8716-a8aee757ed8b"
-					(reference "#PWR054")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -4046,7 +4438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d75300ec-293b-4bb1-887d-ad5304d1401b")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR057"
 			(at 162.56 187.96 0)
 			(effects
 				(font
@@ -4096,7 +4488,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/414d1147-8205-4839-9169-5f8f29a4e15a/3b8422e5-15b3-4119-8716-a8aee757ed8b"
-					(reference "#PWR055")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -4138,7 +4530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/mlcc/upy-gphc_x5r_4v-to-50v.pdf"
+		(property "Datasheet" ""
 			(at 162.56 125.73 0)
 			(effects
 				(font
@@ -4201,6 +4593,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "CC0603JRNPO9BN820"
+			(at 162.56 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5adb74d6-8b52-45b9-9f4e-d3d16529001a")
 		)
@@ -4226,7 +4627,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa669c60-b0b8-4585-96f5-79665c5a8a20")
-		(property "Reference" "R46"
+		(property "Reference" "R47"
 			(at 191.77 25.3999 0)
 			(effects
 				(font
@@ -4253,7 +4654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+		(property "Datasheet" ""
 			(at 189.23 26.67 0)
 			(effects
 				(font
@@ -4289,6 +4690,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "RMCF0603ZT0R00"
+			(at 189.23 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "28a5bfc5-54df-4f4b-a401-7b9413da91e4")
 		)
@@ -4298,7 +4708,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/414d1147-8205-4839-9169-5f8f29a4e15a/3b8422e5-15b3-4119-8716-a8aee757ed8b"
-					(reference "R46")
+					(reference "R47")
 					(unit 1)
 				)
 			)

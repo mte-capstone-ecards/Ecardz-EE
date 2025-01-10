@@ -5,6 +5,108 @@
 	(uuid "ebbe11e2-2a8e-4e70-95d5-267402e44187")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016) hide)
@@ -3275,6 +3377,12 @@
 		(uuid "5a285f22-c0c8-40f6-8b50-c8e399ec4246")
 	)
 	(junction
+		(at 236.22 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f68eabd-6254-481a-a49a-8285ce7bafb0")
+	)
+	(junction
 		(at 205.74 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3287,16 +3395,22 @@
 		(uuid "7b5f4769-921a-4800-aa26-fd46d9587f07")
 	)
 	(junction
-		(at 198.12 149.86)
+		(at 195.58 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "85748d23-aff8-4477-818d-c408962cdae8")
+		(uuid "7d6197fb-6a2b-40f6-81e1-0e6dbc8ccfdf")
 	)
 	(junction
 		(at 25.4 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "86005a3d-2181-447e-b2da-84deb69b2700")
+	)
+	(junction
+		(at 181.61 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8628ea13-77fa-4dd4-9480-03a07aa875c1")
 	)
 	(junction
 		(at 140.97 38.1)
@@ -3363,6 +3477,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e35486c9-befe-490c-8f40-229bb2b08eae")
+	)
+	(junction
+		(at 173.99 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb4a64d6-9d9b-46b8-aa6f-d6e68cb7460d")
 	)
 	(junction
 		(at 123.19 38.1)
@@ -3568,6 +3688,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 101.6) (xy 220.98 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15249822-fb15-4c49-bb58-67cfe33a79b0")
+	)
+	(wire
+		(pts
 			(xy 248.92 106.68) (xy 259.08 106.68)
 		)
 		(stroke
@@ -3698,7 +3828,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 48.26) (xy 161.29 48.26)
+			(xy 185.42 48.26) (xy 173.99 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3778,16 +3908,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 121.92) (xy 198.12 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ae23ae1-57ff-4e4d-8db4-f10cad501203")
-	)
-	(wire
-		(pts
 			(xy 87.63 102.87) (xy 87.63 114.3)
 		)
 		(stroke
@@ -3795,6 +3915,16 @@
 			(type default)
 		)
 		(uuid "3d8a2cf7-74cd-4902-914b-e39023d3d5aa")
+	)
+	(wire
+		(pts
+			(xy 173.99 48.26) (xy 161.29 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eb41239-2d0f-4035-85b4-f5f148b23236")
 	)
 	(wire
 		(pts
@@ -3938,7 +4068,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 45.72) (xy 161.29 45.72)
+			(xy 185.42 45.72) (xy 181.61 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4005,6 +4135,16 @@
 			(type default)
 		)
 		(uuid "5a6280e4-35d4-4212-852a-b4a18862747e")
+	)
+	(wire
+		(pts
+			(xy 236.22 111.76) (xy 259.08 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ae6037a-8e16-44c0-a003-f67e76008aed")
 	)
 	(wire
 		(pts
@@ -4098,6 +4238,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 121.92) (xy 189.23 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68a7b003-e235-4625-955d-69014f5ed02b")
+	)
+	(wire
+		(pts
 			(xy 257.81 92.71) (xy 257.81 104.14)
 		)
 		(stroke
@@ -4138,16 +4288,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 137.16) (xy 198.12 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ceff693-f97d-422a-adaa-e28ab5aa31b8")
-	)
-	(wire
-		(pts
 			(xy 86.36 119.38) (xy 86.36 127)
 		)
 		(stroke
@@ -4168,7 +4308,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 111.76) (xy 259.08 111.76)
+			(xy 161.29 111.76) (xy 236.22 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4238,16 +4378,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 121.92) (xy 198.12 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7526b052-b83e-4d0b-bba9-b487a096f65b")
-	)
-	(wire
-		(pts
 			(xy 86.36 147.32) (xy 99.06 147.32)
 		)
 		(stroke
@@ -4298,7 +4428,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 149.86) (xy 198.12 149.86)
+			(xy 185.42 149.86) (xy 215.9 149.86)
 		)
 		(stroke
 			(width 0)
@@ -4428,16 +4558,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 149.86) (xy 215.9 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b2befdc-2042-41c1-b8ab-f109147c6868")
-	)
-	(wire
-		(pts
 			(xy 238.76 109.22) (xy 259.08 109.22)
 		)
 		(stroke
@@ -4458,7 +4578,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 106.68) (xy 99.06 106.68)
+			(xy 123.19 106.68) (xy 101.6 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4498,6 +4618,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 36.83) (xy 181.61 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0a07d26-9fd5-44d1-8b83-1a95ce603d2a")
+	)
+	(wire
+		(pts
 			(xy 161.29 93.98) (xy 185.42 93.98)
 		)
 		(stroke
@@ -4505,16 +4635,6 @@
 			(type default)
 		)
 		(uuid "a0aba594-e191-4e4f-91aa-4096db8819b2")
-	)
-	(wire
-		(pts
-			(xy 198.12 147.32) (xy 198.12 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4eec0fe-0aa6-40bb-9101-a8dc057587fb")
 	)
 	(wire
 		(pts
@@ -4578,7 +4698,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 101.6) (xy 220.98 101.6)
+			(xy 161.29 101.6) (xy 195.58 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4645,6 +4765,16 @@
 			(type default)
 		)
 		(uuid "bba82587-f76d-4074-9672-45f92a81fe5f")
+	)
+	(wire
+		(pts
+			(xy 181.61 45.72) (xy 161.29 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be66728d-add0-49ef-9db0-2727eb71939c")
 	)
 	(wire
 		(pts
@@ -4728,6 +4858,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 43.18) (xy 173.99 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d30b401f-6d80-45c3-a679-58497fb46f02")
+	)
+	(wire
+		(pts
 			(xy 109.22 50.8) (xy 93.98 50.8)
 		)
 		(stroke
@@ -4795,6 +4935,16 @@
 			(type default)
 		)
 		(uuid "dbf40eb9-f72d-4997-bca5-75c98d0ef84d")
+	)
+	(wire
+		(pts
+			(xy 236.22 78.74) (xy 236.22 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de348aee-1faf-4167-9baa-41a501088b65")
 	)
 	(wire
 		(pts
@@ -5001,7 +5151,7 @@
 		)
 		(uuid "012271e1-8d27-426a-8849-42d09398aebe")
 	)
-	(label "LED_DEBUG_G"
+	(label "LED_DEBUG_B"
 		(at 116.84 119.38 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5089,7 +5239,7 @@
 		)
 		(uuid "28ca08aa-0113-4b92-94ff-9f70c7b4816c")
 	)
-	(label "LED_DEBUG_R"
+	(label "LED_NFC_WORKING"
 		(at 116.84 121.92 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5166,7 +5316,7 @@
 		)
 		(uuid "4e104d0f-f6b0-46a3-8e17-a17bfda9622c")
 	)
-	(label "LED_DISPLAY_G"
+	(label "PWR_INDICATOR"
 		(at 163.83 121.92 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5177,7 +5327,7 @@
 		)
 		(uuid "57c98b3b-dcaf-4052-b805-edd8174d2d2d")
 	)
-	(label "LED_DEBUG_B"
+	(label "LED_NFC_DONE"
 		(at 116.84 124.46 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5345,7 +5495,7 @@
 	)
 	(hierarchical_label "BUZZER"
 		(shape input)
-		(at 99.06 106.68 180)
+		(at 101.6 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5631,6 +5781,18 @@
 		)
 		(uuid "e6dd66de-2750-4711-8b99-6fad23c3dd8a")
 	)
+	(hierarchical_label "PWR_INDICATOR"
+		(shape output)
+		(at 189.23 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ee86b4f9-06a9-4070-a98e-79ff511a21cc")
+	)
 	(hierarchical_label "LCD_PWM_BRIGHT"
 		(shape input)
 		(at 185.42 91.44 0)
@@ -5693,7 +5855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060RS75000.pdf"
+		(property "Datasheet" ""
 			(at 99.06 130.81 0)
 			(effects
 				(font
@@ -5772,7 +5934,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060RS75000.pdf"
+		(property "Datasheet" ""
 			(at 185.42 133.35 0)
 			(effects
 				(font
@@ -5824,7 +5986,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f5fe7d3-013a-4915-a156-7be3e03f05fe")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR031"
 			(at 143.51 160.02 0)
 			(effects
 				(font
@@ -5874,7 +6036,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/24ee7b4c-70f3-405d-afd9-1146a9b5f360"
-					(reference "#PWR029")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -5917,7 +6079,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060BS75000.pdf"
+		(property "Datasheet" ""
 			(at 173.99 133.35 0)
 			(effects
 				(font
@@ -5969,7 +6131,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1362eab0-8753-4618-84ee-082dbba88953")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR034"
 			(at 238.76 95.25 0)
 			(effects
 				(font
@@ -6019,7 +6181,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/24ee7b4c-70f3-405d-afd9-1146a9b5f360"
-					(reference "#PWR032")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -6035,7 +6197,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c9fc33e-aedf-42df-b4e9-2c59a7d07d96")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR035"
 			(at 257.81 123.19 0)
 			(effects
 				(font
@@ -6085,7 +6247,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/24ee7b4c-70f3-405d-afd9-1146a9b5f360"
-					(reference "#PWR033")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -6101,7 +6263,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20e93409-4d9c-4789-aec8-8973688a78dd")
-		(property "Reference" "R17"
+		(property "Reference" "R18"
 			(at 251.46 97.7899 0)
 			(effects
 				(font
@@ -6128,7 +6290,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+		(property "Datasheet" ""
 			(at 248.92 99.06 0)
 			(effects
 				(font
@@ -6164,7 +6326,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/24ee7b4c-70f3-405d-afd9-1146a9b5f360"
-					(reference "R17")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -6189,7 +6351,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 157.48 31.7499 0)
 			(effects
 				(font
@@ -6207,7 +6369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
+		(property "Datasheet" ""
 			(at 153.67 30.48 0)
 			(effects
 				(font
@@ -6259,7 +6421,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2740bd3d-e3ab-4f01-894c-374228a79d35")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR032"
 			(at 168.91 44.45 0)
 			(effects
 				(font
@@ -6309,7 +6471,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/24ee7b4c-70f3-405d-afd9-1146a9b5f360"
-					(reference "#PWR030")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -6325,7 +6487,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "277c3d23-0582-4a00-af39-102633b8b5a0")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR033"
 			(at 205.74 77.47 0)
 			(effects
 				(font
@@ -6375,7 +6537,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/24ee7b4c-70f3-405d-afd9-1146a9b5f360"
-					(reference "#PWR031")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -6418,7 +6580,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/mlcc/upy-gphc_x5r_4v-to-50v.pdf"
+		(property "Datasheet" ""
 			(at 109.22 44.45 0)
 			(effects
 				(font
@@ -6497,7 +6659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL10A475KP8NNNC_Spec.pdf"
+		(property "Datasheet" ""
 			(at 168.91 30.48 0)
 			(effects
 				(font
@@ -6577,7 +6739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g0c1re.pdf"
+		(property "Datasheet" ""
 			(at 140.97 88.9 0)
 			(effects
 				(font
@@ -6806,6 +6968,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 181.61 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3dbfeeaf-3389-42a7-a248-61efb03cfa5d")
+		(property "Reference" "TP13"
+			(at 184.15 32.2579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 184.15 34.7979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+			(at 186.69 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 181.61 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24c82bf7-5d67-4422-adb1-0c3c099bfc1e")
+		)
+		(instances
+			(project "Ecardz-Controller"
+				(path "/74270717-a116-451e-ac88-5a07ab66056e/24ee7b4c-70f3-405d-afd9-1146a9b5f360"
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 99.06 140.97 0)
 		(mirror y)
@@ -6816,7 +7045,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40ca6d2c-4597-42e3-ace1-8b0e4412e947")
-		(property "Reference" "R7"
+		(property "Reference" "R8"
 			(at 96.52 139.6999 0)
 			(effects
 				(font
@@ -6843,7 +7072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" ""
 			(at 99.06 140.97 0)
 			(effects
 				(font
@@ -6879,86 +7108,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/24ee7b4c-70f3-405d-afd9-1146a9b5f360"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 198.12 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "48878811-4163-4464-a83c-a3524d7e6fd5")
-		(property "Reference" "R11"
-			(at 200.66 142.2399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 200.66 144.7799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 199.136 143.764 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 198.12 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 198.12 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "RC0603FR-0710KL"
-			(at 198.12 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d6921e29-5137-4ee5-850d-a6f29b7aeb73")
-		)
-		(pin "1"
-			(uuid "1b7fef84-c526-4138-939c-75ce079f0dbe")
-		)
-		(instances
-			(project "Ecardz-Controller"
-				(path "/74270717-a116-451e-ac88-5a07ab66056e/24ee7b4c-70f3-405d-afd9-1146a9b5f360"
-					(reference "R11")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -6974,7 +7124,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54408d3f-a61b-431d-9bdf-3a4cbc22dba5")
-		(property "Reference" "R14"
+		(property "Reference" "R15"
 			(at 218.44 132.0799 0)
 			(effects
 				(font
@@ -7001,7 +7151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" ""
 			(at 215.9 133.35 0)
 			(effects
 				(font
@@ -7037,7 +7187,154 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/24ee7b4c-70f3-405d-afd9-1146a9b5f360"
-					(reference "R14")
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 236.22 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59ec6913-c865-4448-8e37-842cd5097316")
+		(property "Reference" "TP14"
+			(at 238.76 74.1679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 238.76 76.7079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+			(at 241.3 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 236.22 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06be198c-5f51-49f2-93af-badc583de31b")
+		)
+		(instances
+			(project "Ecardz-Controller"
+				(path "/74270717-a116-451e-ac88-5a07ab66056e/24ee7b4c-70f3-405d-afd9-1146a9b5f360"
+					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 110.49 130.81 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f1cca28-0460-4171-ab38-dffe58505258")
+		(property "Reference" "D1"
+			(at 106.68 131.1274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED-G"
+			(at 106.68 133.6674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 110.49 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 110.49 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "150060GS75000"
+			(at 110.49 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d23a5a83-cbf9-4243-800d-cdd5f79719a1")
+		)
+		(pin "2"
+			(uuid "a70e0903-b4e2-4eaf-8a8f-041530dce2ed")
+		)
+		(instances
+			(project "Ecardz-Controller"
+				(path "/74270717-a116-451e-ac88-5a07ab66056e/24ee7b4c-70f3-405d-afd9-1146a9b5f360"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -7080,7 +7377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 66.04 121.92 0)
 			(effects
 				(font
@@ -7090,6 +7387,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 66.04 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "61300411121"
 			(at 66.04 121.92 0)
 			(effects
 				(font
@@ -7114,85 +7420,6 @@
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/24ee7b4c-70f3-405d-afd9-1146a9b5f360"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 198.12 133.35 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8178bade-f19c-49f7-8078-6742adca6958")
-		(property "Reference" "D6"
-			(at 201.93 133.6674 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED-G"
-			(at 201.93 136.2074 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 198.12 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060GS75000.pdf"
-			(at 198.12 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 198.12 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "150060GS75000"
-			(at 198.12 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7c6c3466-dafb-48c6-85ee-2db0e7716124")
-		)
-		(pin "2"
-			(uuid "e05e6f5d-ea7e-4956-9ea9-16c23bb5a2fb")
-		)
-		(instances
-			(project "Ecardz-Controller"
-				(path "/74270717-a116-451e-ac88-5a07ab66056e/24ee7b4c-70f3-405d-afd9-1146a9b5f360"
-					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -7234,7 +7461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://gct.co/files/drawings/mem2061.pdf?v=db251ddb-1946-4f24-aa19-b8a17901bdd2"
+		(property "Datasheet" ""
 			(at 72.39 292.71 0)
 			(effects
 				(font
@@ -7303,6 +7530,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "MEM2061-01-188-00-A"
+			(at 33.02 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "G2"
 			(uuid "c09dd756-cb31-4d79-b46e-c31800ebd9d5")
 		)
@@ -7358,7 +7594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b80354d-8d90-42d4-85b0-d642d638d0ac")
-		(property "Reference" "R9"
+		(property "Reference" "R10"
 			(at 176.53 142.2399 0)
 			(effects
 				(font
@@ -7385,7 +7621,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" ""
 			(at 173.99 143.51 0)
 			(effects
 				(font
@@ -7421,7 +7657,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/24ee7b4c-70f3-405d-afd9-1146a9b5f360"
-					(reference "R9")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -7437,7 +7673,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c9024b1-3ff4-4b4b-b32e-641b6f66cf95")
-		(property "Reference" "R12"
+		(property "Reference" "R13"
 			(at 208.28 80.0099 0)
 			(effects
 				(font
@@ -7464,7 +7700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+		(property "Datasheet" ""
 			(at 205.74 81.28 0)
 			(effects
 				(font
@@ -7500,7 +7736,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/24ee7b4c-70f3-405d-afd9-1146a9b5f360"
-					(reference "R12")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -7516,7 +7752,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ff9ee71-a51a-4a16-b68d-7504de133a9a")
-		(property "Reference" "R13"
+		(property "Reference" "R14"
 			(at 218.44 80.0099 0)
 			(effects
 				(font
@@ -7543,7 +7779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+		(property "Datasheet" ""
 			(at 215.9 81.28 0)
 			(effects
 				(font
@@ -7579,87 +7815,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/24ee7b4c-70f3-405d-afd9-1146a9b5f360"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 86.36 130.81 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "90b377ac-10ee-4b25-ada5-d4dccce93503")
-		(property "Reference" "D1"
-			(at 82.55 131.1274 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED-G"
-			(at 82.55 133.6674 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 86.36 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060GS75000.pdf"
-			(at 86.36 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 86.36 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "150060GS75000"
-			(at 86.36 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "529d2777-6ace-4922-a0c8-2778c9dfc7dc")
-		)
-		(pin "2"
-			(uuid "d64bf1fa-2a54-4386-8e09-6b0215f2e969")
-		)
-		(instances
-			(project "Ecardz-Controller"
-				(path "/74270717-a116-451e-ac88-5a07ab66056e/24ee7b4c-70f3-405d-afd9-1146a9b5f360"
-					(reference "D1")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -7675,7 +7831,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "943792bb-5806-447f-8cb2-477c9eddf9e0")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR029"
 			(at 109.22 58.42 0)
 			(effects
 				(font
@@ -7725,7 +7881,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/24ee7b4c-70f3-405d-afd9-1146a9b5f360"
-					(reference "#PWR027")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -7750,7 +7906,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 97.79 45.7199 0)
 			(effects
 				(font
@@ -7768,7 +7924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
+		(property "Datasheet" ""
 			(at 93.98 44.45 0)
 			(effects
 				(font
@@ -7847,7 +8003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060GS75000.pdf"
+		(property "Datasheet" ""
 			(at 228.6 123.19 0)
 			(effects
 				(font
@@ -7890,6 +8046,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 195.58 101.6 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3ce161f-daa6-4d7e-bfb2-67f579983f72")
+		(property "Reference" "TP11"
+			(at 198.12 103.6319 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 198.12 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+			(at 190.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 195.58 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68bd4f74-f11e-4e00-b6bd-0383aa732422")
+		)
+		(instances
+			(project "Ecardz-Controller"
+				(path "/74270717-a116-451e-ac88-5a07ab66056e/24ee7b4c-70f3-405d-afd9-1146a9b5f360"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 86.36 140.97 0)
 		(mirror y)
@@ -7900,7 +8122,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa3c541c-9b95-478c-9103-383ea719cd8c")
-		(property "Reference" "R6"
+		(property "Reference" "R7"
 			(at 83.82 139.6999 0)
 			(effects
 				(font
@@ -7927,7 +8149,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" ""
 			(at 86.36 140.97 0)
 			(effects
 				(font
@@ -7963,7 +8185,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/24ee7b4c-70f3-405d-afd9-1146a9b5f360"
-					(reference "R6")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -7979,7 +8201,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0f118f0-a5bb-45b3-917f-7414da4a5fdc")
-		(property "Reference" "R10"
+		(property "Reference" "R11"
 			(at 187.96 142.2399 0)
 			(effects
 				(font
@@ -8006,7 +8228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" ""
 			(at 185.42 143.51 0)
 			(effects
 				(font
@@ -8042,7 +8264,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/24ee7b4c-70f3-405d-afd9-1146a9b5f360"
-					(reference "R10")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -8058,7 +8280,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7215d0f-83dd-455a-a45d-149c02a2562a")
-		(property "Reference" "R16"
+		(property "Reference" "R17"
 			(at 241.3 97.7899 0)
 			(effects
 				(font
@@ -8085,7 +8307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+		(property "Datasheet" ""
 			(at 238.76 99.06 0)
 			(effects
 				(font
@@ -8121,7 +8343,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/24ee7b4c-70f3-405d-afd9-1146a9b5f360"
-					(reference "R16")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -8137,7 +8359,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b77e5c3d-6897-401d-ae3c-ddb29111956c")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR028"
 			(at 81.28 114.3 0)
 			(effects
 				(font
@@ -8187,7 +8409,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/24ee7b4c-70f3-405d-afd9-1146a9b5f360"
-					(reference "#PWR026")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -8230,7 +8452,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 264.16 109.22 0)
 			(effects
 				(font
@@ -8240,6 +8462,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 264.16 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "61300511121"
 			(at 264.16 109.22 0)
 			(effects
 				(font
@@ -8282,7 +8513,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6c788ed-5d93-4f03-8cee-c919d1cb007c")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR026"
 			(at 25.4 121.92 0)
 			(effects
 				(font
@@ -8332,7 +8563,87 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/24ee7b4c-70f3-405d-afd9-1146a9b5f360"
-					(reference "#PWR024")
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 86.36 130.81 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c828bab6-c909-4aad-8ffe-f89c9bf2a6e4")
+		(property "Reference" "D3"
+			(at 82.55 131.1274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED-B"
+			(at 82.55 133.6674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 86.36 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 86.36 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "150060BS75000"
+			(at 86.36 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e056288-849c-49bc-b63b-7d5f138c2a00")
+		)
+		(pin "2"
+			(uuid "988258a9-685e-46b6-bee4-4bdeb009ed16")
+		)
+		(instances
+			(project "Ecardz-Controller"
+				(path "/74270717-a116-451e-ac88-5a07ab66056e/24ee7b4c-70f3-405d-afd9-1146a9b5f360"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -8375,7 +8686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060GS75000.pdf"
+		(property "Datasheet" ""
 			(at 215.9 123.19 0)
 			(effects
 				(font
@@ -8418,6 +8729,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 173.99 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dbb823b8-fc33-4cb5-99ba-bcc8d981acbf")
+		(property "Reference" "TP12"
+			(at 176.53 38.6079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 176.53 41.1479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+			(at 179.07 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 173.99 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3140c4e1-f25d-4a3a-b627-fe051da9dadc")
+		)
+		(instances
+			(project "Ecardz-Controller"
+				(path "/74270717-a116-451e-ac88-5a07ab66056e/24ee7b4c-70f3-405d-afd9-1146a9b5f360"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 30.48 93.98 0)
 		(unit 1)
@@ -8427,7 +8804,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebea5d92-46f3-4478-8c2a-15639c108b55")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR027"
 			(at 30.48 97.79 0)
 			(effects
 				(font
@@ -8477,87 +8854,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/24ee7b4c-70f3-405d-afd9-1146a9b5f360"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 110.49 130.81 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eda6f59d-e68e-4eaa-814c-6e5d7c2d7aae")
-		(property "Reference" "D3"
-			(at 106.68 131.1274 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED-B"
-			(at 106.68 133.6674 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 110.49 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060BS75000.pdf"
-			(at 110.49 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 110.49 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "150060BS75000"
-			(at 110.49 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6eedb794-fb58-4006-9cbe-2d8d679c252a")
-		)
-		(pin "2"
-			(uuid "96b81b90-ae03-4b67-ab59-c31d7eac9ef4")
-		)
-		(instances
-			(project "Ecardz-Controller"
-				(path "/74270717-a116-451e-ac88-5a07ab66056e/24ee7b4c-70f3-405d-afd9-1146a9b5f360"
-					(reference "D3")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -8573,7 +8870,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4644322-132b-4ec0-be97-5dc96fccc816")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR030"
 			(at 140.97 30.48 0)
 			(effects
 				(font
@@ -8623,7 +8920,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/24ee7b4c-70f3-405d-afd9-1146a9b5f360"
-					(reference "#PWR028")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -8639,7 +8936,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f55f75b1-9ed0-4850-8599-58452575d539")
-		(property "Reference" "R15"
+		(property "Reference" "R16"
 			(at 231.14 132.0799 0)
 			(effects
 				(font
@@ -8666,7 +8963,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" ""
 			(at 228.6 133.35 0)
 			(effects
 				(font
@@ -8702,7 +8999,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/24ee7b4c-70f3-405d-afd9-1146a9b5f360"
-					(reference "R15")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -8719,7 +9016,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f73a0632-4647-4dcd-8aea-6973587f6877")
-		(property "Reference" "R8"
+		(property "Reference" "R9"
 			(at 107.95 139.6999 0)
 			(effects
 				(font
@@ -8746,7 +9043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" ""
 			(at 110.49 140.97 0)
 			(effects
 				(font
@@ -8782,7 +9079,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/24ee7b4c-70f3-405d-afd9-1146a9b5f360"
-					(reference "R8")
+					(reference "R9")
 					(unit 1)
 				)
 			)

@@ -107,6 +107,126 @@
 				)
 			)
 		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -257,6 +377,16 @@
 			(type default)
 		)
 		(uuid "003bf52c-f627-411d-8d97-dea303e7c575")
+	)
+	(wire
+		(pts
+			(xy 50.8 30.48) (xy 50.8 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0243a691-b691-4407-b816-378686ce8574")
 	)
 	(wire
 		(pts
@@ -620,6 +750,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 33.02) (xy 50.8 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d36b0b5b-38d4-4112-b581-f9892239bbd6")
+	)
+	(wire
+		(pts
 			(xy 25.4 177.8) (xy 25.4 181.61)
 		)
 		(stroke
@@ -647,6 +787,16 @@
 			(type default)
 		)
 		(uuid "e09051dc-d562-411a-93a4-a94ab3e3bc75")
+	)
+	(wire
+		(pts
+			(xy 146.05 101.6) (xy 160.02 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e26d2d35-45fc-4f5d-baaa-07f2e084e1ba")
 	)
 	(wire
 		(pts
@@ -758,7 +908,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06b0ac20-d274-4405-b8d7-9d8dd98cdd51")
-		(property "Reference" "H8"
+		(property "Reference" "H7"
 			(at 104.14 158.7499 0)
 			(effects
 				(font
@@ -785,7 +935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 101.6 161.29 0)
 			(effects
 				(font
@@ -803,13 +953,22 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "-"
+			(at 101.6 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "adf286a0-d83a-4780-93d9-b0d2e0f08e30")
 		)
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e"
-					(reference "H8")
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -825,7 +984,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2bab2b6b-7b4d-4813-8c03-d40c07889850")
-		(property "Reference" "H5"
+		(property "Reference" "H1"
 			(at 27.94 158.7499 0)
 			(effects
 				(font
@@ -852,7 +1011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 25.4 161.29 0)
 			(effects
 				(font
@@ -870,13 +1029,22 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "-"
+			(at 25.4 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "36c5f441-4aa3-42d6-ba86-ad994f4279cc")
 		)
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e"
-					(reference "H5")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -892,7 +1060,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c9f4707-aa17-4874-b0bc-5220b0b423c7")
-		(property "Reference" "H2"
+		(property "Reference" "H4"
 			(at 53.34 172.7199 0)
 			(effects
 				(font
@@ -919,7 +1087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 50.8 175.26 0)
 			(effects
 				(font
@@ -937,13 +1105,22 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "-"
+			(at 50.8 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "82f113c8-b45e-409f-b841-253819682c35")
 		)
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e"
-					(reference "H2")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -959,7 +1136,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d2a6860-4e75-448b-99ad-d5c57341ae43")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR01"
 			(at 31.75 173.99 0)
 			(effects
 				(font
@@ -1009,7 +1186,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e"
-					(reference "#PWR05")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -1025,7 +1202,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39e8d9cb-5ada-45b0-b096-1c57f735f205")
-		(property "Reference" "H3"
+		(property "Reference" "H6"
 			(at 78.74 172.7199 0)
 			(effects
 				(font
@@ -1052,7 +1229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 76.2 175.26 0)
 			(effects
 				(font
@@ -1070,13 +1247,22 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "-"
+			(at 76.2 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6477399d-55ab-42bb-9991-4eb6e52cd795")
 		)
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e"
-					(reference "H3")
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -1092,7 +1278,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42c04fac-da53-416f-ab7a-0d643b25ed96")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR02"
 			(at 31.75 187.96 0)
 			(effects
 				(font
@@ -1142,7 +1328,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e"
-					(reference "#PWR01")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -1158,7 +1344,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55423be1-0e2e-4ae9-97f3-2c78c5e5d3a6")
-		(property "Reference" "H4"
+		(property "Reference" "H8"
 			(at 104.14 172.7199 0)
 			(effects
 				(font
@@ -1185,7 +1371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 101.6 175.26 0)
 			(effects
 				(font
@@ -1203,13 +1389,22 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "-"
+			(at 101.6 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "34b1d9d7-be1e-4cfb-9b71-ef89f2dc5fc8")
 		)
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e"
-					(reference "H4")
+					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -1225,7 +1420,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97770358-5721-4130-b3cd-13d4510e9ae5")
-		(property "Reference" "H1"
+		(property "Reference" "H2"
 			(at 27.94 172.7199 0)
 			(effects
 				(font
@@ -1252,7 +1447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 25.4 175.26 0)
 			(effects
 				(font
@@ -1270,13 +1465,22 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "-"
+			(at 25.4 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ab2d66c0-5b18-40ac-b923-97b0a29a7d6c")
 		)
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e"
-					(reference "H1")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -1292,7 +1496,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bfc5ed1-4bd3-42d1-ae40-99eac0e0d90f")
-		(property "Reference" "H6"
+		(property "Reference" "H3"
 			(at 53.34 158.7499 0)
 			(effects
 				(font
@@ -1319,7 +1523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 50.8 161.29 0)
 			(effects
 				(font
@@ -1337,13 +1541,88 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "-"
+			(at 50.8 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4084d705-06f3-4084-9602-de9edb2cd948")
 		)
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e"
-					(reference "H6")
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 50.8 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9dd57ef1-116b-4224-bb6b-b7ec3b155d57")
+		(property "Reference" "#PWR03"
+			(at 50.8 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 50.8 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 50.8 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec2afd91-8fee-4d6e-95c4-d2153e502bcc")
+		)
+		(instances
+			(project "Ecardz-Controller"
+				(path "/74270717-a116-451e-ac88-5a07ab66056e"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -1359,7 +1638,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb1e8aed-068e-4cb2-91ad-3af9b7c894fa")
-		(property "Reference" "H7"
+		(property "Reference" "H5"
 			(at 78.74 158.7499 0)
 			(effects
 				(font
@@ -1386,7 +1665,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 76.2 161.29 0)
 			(effects
 				(font
@@ -1404,13 +1683,22 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "-"
+			(at 76.2 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f7d47c53-fd5a-4ff1-8637-4f679a5db7d6")
 		)
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e"
-					(reference "H7")
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -1418,7 +1706,7 @@
 	)
 	(sheet
 		(at 104.14 24.13)
-		(size 41.91 78.74)
+		(size 41.91 81.28)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1438,7 +1726,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 104.14 103.4546 0)
+			(at 104.14 105.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1706,6 +1994,16 @@
 			)
 			(uuid "8e32d7a8-9174-4b1f-abc9-3a4e7dd85dff")
 		)
+		(pin "PWR_INDICATOR" output
+			(at 146.05 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "46901014-7299-448d-a302-f46cf9a3e304")
+		)
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e"
@@ -1783,6 +2081,16 @@
 				(justify right)
 			)
 			(uuid "2f9b17c3-b7da-4faf-9e07-3e0236f3a0be")
+		)
+		(pin "PWR" input
+			(at 58.42 33.02 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b73d9d75-8d76-4729-bc1a-f4e06514664b")
 		)
 		(instances
 			(project "Ecardz-Controller"
@@ -1910,7 +2218,7 @@
 	)
 	(sheet
 		(at 160.02 24.13)
-		(size 30.48 78.74)
+		(size 30.48 81.28)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1930,7 +2238,7 @@
 			)
 		)
 		(property "Sheetfile" "INTERFACE.kicad_sch"
-			(at 160.02 103.4546 0)
+			(at 160.02 105.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2157,6 +2465,16 @@
 				(justify left)
 			)
 			(uuid "7ac148c6-0a32-47ad-b042-d4b851dc85d4")
+		)
+		(pin "PWR_INDICATOR" input
+			(at 160.02 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8240f413-4cb4-4b1f-a1fb-d8c8d1349302")
 		)
 		(instances
 			(project "Ecardz-Controller"

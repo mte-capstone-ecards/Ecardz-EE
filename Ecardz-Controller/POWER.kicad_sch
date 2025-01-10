@@ -2581,7 +2581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5064/X7R_Dielectric_6.3-250_Auto.pdf"
+		(property "Datasheet" ""
 			(at 83.82 68.58 0)
 			(effects
 				(font
@@ -2599,7 +2599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "C0805C105K3RAC3124"
+		(property "Part Number" "GRM21BR61C106KE15K"
 			(at 83.82 68.58 0)
 			(effects
 				(font
@@ -2632,7 +2632,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "078150c3-248b-4f1a-abd7-a84c178b2a0b")
-		(property "Reference" "R37"
+		(property "Reference" "R38"
 			(at 202.692 66.04 90)
 			(effects
 				(font
@@ -2657,7 +2657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" ""
 			(at 201.93 63.5 0)
 			(effects
 				(font
@@ -2720,6 +2720,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "RMCF0603ZT0R00"
+			(at 201.93 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a5f26f40-2921-4344-a38f-544a92ee60b1")
 		)
@@ -2729,7 +2738,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/686e621e-6f68-4fb8-9509-95408ee4dcf7"
-					(reference "R37")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -2772,7 +2781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61A226ME51-01.pdf"
+		(property "Datasheet" ""
 			(at 175.26 68.58 0)
 			(effects
 				(font
@@ -2824,7 +2833,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33f8c4f7-ded4-403c-b855-1c3a42e3ab6c")
-		(property "Reference" "R35"
+		(property "Reference" "R36"
 			(at 186.69 52.07 90)
 			(effects
 				(font
@@ -2849,7 +2858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" ""
 			(at 186.69 58.42 0)
 			(effects
 				(font
@@ -2912,6 +2921,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "RMCF0603ZT0R00"
+			(at 186.69 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "54c2540e-3912-4ac1-b310-ba6dddaeccac")
 		)
@@ -2921,7 +2939,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/686e621e-6f68-4fb8-9509-95408ee4dcf7"
-					(reference "R35")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -2963,7 +2981,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps62160.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1734626114921"
+		(property "Datasheet" ""
 			(at 124.46 52.07 0)
 			(effects
 				(font
@@ -3063,7 +3081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 81.28 58.42 0)
 			(effects
 				(font
@@ -3103,7 +3121,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d959624-8b37-4f4e-a6e1-4c78de912e14")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR047"
 			(at 234.95 57.15 0)
 			(effects
 				(font
@@ -3153,7 +3171,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/686e621e-6f68-4fb8-9509-95408ee4dcf7"
-					(reference "#PWR045")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -3195,7 +3213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/rb521s30t1-d.pdf"
+		(property "Datasheet" ""
 			(at 59.69 58.42 0)
 			(effects
 				(font
@@ -3231,6 +3249,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "RB521S30T1G"
+			(at 59.69 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a4bc2fa7-55ec-4dd2-a28a-2e472f16f784")
 		)
@@ -3256,7 +3283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d1cde40-9ff3-4587-8135-93731ea80b54")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR044"
 			(at 45.72 90.17 0)
 			(effects
 				(font
@@ -3306,7 +3333,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/686e621e-6f68-4fb8-9509-95408ee4dcf7"
-					(reference "#PWR042")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -3319,10 +3346,10 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7ebb1bba-c7d1-4764-ae3d-a20f32e63e30")
-		(property "Reference" "R34"
+		(property "Reference" "R35"
 			(at 175.26 40.64 90)
 			(effects
 				(font
@@ -3330,7 +3357,7 @@
 				)
 			)
 		)
-		(property "Value" "DNP"
+		(property "Value" "0"
 			(at 175.26 43.18 90)
 			(effects
 				(font
@@ -3347,7 +3374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" ""
 			(at 175.26 46.99 0)
 			(effects
 				(font
@@ -3410,6 +3437,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "RMCF0603ZT0R00"
+			(at 175.26 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "da65d058-e570-4cfa-bbd7-b5ada86fd08c")
 		)
@@ -3419,7 +3455,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/686e621e-6f68-4fb8-9509-95408ee4dcf7"
-					(reference "R34")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -3435,7 +3471,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f6698eb-7bbe-41b2-947a-87aa685b8bee")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR045"
 			(at 135.89 90.17 0)
 			(effects
 				(font
@@ -3485,7 +3521,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/686e621e-6f68-4fb8-9509-95408ee4dcf7"
-					(reference "#PWR043")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -3527,7 +3563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/mlcc/upy-gphc_x5r_4v-to-50v.pdf"
+		(property "Datasheet" ""
 			(at 191.77 66.04 0)
 			(effects
 				(font
@@ -3606,7 +3642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 171.45 58.42 0)
 			(effects
 				(font
@@ -3646,7 +3682,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9583ca64-7b4c-4aee-8531-3b5b01089d98")
-		(property "Reference" "R31"
+		(property "Reference" "R32"
 			(at 154.94 60.9599 0)
 			(effects
 				(font
@@ -3655,7 +3691,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "800k"
+		(property "Value" "787K"
 			(at 154.94 63.4999 0)
 			(effects
 				(font
@@ -3673,7 +3709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+		(property "Datasheet" ""
 			(at 152.4 62.23 0)
 			(effects
 				(font
@@ -3709,7 +3745,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/686e621e-6f68-4fb8-9509-95408ee4dcf7"
-					(reference "R31")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -3752,7 +3788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 135.89 43.18 0)
 			(effects
 				(font
@@ -3792,7 +3828,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6c70698-7fa4-4dbe-b234-4311cffb6910")
-		(property "Reference" "R32"
+		(property "Reference" "R33"
 			(at 154.94 72.3899 0)
 			(effects
 				(font
@@ -3819,7 +3855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" ""
 			(at 152.4 73.66 0)
 			(effects
 				(font
@@ -3855,7 +3891,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/686e621e-6f68-4fb8-9509-95408ee4dcf7"
-					(reference "R32")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -3898,7 +3934,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 143.51 68.58 0)
 			(effects
 				(font
@@ -3938,7 +3974,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc756a03-ec34-4bc4-b3c1-39040a8e437d")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR046"
 			(at 168.91 46.99 0)
 			(effects
 				(font
@@ -3988,7 +4024,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/686e621e-6f68-4fb8-9509-95408ee4dcf7"
-					(reference "#PWR044")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -4030,7 +4066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/mlcc/upy-gphc_x5r_4v-to-50v.pdf"
+		(property "Datasheet" ""
 			(at 234.95 64.77 0)
 			(effects
 				(font
@@ -4108,7 +4144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/rb521s30t1-d.pdf"
+		(property "Datasheet" ""
 			(at 59.69 43.18 0)
 			(effects
 				(font
@@ -4136,6 +4172,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 59.69 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RB521S30T1G"
 			(at 59.69 43.18 0)
 			(effects
 				(font
@@ -4194,7 +4239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf"
+		(property "Datasheet" ""
 			(at 210.82 54.61 0)
 			(effects
 				(font
@@ -4255,7 +4300,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da2f00d2-321b-4d02-850e-cc8a2dd34a81")
-		(property "Reference" "R33"
+		(property "Reference" "R34"
 			(at 161.29 48.2599 0)
 			(effects
 				(font
@@ -4282,7 +4327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 158.75 49.53 0)
 			(effects
 				(font
@@ -4300,6 +4345,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "RC0603FR-07100KL"
+			(at 158.75 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "63b0157e-21aa-4680-a5e6-71fab851c90b")
 		)
@@ -4309,7 +4363,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/686e621e-6f68-4fb8-9509-95408ee4dcf7"
-					(reference "R33")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -4352,7 +4406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 39.37 58.42 0)
 			(effects
 				(font
@@ -4362,6 +4416,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 39.37 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "61300211121"
 			(at 39.37 58.42 0)
 			(effects
 				(font
@@ -4394,7 +4457,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e2e4546f-cec1-4ae1-a14b-7abc2e97953b")
-		(property "Reference" "R30"
+		(property "Reference" "R31"
 			(at 101.346 63.5 90)
 			(effects
 				(font
@@ -4419,7 +4482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 101.6 60.96 0)
 			(effects
 				(font
@@ -4437,6 +4500,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "RC0603FR-07100KL"
+			(at 101.6 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "02b81770-c40b-4f83-a285-db6d85151cd0")
 		)
@@ -4446,7 +4518,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/686e621e-6f68-4fb8-9509-95408ee4dcf7"
-					(reference "R30")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -4459,10 +4531,10 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e6bae09e-61f9-40a2-9072-8b86cf17887e")
-		(property "Reference" "R36"
+		(property "Reference" "R37"
 			(at 190.5 27.94 90)
 			(effects
 				(font
@@ -4470,7 +4542,7 @@
 				)
 			)
 		)
-		(property "Value" "DNP"
+		(property "Value" "0"
 			(at 190.5 30.48 90)
 			(effects
 				(font
@@ -4487,7 +4559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+		(property "Datasheet" ""
 			(at 190.5 34.29 0)
 			(effects
 				(font
@@ -4550,6 +4622,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "RMCF0603ZT0R00"
+			(at 190.5 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8344ef15-45bc-45ee-9bfd-aac805beb144")
 		)
@@ -4559,7 +4640,7 @@
 		(instances
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/686e621e-6f68-4fb8-9509-95408ee4dcf7"
-					(reference "R36")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -4600,7 +4681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_vls201610cx-1_en.pdf"
+		(property "Datasheet" ""
 			(at 142.24 58.42 0)
 			(effects
 				(font
