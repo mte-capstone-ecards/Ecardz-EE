@@ -477,7 +477,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "../../../../../../Windows/System32/",
       "plot": "Ecards-Proto-Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
