@@ -1539,10 +1539,22 @@
 		(uuid "0fa2f5fa-9ecc-4917-83ed-6d8312a4b0d5")
 	)
 	(junction
+		(at 115.57 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1abd3851-85f4-454c-8779-ed769ef0f412")
+	)
+	(junction
 		(at 116.84 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1cb5a580-f109-457c-8ad1-85905cd5ac77")
+	)
+	(junction
+		(at 146.05 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fa73482-420b-4056-a9c2-44d3bb6489d3")
 	)
 	(junction
 		(at 180.34 107.95)
@@ -1645,12 +1657,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7060abc1-6ab4-4349-a229-5a323341801c")
-	)
-	(junction
-		(at 158.75 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "77ca1545-5cc4-4d96-81cb-1acb5dbeb37c")
 	)
 	(junction
 		(at 83.82 72.39)
@@ -2028,6 +2034,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 161.29) (xy 115.57 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32343003-d777-4698-85d2-93389b7cd1ce")
+	)
+	(wire
+		(pts
 			(xy 134.62 132.08) (xy 134.62 133.35)
 		)
 		(stroke
@@ -2208,7 +2224,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 170.18) (xy 158.75 170.18)
+			(xy 149.86 176.53) (xy 146.05 176.53)
 		)
 		(stroke
 			(width 0)
@@ -2398,6 +2414,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 176.53) (xy 115.57 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61de9a86-ec38-48c4-ae3b-ee753f8072d0")
+	)
+	(wire
+		(pts
 			(xy 198.12 83.82) (xy 198.12 111.76)
 		)
 		(stroke
@@ -2458,7 +2484,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 161.29) (xy 158.75 161.29)
+			(xy 140.97 161.29) (xy 146.05 161.29)
 		)
 		(stroke
 			(width 0)
@@ -2625,6 +2651,16 @@
 			(type default)
 		)
 		(uuid "8adc8184-781d-425b-81bb-dae55fb30c0f")
+	)
+	(wire
+		(pts
+			(xy 115.57 171.45) (xy 115.57 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b80cb79-8fc2-466b-b980-9d542382b5a5")
 	)
 	(wire
 		(pts
@@ -2888,16 +2924,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 161.29) (xy 180.34 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b143e987-5d22-4d73-a3e7-6ed2f3fc9408")
-	)
-	(wire
-		(pts
 			(xy 205.74 27.94) (xy 205.74 30.48)
 		)
 		(stroke
@@ -3078,7 +3104,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 170.18) (xy 158.75 161.29)
+			(xy 146.05 176.53) (xy 146.05 161.29)
 		)
 		(stroke
 			(width 0)
@@ -3386,6 +3412,16 @@
 		)
 		(uuid "faec60d3-31e3-4344-be9a-b45d951a87cf")
 	)
+	(wire
+		(pts
+			(xy 146.05 161.29) (xy 180.34 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fccbb5f9-90e9-4d27-aaa9-50f404183757")
+	)
 	(text "near VDD_RF\nand VDD_DR"
 		(exclude_from_sim no)
 		(at 89.916 131.318 0)
@@ -3480,15 +3516,15 @@
 		)
 		(uuid "2d657406-1fc7-483e-a503-97c956b58ca3")
 	)
-	(hierarchical_label "NFC_I_SENSE"
-		(shape input)
-		(at 154.94 170.18 180)
+	(hierarchical_label "NFC_I_SENSE_P"
+		(shape output)
+		(at 149.86 176.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "65758914-3868-4728-bb8a-e1439af47732")
 	)
@@ -3503,6 +3539,18 @@
 			(justify right)
 		)
 		(uuid "9ef2c15b-c7a5-45c0-9376-14d165f103c3")
+	)
+	(hierarchical_label "NFC_I_SENSE_N"
+		(shape output)
+		(at 120.65 176.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c2c3d973-c519-4649-af9b-70c393b62070")
 	)
 	(hierarchical_label "PWR"
 		(shape input)
@@ -7401,6 +7449,103 @@
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/414d1147-8205-4839-9169-5f8f29a4e15a"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 115.57 167.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d65316ad-affb-42c6-acfd-9f8e1de113f2")
+		(property "Reference" "R51"
+			(at 118.11 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0"
+			(at 118.11 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 114.554 167.386 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 115.57 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "CRCW0603590RFKEA"
+			(at 115.57 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "541-590HTR-ND"
+			(at 115.57 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RMCF0603ZT0R00"
+			(at 115.57 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3407b98-7eae-4f6f-9ea5-dd43c34eeb83")
+		)
+		(pin "2"
+			(uuid "c8510f7d-506f-425e-acd2-a6d3f30fff99")
+		)
+		(instances
+			(project "Ecardz-Controller"
+				(path "/74270717-a116-451e-ac88-5a07ab66056e/414d1147-8205-4839-9169-5f8f29a4e15a"
+					(reference "R51")
 					(unit 1)
 				)
 			)

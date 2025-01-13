@@ -2175,6 +2175,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 156.21) (xy 74.93 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad375100-4f2c-4c5f-a4c5-f9b8ae108d1a")
+	)
+	(wire
+		(pts
 			(xy 175.26 82.55) (xy 191.77 82.55)
 		)
 		(stroke
@@ -2335,6 +2345,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 158.75) (xy 74.93 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8246854-c5ac-4a9a-b748-73c681dc7217")
+	)
+	(wire
+		(pts
 			(xy 83.82 72.39) (xy 83.82 82.55)
 		)
 		(stroke
@@ -2355,6 +2375,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 148.59) (xy 74.93 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e40501f0-3359-4af8-9ebd-6095d3497324")
+	)
+	(wire
+		(pts
 			(xy 152.4 77.47) (xy 152.4 82.55)
 		)
 		(stroke
@@ -2372,6 +2402,16 @@
 			(type default)
 		)
 		(uuid "e67bd285-eae2-4279-8a88-8fd7b2426b5d")
+	)
+	(wire
+		(pts
+			(xy 74.93 158.75) (xy 74.93 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeb27b07-84c5-4391-8092-59aed552a4dd")
 	)
 	(wire
 		(pts
@@ -2433,6 +2473,16 @@
 			(justify left)
 		)
 		(uuid "38c44702-db93-4dab-b848-f93aaff4841a")
+	)
+	(text "Alternative Wired Power Source for Card"
+		(exclude_from_sim no)
+		(at 83.058 138.684 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "68688827-e74c-4ef6-8c9b-05954b6b8be1")
 	)
 	(text "AUX POWER\n"
 		(exclude_from_sim no)
@@ -2818,6 +2868,72 @@
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/686e621e-6f68-4fb8-9509-95408ee4dcf7"
 					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 74.93 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f68fba2-29b9-4363-ad22-4b6d96a5b7a3")
+		(property "Reference" "#PWR061"
+			(at 74.93 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 74.93 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 74.93 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e35f2fb4-7019-459b-8eef-640daa70b9fc")
+		)
+		(instances
+			(project "Ecardz-Controller"
+				(path "/74270717-a116-451e-ac88-5a07ab66056e/686e621e-6f68-4fb8-9509-95408ee4dcf7"
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -3746,6 +3862,72 @@
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/686e621e-6f68-4fb8-9509-95408ee4dcf7"
 					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 74.93 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b81fbb7-7874-4c1d-a2e2-c0ab47182a23")
+		(property "Reference" "#PWR060"
+			(at 74.93 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 74.93 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c40bcef-c2e4-4858-a1eb-2dbe0901b93d")
+		)
+		(instances
+			(project "Ecardz-Controller"
+				(path "/74270717-a116-451e-ac88-5a07ab66056e/686e621e-6f68-4fb8-9509-95408ee4dcf7"
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -4718,6 +4900,85 @@
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/686e621e-6f68-4fb8-9509-95408ee4dcf7"
 					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 88.9 158.75 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fccdf87f-04a9-45e7-addf-afd230a66310")
+		(property "Reference" "J10"
+			(at 91.44 158.7501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 91.44 156.2101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 88.9 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 88.9 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "61300211121"
+			(at 88.9 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7fc5d7d-0d7e-40ef-a6b3-43746b8aa01c")
+		)
+		(pin "2"
+			(uuid "d6a3fce5-b0f0-4265-be06-e6f397c603f7")
+		)
+		(instances
+			(project "Ecardz-Controller"
+				(path "/74270717-a116-451e-ac88-5a07ab66056e/686e621e-6f68-4fb8-9509-95408ee4dcf7"
+					(reference "J10")
 					(unit 1)
 				)
 			)
