@@ -4240,16 +4240,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 50.8) (xy 185.42 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65d7505a-bfee-401d-ae52-522d8760d04b")
-	)
-	(wire
-		(pts
 			(xy 161.29 66.04) (xy 185.42 66.04)
 		)
 		(stroke
@@ -5588,7 +5578,7 @@
 		)
 		(uuid "09add8c0-e8a2-4b0d-a471-693d822719a3")
 	)
-	(hierarchical_label "NFC_I_SENSE_P"
+	(hierarchical_label "NFC_I_SENSE"
 		(shape input)
 		(at 185.42 53.34 0)
 		(fields_autoplaced yes)
@@ -5815,18 +5805,6 @@
 			(justify left)
 		)
 		(uuid "9eac96d3-3c85-429c-85c4-4961775cb9b9")
-	)
-	(hierarchical_label "NFC_I_SENSE_N"
-		(shape input)
-		(at 185.42 50.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b2308778-95d7-44a8-aa4a-256068bfe117")
 	)
 	(hierarchical_label "BUTTON6"
 		(shape output)

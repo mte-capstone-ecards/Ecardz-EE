@@ -413,6 +413,211 @@
 				)
 			)
 		)
+		(symbol "SamacSys_Parts:INA180A2IDBVR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 21.59 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "INA180A2IDBVR"
+				(at 21.59 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOT95P280X145-5N"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina180.pdf"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Current Sense Amplifiers MULTI CHANNEL CURRENT SENSE L/H SIDE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.45"
+				(at 21.59 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-INA180A2IDBVR"
+				(at 21.59 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA180A2IDBVR?qs=5aG0NVq1C4wYcJfa99BoHg%3D%3D"
+				(at 21.59 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "INA180A2IDBVR"
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "INA180A2IDBVR_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 20.32 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "IN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "IN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "VS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "SamacSys_Parts:ST25R3916B-AQWT"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2034,16 +2239,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 161.29) (xy 115.57 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32343003-d777-4698-85d2-93389b7cd1ce")
-	)
-	(wire
-		(pts
 			(xy 134.62 132.08) (xy 134.62 133.35)
 		)
 		(stroke
@@ -2224,13 +2419,13 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 176.53) (xy 146.05 176.53)
+			(xy 146.05 161.29) (xy 146.05 182.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "495d4b07-e292-4cf6-960c-87f8fb484966")
+		(uuid "486d9651-5621-450a-95c2-f6434fb9772d")
 	)
 	(wire
 		(pts
@@ -2394,6 +2589,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 182.88) (xy 143.51 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e0fa282-8238-471d-99e8-7fa4413d1994")
+	)
+	(wire
+		(pts
 			(xy 105.41 72.39) (xy 113.03 72.39)
 		)
 		(stroke
@@ -2414,7 +2619,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 176.53) (xy 115.57 176.53)
+			(xy 118.11 177.8) (xy 115.57 177.8)
 		)
 		(stroke
 			(width 0)
@@ -2451,6 +2656,16 @@
 			(type default)
 		)
 		(uuid "67eb203e-1e3b-40a5-bc52-567aa6806c44")
+	)
+	(wire
+		(pts
+			(xy 106.68 161.29) (xy 106.68 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ac5860e-95a6-40a1-ad34-78d2ab8647f5")
 	)
 	(wire
 		(pts
@@ -2594,6 +2809,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 177.8) (xy 156.21 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80278b60-398b-4766-b112-4cd52265e636")
+	)
+	(wire
+		(pts
 			(xy 205.74 71.12) (xy 205.74 101.6)
 		)
 		(stroke
@@ -2651,16 +2876,6 @@
 			(type default)
 		)
 		(uuid "8adc8184-781d-425b-81bb-dae55fb30c0f")
-	)
-	(wire
-		(pts
-			(xy 115.57 171.45) (xy 115.57 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b80cb79-8fc2-466b-b980-9d542382b5a5")
 	)
 	(wire
 		(pts
@@ -2824,6 +3039,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 180.34) (xy 151.13 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a18e9da5-1aec-49fa-ad2e-9c031bcbcc93")
+	)
+	(wire
+		(pts
 			(xy 142.24 121.92) (xy 142.24 119.38)
 		)
 		(stroke
@@ -2911,6 +3136,16 @@
 			(type default)
 		)
 		(uuid "ade05b69-6dff-4a1d-95ae-fca5b111c810")
+	)
+	(wire
+		(pts
+			(xy 115.57 161.29) (xy 115.57 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adf9c74c-f777-4d80-b99c-dcaefb28628b")
 	)
 	(wire
 		(pts
@@ -3104,16 +3339,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 176.53) (xy 146.05 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce375ad9-d10c-4b03-b3db-e7db26918025")
-	)
-	(wire
-		(pts
 			(xy 142.24 129.54) (xy 142.24 132.08)
 		)
 		(stroke
@@ -3284,6 +3509,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 180.34) (xy 106.68 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e462f788-e7f9-461f-993b-0d38f22050ca")
+	)
+	(wire
+		(pts
 			(xy 203.2 104.14) (xy 237.49 104.14)
 		)
 		(stroke
@@ -3394,6 +3629,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 180.34) (xy 151.13 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f499bc20-df52-4ee0-813b-cc5a2d57688d")
+	)
+	(wire
+		(pts
 			(xy 177.8 41.91) (xy 205.74 41.91)
 		)
 		(stroke
@@ -3421,6 +3666,16 @@
 			(type default)
 		)
 		(uuid "fccbb5f9-90e9-4d27-aaa9-50f404183757")
+	)
+	(wire
+		(pts
+			(xy 106.68 161.29) (xy 115.57 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd9ecec3-9292-4968-b02e-6096c65a10f9")
 	)
 	(text "near VDD_RF\nand VDD_DR"
 		(exclude_from_sim no)
@@ -3492,6 +3747,18 @@
 		)
 		(uuid "d15fd48d-529b-4011-999b-d4050b4c5059")
 	)
+	(hierarchical_label "NFC_I_SENSE"
+		(shape output)
+		(at 156.21 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "024fa940-32f9-400d-8af4-9c6dd8d8ce11")
+	)
 	(hierarchical_label "I2C_NFC_SCL"
 		(shape input)
 		(at 133.35 16.51 180)
@@ -3516,18 +3783,6 @@
 		)
 		(uuid "2d657406-1fc7-483e-a503-97c956b58ca3")
 	)
-	(hierarchical_label "NFC_I_SENSE_P"
-		(shape output)
-		(at 149.86 176.53 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "65758914-3868-4728-bb8a-e1439af47732")
-	)
 	(hierarchical_label "I2C_NFC_SDA"
 		(shape input)
 		(at 133.35 13.97 180)
@@ -3539,18 +3794,6 @@
 			(justify right)
 		)
 		(uuid "9ef2c15b-c7a5-45c0-9376-14d165f103c3")
-	)
-	(hierarchical_label "NFC_I_SENSE_N"
-		(shape output)
-		(at 120.65 176.53 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c2c3d973-c519-4649-af9b-70c393b62070")
 	)
 	(hierarchical_label "PWR"
 		(shape input)
@@ -5750,6 +5993,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 151.13 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48d77e3a-ace5-4446-898b-6912dc9e9e1b")
+		(property "Reference" "#PWR062"
+			(at 151.13 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45afdf9a-5e5b-43d9-b123-ebb135acd461")
+		)
+		(instances
+			(project "Ecardz-Controller"
+				(path "/74270717-a116-451e-ac88-5a07ab66056e/414d1147-8205-4839-9169-5f8f29a4e15a"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 205.74 27.94 0)
 		(unit 1)
@@ -6659,6 +6968,135 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:INA180A2IDBVR")
+		(at 143.51 177.8 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1786587-9ae7-41f2-b884-d37a9081b9aa")
+		(property "Reference" "IC2"
+			(at 130.81 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INA180A2IDBVR"
+			(at 130.81 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT95P280X145-5N"
+			(at 121.92 272.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina180.pdf"
+			(at 121.92 372.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Current Sense Amplifiers MULTI CHANNEL CURRENT SENSE L/H SIDE"
+			(at 143.51 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 121.92 572.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-INA180A2IDBVR"
+			(at 121.92 672.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA180A2IDBVR?qs=5aG0NVq1C4wYcJfa99BoHg%3D%3D"
+			(at 121.92 772.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 121.92 872.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "INA180A2IDBVR"
+			(at 121.92 972.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56fd0bf1-58b1-4124-9279-480369a4a83d")
+		)
+		(pin "5"
+			(uuid "94034b05-c736-4cc7-8cb0-940d6f286f5f")
+		)
+		(pin "3"
+			(uuid "535f7740-8fdf-4126-b8e4-9586adc8d11c")
+		)
+		(pin "4"
+			(uuid "2600e25a-3ead-45f0-be16-1c75fa38ccd1")
+		)
+		(pin "2"
+			(uuid "8e2b5a17-51df-417e-bead-31241ba51c91")
+		)
+		(instances
+			(project ""
+				(path "/74270717-a116-451e-ac88-5a07ab66056e/414d1147-8205-4839-9169-5f8f29a4e15a"
+					(reference "IC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 229.87 49.53 180)
 		(unit 1)
@@ -7449,103 +7887,6 @@
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/414d1147-8205-4839-9169-5f8f29a4e15a"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 115.57 167.64 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d65316ad-affb-42c6-acfd-9f8e1de113f2")
-		(property "Reference" "R51"
-			(at 118.11 166.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0"
-			(at 118.11 168.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 114.554 167.386 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 115.57 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "CRCW0603590RFKEA"
-			(at 115.57 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey Part Number" "541-590HTR-ND"
-			(at 115.57 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "RMCF0603ZT0R00"
-			(at 115.57 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c3407b98-7eae-4f6f-9ea5-dd43c34eeb83")
-		)
-		(pin "2"
-			(uuid "c8510f7d-506f-425e-acd2-a6d3f30fff99")
-		)
-		(instances
-			(project "Ecardz-Controller"
-				(path "/74270717-a116-451e-ac88-5a07ab66056e/414d1147-8205-4839-9169-5f8f29a4e15a"
-					(reference "R51")
 					(unit 1)
 				)
 			)
