@@ -361,6 +361,10 @@
 		(uuid "dfedc4a2-b40d-4917-a544-3b85f5b9ab98")
 	)
 	(no_connect
+		(at 147.32 45.72)
+		(uuid "0e535925-f353-4b3b-bc10-2944265aa03f")
+	)
+	(no_connect
 		(at 158.75 76.2)
 		(uuid "4bc4e59f-214a-42c8-a6d6-a590ea0c1053")
 	)
@@ -517,6 +521,16 @@
 			(type default)
 		)
 		(uuid "6de95680-ab27-47d9-bb4c-ec2fec9b27b0")
+	)
+	(wire
+		(pts
+			(xy 146.05 45.72) (xy 147.32 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f97aa95-cba3-4b91-9e7b-bb374223e4cd")
 	)
 	(wire
 		(pts
@@ -1804,16 +1818,6 @@
 			)
 			(uuid "f205604e-b367-493f-846f-0c26df5f07d9")
 		)
-		(pin "SPI_EINK_SCL" input
-			(at 146.05 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "e879dd9d-4dcf-4c2c-9b65-b1a8a944dc54")
-		)
 		(pin "SPI_EINK_CS" input
 			(at 146.05 53.34 0)
 			(effects
@@ -1823,16 +1827,6 @@
 				(justify right)
 			)
 			(uuid "c422f5f8-cdbd-4edb-adb3-474700f052b8")
-		)
-		(pin "SPI_EINK_SDA" input
-			(at 146.05 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "bf3c8c6b-5865-4644-9f8c-0cf1a4a2492b")
 		)
 		(pin "EINK_RES" input
 			(at 146.05 58.42 0)
@@ -2003,6 +1997,36 @@
 				(justify right)
 			)
 			(uuid "46901014-7299-448d-a302-f46cf9a3e304")
+		)
+		(pin "SPI_EINK_MOSI" input
+			(at 146.05 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e89366df-ffe3-4147-a811-6958659ac5db")
+		)
+		(pin "SPI_EINK_MISO" input
+			(at 146.05 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4f59b85f-5505-4171-a156-ea21f7de27ad")
+		)
+		(pin "SPI_EINK_SCK" input
+			(at 146.05 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "929b1d79-42e0-42a2-979c-d29c32e4da13")
 		)
 		(instances
 			(project "Ecardz-Controller"
@@ -2286,26 +2310,6 @@
 			)
 			(uuid "d9d7e3eb-797e-4995-8e90-32e5c3483508")
 		)
-		(pin "SPI_EINK_SDA" input
-			(at 160.02 48.26 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "e818ecc3-9526-4b01-bef5-2ac826a7475a")
-		)
-		(pin "SPI_EINK_SCL" input
-			(at 160.02 50.8 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "f696911d-b4b6-4a29-9153-dc32a9aad058")
-		)
 		(pin "SPI_EINK_CS" input
 			(at 160.02 53.34 180)
 			(effects
@@ -2475,6 +2479,26 @@
 				(justify left)
 			)
 			(uuid "8240f413-4cb4-4b1f-a1fb-d8c8d1349302")
+		)
+		(pin "SPI_EINK_MOSI" input
+			(at 160.02 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "da53dc40-55cb-41a6-866e-13b309230006")
+		)
+		(pin "SPI_EINK_SCK" input
+			(at 160.02 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "18d77c40-2b59-4894-b9df-c547a94f12cf")
 		)
 		(instances
 			(project "Ecardz-Controller"
