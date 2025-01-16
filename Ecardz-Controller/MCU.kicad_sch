@@ -5770,17 +5770,6 @@
 		)
 		(uuid "d672f551-bf89-49bb-adc7-80e0a248cda0")
 	)
-	(label "SD_CS"
-		(at 106.68 60.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "df1a7ad0-92fc-413e-bc04-bd34fffe19c9")
-	)
 	(label "SPI_LCD_MOSI"
 		(at 162.56 63.5 0)
 		(fields_autoplaced yes)
