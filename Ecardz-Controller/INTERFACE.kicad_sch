@@ -6530,106 +6530,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x09")
-		(at 203.2 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14996c84-5b3b-4c31-90db-caa29327c4fc")
-		(property "Reference" "J4"
-			(at 205.74 138.4299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x09"
-			(at 205.74 140.9699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical"
-			(at 203.2 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 203.2 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "61300911121"
-			(at 203.2 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "66f7739d-3a79-4fde-b643-15254460bcff")
-		)
-		(pin "2"
-			(uuid "1233ffbf-9922-44c1-a830-241e48c82674")
-		)
-		(pin "3"
-			(uuid "3c3e0002-1711-4d28-b790-9c51cb8c675e")
-		)
-		(pin "5"
-			(uuid "ef6c79da-6efa-40bb-a357-1f0832a41ade")
-		)
-		(pin "6"
-			(uuid "d5764137-fe91-487d-92da-0c7e76804898")
-		)
-		(pin "4"
-			(uuid "3e092df9-3217-4d2f-882d-afd5edfd147d")
-		)
-		(pin "9"
-			(uuid "66e2f2ea-44bc-4192-9ef8-36827b972d32")
-		)
-		(pin "8"
-			(uuid "6bbd4ce6-129e-4531-818a-050367c5c973")
-		)
-		(pin "7"
-			(uuid "f9990b43-de9d-458c-b4e5-3cb9e8f91caf")
-		)
-		(instances
-			(project "Ecardz-Controller"
-				(path "/74270717-a116-451e-ac88-5a07ab66056e/c8fd81b3-86d5-41d1-a22c-ff1dbf0b272c"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 130.81 60.96 0)
 		(unit 1)
@@ -9484,7 +9384,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Horizontal"
 			(at 236.22 147.32 0)
 			(effects
 				(font
@@ -9673,6 +9573,106 @@
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/c8fd81b3-86d5-41d1-a22c-ff1dbf0b272c"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x09")
+		(at 203.2 139.7 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aea69799-4555-449a-9cf7-7e4b0a50957f")
+		(property "Reference" "J4"
+			(at 205.74 140.9701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x09"
+			(at 205.74 138.4301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Horizontal"
+			(at 203.2 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 203.2 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "61300911121"
+			(at 203.2 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2e72475-1104-41e4-a0d2-f564ef77f325")
+		)
+		(pin "2"
+			(uuid "d49a7db2-5825-4e48-a11a-b9bf1e53c3b3")
+		)
+		(pin "3"
+			(uuid "c5d1c8fd-f313-4b14-ab83-5984cfe0d8c2")
+		)
+		(pin "5"
+			(uuid "fa24bfe1-6e6f-4b43-a430-3140daf08780")
+		)
+		(pin "6"
+			(uuid "4256b6b7-e489-4919-8d2e-1eef9f467f9e")
+		)
+		(pin "4"
+			(uuid "1086c6de-1224-4752-ab92-6fdabf2f44af")
+		)
+		(pin "9"
+			(uuid "f07123e2-3755-41ae-90ff-1bbc87772c0d")
+		)
+		(pin "8"
+			(uuid "55da00fb-2311-489a-8b34-9c34e35d1996")
+		)
+		(pin "7"
+			(uuid "216f2bf2-8e91-4127-bd66-a4d51113417a")
+		)
+		(instances
+			(project "Ecardz-Controller"
+				(path "/74270717-a116-451e-ac88-5a07ab66056e/c8fd81b3-86d5-41d1-a22c-ff1dbf0b272c"
+					(reference "J4")
 					(unit 1)
 				)
 			)
