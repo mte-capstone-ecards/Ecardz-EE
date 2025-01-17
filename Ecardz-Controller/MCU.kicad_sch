@@ -3329,6 +3329,18 @@
 		(uuid "1d30c860-0166-4c80-bf94-a14a6a5decc6")
 	)
 	(junction
+		(at 90.17 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f028161-f2da-4a32-b82e-c49b00814beb")
+	)
+	(junction
+		(at 101.6 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23002ae2-75db-4862-b4b9-50c07196dcc4")
+	)
+	(junction
 		(at 78.74 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3413,10 +3425,10 @@
 		(uuid "869784d3-0fab-45ea-97cb-c0ea1a60bb03")
 	)
 	(junction
-		(at 101.6 119.38)
+		(at 77.47 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8c07d4fb-613d-4b24-81ca-03f989abedc3")
+		(uuid "87b31239-a2f5-4ad8-9845-b120507145fc")
 	)
 	(junction
 		(at 215.9 114.3)
@@ -3429,12 +3441,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92a06be7-fc80-4c55-aaf3-aaf40824b4c7")
-	)
-	(junction
-		(at 90.17 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9d8ce88b-72e9-492c-894c-6639f92ff707")
 	)
 	(junction
 		(at 153.67 24.13)
@@ -3459,12 +3465,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b49beab9-72b9-427b-9531-40a2bbe28222")
-	)
-	(junction
-		(at 77.47 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b84ec9d4-7a2b-4c3d-9c62-9833b45802ff")
 	)
 	(junction
 		(at 109.22 50.8)
@@ -3768,6 +3768,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 124.46) (xy 77.47 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e261a6b-c1c3-4740-9f6b-bdeb5e2f4318")
+	)
+	(wire
+		(pts
 			(xy 109.22 86.36) (xy 121.92 86.36)
 		)
 		(stroke
@@ -3845,16 +3855,6 @@
 			(type default)
 		)
 		(uuid "29bea2f7-ff89-4840-aa8b-4d17f16b95ef")
-	)
-	(wire
-		(pts
-			(xy 55.88 116.84) (xy 66.04 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2aa30bcb-7e1a-40ce-9b38-ed647a1a4894")
 	)
 	(wire
 		(pts
@@ -3975,6 +3975,16 @@
 			(type default)
 		)
 		(uuid "4766750f-6a31-47bf-8589-260c00d0ad5a")
+	)
+	(wire
+		(pts
+			(xy 101.6 119.38) (xy 121.92 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4941963e-5d57-4037-a25e-7aaf14fafead")
 	)
 	(wire
 		(pts
@@ -4148,6 +4158,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 124.46) (xy 121.92 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bda8416-5c5c-4f64-b444-69313c78d98a")
+	)
+	(wire
+		(pts
 			(xy 237.49 29.21) (xy 237.49 30.48)
 		)
 		(stroke
@@ -4208,16 +4228,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 121.92) (xy 121.92 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6368a583-2b5d-4f32-87ba-c82556aece75")
-	)
-	(wire
-		(pts
 			(xy 119.38 68.58) (xy 121.92 68.58)
 		)
 		(stroke
@@ -4235,6 +4245,16 @@
 			(type default)
 		)
 		(uuid "64ed0073-59fd-4889-a179-b262d108770c")
+	)
+	(wire
+		(pts
+			(xy 55.88 121.92) (xy 90.17 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6506f1d8-ec97-4486-b266-10fb36a77426")
 	)
 	(wire
 		(pts
@@ -4408,16 +4428,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 121.92) (xy 90.17 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7adb071a-5715-48a9-a191-2e3ff82c1650")
-	)
-	(wire
-		(pts
 			(xy 215.9 127) (xy 215.9 129.54)
 		)
 		(stroke
@@ -4488,16 +4498,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 124.46) (xy 77.47 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d94206b-30a1-4742-a994-87f969fcd7b4")
-	)
-	(wire
-		(pts
 			(xy 77.47 134.62) (xy 77.47 137.16)
 		)
 		(stroke
@@ -4525,16 +4525,6 @@
 			(type default)
 		)
 		(uuid "92acef79-d4af-4f26-9595-3d7c37d0ea9c")
-	)
-	(wire
-		(pts
-			(xy 101.6 119.38) (xy 121.92 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "930c79f6-39f5-458a-856f-8de300e48ab5")
 	)
 	(wire
 		(pts
@@ -4678,16 +4668,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 124.46) (xy 121.92 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a71983bf-151d-45ee-be40-072464058b88")
-	)
-	(wire
-		(pts
 			(xy 196.85 147.32) (xy 196.85 149.86)
 		)
 		(stroke
@@ -4695,16 +4675,6 @@
 			(type default)
 		)
 		(uuid "a787c492-4dfe-438b-8d90-c7e06fe91842")
-	)
-	(wire
-		(pts
-			(xy 55.88 119.38) (xy 101.6 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7ba1686-5cee-490b-bb1b-c9707b4fed9f")
 	)
 	(wire
 		(pts
@@ -4785,6 +4755,16 @@
 			(type default)
 		)
 		(uuid "b0b63777-ae28-404d-a612-474290f3299b")
+	)
+	(wire
+		(pts
+			(xy 90.17 121.92) (xy 121.92 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1893d9d-a768-42ab-ae01-652c6d8b23b3")
 	)
 	(wire
 		(pts
@@ -4905,6 +4885,16 @@
 			(type default)
 		)
 		(uuid "c7979eb5-77c8-4bd7-ac67-4fc1bc42082a")
+	)
+	(wire
+		(pts
+			(xy 55.88 116.84) (xy 66.04 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd0f8549-2da4-4419-87f0-710ae5ac8c07")
 	)
 	(wire
 		(pts
@@ -5178,6 +5168,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 119.38) (xy 101.6 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e975f737-e241-4bec-809f-b30637069339")
+	)
+	(wire
+		(pts
 			(xy 215.9 137.16) (xy 215.9 149.86)
 		)
 		(stroke
@@ -5332,7 +5332,6 @@
 	)
 	(label "SD_SCK"
 		(at 87.63 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5343,7 +5342,6 @@
 	)
 	(label "LED_DEBUG_B"
 		(at 120.65 124.46 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5354,7 +5352,6 @@
 	)
 	(label "BUTTON2"
 		(at 55.88 46.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5365,7 +5362,6 @@
 	)
 	(label "SPI_LCD_SCK"
 		(at 162.56 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5376,7 +5372,6 @@
 	)
 	(label "SPI_LCD_CS"
 		(at 109.22 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5387,7 +5382,6 @@
 	)
 	(label "BUTTON5"
 		(at 109.22 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5398,7 +5392,6 @@
 	)
 	(label "SD_CS"
 		(at 16.51 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5409,7 +5402,6 @@
 	)
 	(label "SPI_LCD_MISO"
 		(at 162.56 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5420,7 +5412,6 @@
 	)
 	(label "NFC_B_SDA"
 		(at 218.44 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5431,7 +5422,6 @@
 	)
 	(label "LED_NFC_WORKING"
 		(at 120.65 121.92 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5442,7 +5432,6 @@
 	)
 	(label "BUTTON7"
 		(at 55.88 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5453,7 +5442,6 @@
 	)
 	(label "NFC_A_SDA"
 		(at 227.33 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5464,7 +5452,6 @@
 	)
 	(label "BUTTON3"
 		(at 109.22 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5475,7 +5462,6 @@
 	)
 	(label "BUTTON4"
 		(at 109.22 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5486,7 +5472,6 @@
 	)
 	(label "SD_MOSI"
 		(at 34.29 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5497,7 +5482,6 @@
 	)
 	(label "NFC_A_BUSY"
 		(at 227.33 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5508,7 +5492,6 @@
 	)
 	(label "BUTTON1"
 		(at 171.45 127 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5519,7 +5502,6 @@
 	)
 	(label "PWR_INDICATOR"
 		(at 162.56 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5530,7 +5512,6 @@
 	)
 	(label "NFC_A_SCL"
 		(at 227.33 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5541,7 +5522,6 @@
 	)
 	(label "LED_NFC_DONE"
 		(at 120.65 119.38 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5552,7 +5532,6 @@
 	)
 	(label "BUTTON6"
 		(at 171.45 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5563,7 +5542,6 @@
 	)
 	(label "SD_CARD_DETECT"
 		(at 96.52 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5574,7 +5552,6 @@
 	)
 	(label "SD_SCK"
 		(at 168.91 45.72 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5585,7 +5562,6 @@
 	)
 	(label "SPI_LCD_DC"
 		(at 109.22 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5596,7 +5572,6 @@
 	)
 	(label "BUTTON2"
 		(at 109.22 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5607,7 +5582,6 @@
 	)
 	(label "SD_MISO"
 		(at 87.63 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5618,7 +5592,6 @@
 	)
 	(label "SD_CARD_DETECT"
 		(at 179.07 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5629,7 +5602,6 @@
 	)
 	(label "BUTTON3"
 		(at 55.88 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5640,7 +5612,6 @@
 	)
 	(label "BUTTON5"
 		(at 55.88 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5651,7 +5622,6 @@
 	)
 	(label "BUTTON1"
 		(at 55.88 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5662,7 +5632,6 @@
 	)
 	(label "SPI_LCD_DC"
 		(at 176.53 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5673,7 +5642,6 @@
 	)
 	(label "BUTTON7"
 		(at 171.45 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5684,7 +5652,6 @@
 	)
 	(label "BUTTON6"
 		(at 55.88 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5695,7 +5662,6 @@
 	)
 	(label "NFC_B_BUSY"
 		(at 218.44 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5706,7 +5672,6 @@
 	)
 	(label "NFC_A_SCL"
 		(at 109.22 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5717,7 +5682,6 @@
 	)
 	(label "NFC_A_SDA"
 		(at 109.22 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5728,7 +5692,6 @@
 	)
 	(label "SPI_LCD_CS"
 		(at 176.53 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5739,7 +5702,6 @@
 	)
 	(label "BUTTON4"
 		(at 55.88 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5750,7 +5712,6 @@
 	)
 	(label "SD_MOSI"
 		(at 109.22 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5761,7 +5722,6 @@
 	)
 	(label "NFC_B_SCL"
 		(at 218.44 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5772,7 +5732,6 @@
 	)
 	(label "SPI_LCD_MOSI"
 		(at 162.56 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5783,7 +5742,6 @@
 	)
 	(label "SD_CS"
 		(at 167.64 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5794,7 +5752,6 @@
 	)
 	(label "LED_DISPLAY_R"
 		(at 162.56 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5805,7 +5762,6 @@
 	)
 	(label "LED_DISPLAY_B"
 		(at 162.56 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5817,7 +5773,6 @@
 	(hierarchical_label "EINK_RES"
 		(shape input)
 		(at 97.79 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5829,7 +5784,6 @@
 	(hierarchical_label "NFC_I_SENSE"
 		(shape input)
 		(at 161.29 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5841,7 +5795,6 @@
 	(hierarchical_label "SPI_LCD_SCK"
 		(shape input)
 		(at 198.12 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5853,7 +5806,6 @@
 	(hierarchical_label "SPI_EINK_SCK"
 		(shape input)
 		(at 165.1 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5865,7 +5817,6 @@
 	(hierarchical_label "BUTTON2"
 		(shape output)
 		(at 66.04 46.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5877,7 +5828,6 @@
 	(hierarchical_label "I2C_NFC_SDA"
 		(shape input)
 		(at 252.73 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5889,7 +5839,6 @@
 	(hierarchical_label "USBC_UART_RX"
 		(shape input)
 		(at 234.95 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5901,7 +5850,6 @@
 	(hierarchical_label "SPI_LCD_MOSI"
 		(shape input)
 		(at 198.12 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5913,7 +5861,6 @@
 	(hierarchical_label "EINK_BUSY"
 		(shape input)
 		(at 97.79 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5925,7 +5872,6 @@
 	(hierarchical_label "BUTTON1"
 		(shape output)
 		(at 66.04 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5937,7 +5883,6 @@
 	(hierarchical_label "BUTTON7"
 		(shape output)
 		(at 66.04 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5949,7 +5894,6 @@
 	(hierarchical_label "I2C_NFC_SCL"
 		(shape input)
 		(at 252.73 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5961,7 +5905,6 @@
 	(hierarchical_label "BUTTON3"
 		(shape output)
 		(at 66.04 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5973,7 +5916,6 @@
 	(hierarchical_label "SPI_EINK_MISO"
 		(shape input)
 		(at 165.1 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5985,7 +5927,6 @@
 	(hierarchical_label "SPI_EINK_CS"
 		(shape input)
 		(at 119.38 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5997,7 +5938,6 @@
 	(hierarchical_label "BUTTON5"
 		(shape output)
 		(at 66.04 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6009,7 +5949,6 @@
 	(hierarchical_label "NFC_BUSY"
 		(shape input)
 		(at 252.73 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6021,7 +5960,6 @@
 	(hierarchical_label "SPI_EINK_MOSI"
 		(shape input)
 		(at 165.1 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6033,7 +5971,6 @@
 	(hierarchical_label "BUTTON4"
 		(shape output)
 		(at 66.04 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6045,7 +5982,6 @@
 	(hierarchical_label "SPI_LCD_MISO"
 		(shape input)
 		(at 198.12 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6057,7 +5993,6 @@
 	(hierarchical_label "BUZZER"
 		(shape input)
 		(at 165.1 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6069,7 +6004,6 @@
 	(hierarchical_label "BUTTON6"
 		(shape output)
 		(at 66.04 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6081,7 +6015,6 @@
 	(hierarchical_label "SPI_LCD_DC"
 		(shape input)
 		(at 198.12 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6093,7 +6026,6 @@
 	(hierarchical_label "USBC_UART_TX"
 		(shape input)
 		(at 234.95 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6105,7 +6037,6 @@
 	(hierarchical_label "PWR_INDICATOR"
 		(shape output)
 		(at 179.07 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6117,7 +6048,6 @@
 	(hierarchical_label "SPI_LCD_CS"
 		(shape input)
 		(at 198.12 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6129,7 +6059,6 @@
 	(hierarchical_label "LCD_PWM_BRIGHT"
 		(shape input)
 		(at 165.1 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6141,7 +6070,6 @@
 	(hierarchical_label "SPI_EINK_D{slash}C"
 		(shape input)
 		(at 119.38 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7979,8 +7907,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 50.8 119.38 0)
-		(mirror y)
+		(at 50.8 121.92 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7988,7 +7915,7 @@
 		(dnp no)
 		(uuid "8496a2b2-d522-4e1e-aec0-b12954e17fd6")
 		(property "Reference" "J2"
-			(at 48.26 119.3799 0)
+			(at 48.26 121.9201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7997,7 +7924,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 48.26 121.9199 0)
+			(at 48.26 119.3801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8006,7 +7933,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal"
-			(at 50.8 119.38 0)
+			(at 50.8 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8015,7 +7942,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 119.38 0)
+			(at 50.8 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8024,7 +7951,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 50.8 119.38 0)
+			(at 50.8 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8033,7 +7960,7 @@
 			)
 		)
 		(property "Part Number" "61300411121"
-			(at 50.8 119.38 0)
+			(at 50.8 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8900,8 +8827,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
+		(dnp yes)
 		(uuid "bece0a55-e7e4-4b11-8930-8c31921ccf98")
 		(property "Reference" "J3"
 			(at 266.7 107.9499 0)

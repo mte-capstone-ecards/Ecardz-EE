@@ -3449,6 +3449,12 @@
 		(uuid "97afc6e3-67ea-4ff9-9b9d-f5490f1aa52a")
 	)
 	(junction
+		(at 109.22 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b35d538-d446-45bf-8cbe-ea28c85be67b")
+	)
+	(junction
 		(at 52.07 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3543,12 +3549,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f88db695-84ff-40f8-97c0-1f2211bc7253")
-	)
-	(junction
-		(at 109.22 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fa732708-8563-4edb-9e9d-39a135cbd206")
 	)
 	(no_connect
 		(at 243.84 24.13)
@@ -3912,6 +3912,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 124.46) (xy 135.89 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30b6f708-bc1b-430c-b979-27e337559335")
+	)
+	(wire
+		(pts
 			(xy 54.61 60.96) (xy 54.61 63.5)
 		)
 		(stroke
@@ -4052,16 +4062,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 129.54) (xy 134.62 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4927ecc2-2350-4fd9-83c4-be3bf63a43fc")
-	)
-	(wire
-		(pts
 			(xy 186.69 144.78) (xy 198.12 144.78)
 		)
 		(stroke
@@ -4199,6 +4199,16 @@
 			(type default)
 		)
 		(uuid "5eb4cba5-f2a1-47ff-9da3-ef81488775ad")
+	)
+	(wire
+		(pts
+			(xy 134.62 132.08) (xy 134.62 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ee06e3a-df6c-4a82-9280-708138499b46")
 	)
 	(wire
 		(pts
@@ -4362,16 +4372,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 132.08) (xy 134.62 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f46afb9-0fac-4be4-82b6-b22cfd4ec178")
-	)
-	(wire
-		(pts
 			(xy 33.02 35.56) (xy 33.02 39.37)
 		)
 		(stroke
@@ -4399,6 +4399,16 @@
 			(type default)
 		)
 		(uuid "8157b996-f352-4878-8801-91fc4224e5ba")
+	)
+	(wire
+		(pts
+			(xy 135.89 129.54) (xy 130.81 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82695010-eab9-4b3d-9500-8c8fd6e27b51")
 	)
 	(wire
 		(pts
@@ -4459,16 +4469,6 @@
 			(type default)
 		)
 		(uuid "85ae065a-a119-41a2-afd8-88841270a434")
-	)
-	(wire
-		(pts
-			(xy 109.22 127) (xy 134.62 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8843c0b0-9f52-4e42-8f52-e6f132f4c410")
 	)
 	(wire
 		(pts
@@ -4622,6 +4622,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 127) (xy 135.89 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fae2fc9-f324-4a63-a87f-69990caf21cb")
+	)
+	(wire
+		(pts
 			(xy 181.61 46.99) (xy 165.1 46.99)
 		)
 		(stroke
@@ -4689,16 +4699,6 @@
 			(type default)
 		)
 		(uuid "b9c6faab-3b10-40ee-96d4-087a99f56a19")
-	)
-	(wire
-		(pts
-			(xy 133.35 124.46) (xy 134.62 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba262ef2-44a0-45dc-97da-1008181d9bba")
 	)
 	(wire
 		(pts
@@ -4839,6 +4839,16 @@
 			(type default)
 		)
 		(uuid "cccbaddf-8687-4923-8c77-d7396980de52")
+	)
+	(wire
+		(pts
+			(xy 135.89 132.08) (xy 134.62 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce24ed9a-3772-466a-b685-026abfd805ae")
 	)
 	(wire
 		(pts
@@ -5172,7 +5182,6 @@
 	)
 	(label "VCOM"
 		(at 233.68 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5183,7 +5192,6 @@
 	)
 	(label "TSDA"
 		(at 233.68 39.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5194,7 +5202,6 @@
 	)
 	(label "VGH"
 		(at 233.68 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5205,7 +5212,6 @@
 	)
 	(label "VSH2"
 		(at 233.68 34.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5216,7 +5222,6 @@
 	)
 	(label "VGL"
 		(at 233.68 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5227,7 +5232,6 @@
 	)
 	(label "BUSY"
 		(at 233.68 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5238,7 +5242,6 @@
 	)
 	(label "BUTTON5"
 		(at 45.72 132.08 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5249,7 +5252,6 @@
 	)
 	(label "CS#"
 		(at 233.68 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5260,7 +5262,6 @@
 	)
 	(label "VSH1"
 		(at 233.68 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5271,7 +5272,6 @@
 	)
 	(label "VSL"
 		(at 233.68 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5282,7 +5282,6 @@
 	)
 	(label "BUTTON7"
 		(at 45.72 127 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5293,7 +5292,6 @@
 	)
 	(label "BUTTON4"
 		(at 45.72 134.62 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5304,7 +5302,6 @@
 	)
 	(label "VCL"
 		(at 233.68 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5315,7 +5312,6 @@
 	)
 	(label "GDR"
 		(at 233.68 26.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5326,7 +5322,6 @@
 	)
 	(label "SCL"
 		(at 233.68 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5337,7 +5332,6 @@
 	)
 	(label "SDA"
 		(at 233.68 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5348,7 +5342,6 @@
 	)
 	(label "BS1"
 		(at 233.68 41.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5359,7 +5352,6 @@
 	)
 	(label "VGH"
 		(at 35.56 35.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5370,7 +5362,6 @@
 	)
 	(label "VGL"
 		(at 58.42 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5381,7 +5372,6 @@
 	)
 	(label "VDDIO"
 		(at 233.68 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5392,7 +5382,6 @@
 	)
 	(label "D{slash}C#"
 		(at 233.68 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5403,7 +5392,6 @@
 	)
 	(label "BUTTON1"
 		(at 45.72 142.24 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5414,7 +5402,6 @@
 	)
 	(label "TSCL"
 		(at 233.68 36.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5425,7 +5412,6 @@
 	)
 	(label "VPP"
 		(at 233.68 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5436,7 +5422,6 @@
 	)
 	(label "RESE"
 		(at 233.68 29.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5447,7 +5432,6 @@
 	)
 	(label "VDD_1.8V"
 		(at 233.68 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5458,7 +5442,6 @@
 	)
 	(label "BUTTON6"
 		(at 45.72 129.54 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5469,7 +5452,6 @@
 	)
 	(label "RES#"
 		(at 233.68 46.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5480,7 +5462,6 @@
 	)
 	(label "BUTTON2"
 		(at 45.72 139.7 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5491,7 +5472,6 @@
 	)
 	(label "VCL"
 		(at 128.27 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5502,7 +5482,6 @@
 	)
 	(label "BUTTON3"
 		(at 45.72 137.16 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5514,7 +5493,6 @@
 	(hierarchical_label "SPI_EINK_MOSI"
 		(shape input)
 		(at 226.06 57.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5526,7 +5504,6 @@
 	(hierarchical_label "BUTTON2"
 		(shape input)
 		(at 36.83 139.7 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5538,7 +5515,6 @@
 	(hierarchical_label "TSDA"
 		(shape input)
 		(at 226.06 39.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5550,7 +5526,6 @@
 	(hierarchical_label "EINK_BUSY"
 		(shape input)
 		(at 226.06 44.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5562,7 +5537,6 @@
 	(hierarchical_label "SPI_LCD_SCK"
 		(shape input)
 		(at 186.69 144.78 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5574,7 +5548,6 @@
 	(hierarchical_label "SPI_EINK_D{slash}C"
 		(shape input)
 		(at 226.06 49.53 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5586,7 +5559,6 @@
 	(hierarchical_label "EINK_RES"
 		(shape input)
 		(at 226.06 46.99 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5598,7 +5570,6 @@
 	(hierarchical_label "BUTTON4"
 		(shape input)
 		(at 36.83 134.62 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5610,7 +5581,6 @@
 	(hierarchical_label "SPI_LCD_DC"
 		(shape input)
 		(at 186.69 139.7 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5622,7 +5592,6 @@
 	(hierarchical_label "SPI_EINK_CS"
 		(shape input)
 		(at 226.06 52.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5634,7 +5603,6 @@
 	(hierarchical_label "TSCL"
 		(shape input)
 		(at 226.06 36.83 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5646,7 +5614,6 @@
 	(hierarchical_label "SPI_LCD_MISO"
 		(shape input)
 		(at 186.69 149.86 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5658,7 +5625,6 @@
 	(hierarchical_label "BUTTON3"
 		(shape input)
 		(at 36.83 137.16 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5670,7 +5636,6 @@
 	(hierarchical_label "BUTTON5"
 		(shape input)
 		(at 36.83 132.08 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5682,7 +5647,6 @@
 	(hierarchical_label "BUZZER"
 		(shape input)
 		(at 25.4 179.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5694,7 +5658,6 @@
 	(hierarchical_label "BUTTON6"
 		(shape input)
 		(at 36.83 129.54 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5706,7 +5669,6 @@
 	(hierarchical_label "SPI_EINK_SCK"
 		(shape input)
 		(at 226.06 54.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5718,7 +5680,6 @@
 	(hierarchical_label "BUTTON7"
 		(shape input)
 		(at 36.83 127 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5730,7 +5691,6 @@
 	(hierarchical_label "BUTTON1"
 		(shape input)
 		(at 36.83 142.24 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5742,7 +5702,6 @@
 	(hierarchical_label "SPI_LCD_CS"
 		(shape input)
 		(at 186.69 134.62 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5754,7 +5713,6 @@
 	(hierarchical_label "PWR_INDICATOR"
 		(shape input)
 		(at 130.81 129.54 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5766,7 +5724,6 @@
 	(hierarchical_label "SPI_LCD_MOSI"
 		(shape input)
 		(at 186.69 142.24 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5778,7 +5735,6 @@
 	(hierarchical_label "LCD_PWM_BRIGHT"
 		(shape input)
 		(at 228.6 147.32 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9581,7 +9537,6 @@
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x09")
 		(at 203.2 139.7 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9589,7 +9544,7 @@
 		(dnp no)
 		(uuid "aea69799-4555-449a-9cf7-7e4b0a50957f")
 		(property "Reference" "J4"
-			(at 205.74 140.9701 0)
+			(at 205.74 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9598,7 +9553,7 @@
 			)
 		)
 		(property "Value" "Conn_01x09"
-			(at 205.74 138.4301 0)
+			(at 205.74 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10262,16 +10217,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 139.7 127 0)
+		(at 140.97 129.54 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d33edd93-e2f5-4184-a8dd-d53a826162a2")
 		(property "Reference" "J9"
-			(at 142.24 126.9999 0)
+			(at 143.51 129.5401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10280,7 +10235,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 142.24 129.5399 0)
+			(at 143.51 127.0001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10289,7 +10244,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal"
-			(at 139.7 127 0)
+			(at 140.97 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10298,7 +10253,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 127 0)
+			(at 140.97 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10307,7 +10262,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 139.7 127 0)
+			(at 140.97 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10316,7 +10271,7 @@
 			)
 		)
 		(property "Part Number" "61300411121"
-			(at 139.7 127 0)
+			(at 140.97 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
