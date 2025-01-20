@@ -1922,6 +1922,7 @@
 	)
 	(label "USBC_D+"
 		(at 91.44 58.42 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1932,6 +1933,7 @@
 	)
 	(label "VDD"
 		(at 137.16 31.75 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1942,6 +1944,7 @@
 	)
 	(label "USBC_D-"
 		(at 91.44 55.88 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1952,6 +1955,7 @@
 	)
 	(label "USBC_D-"
 		(at 45.72 34.29 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1962,6 +1966,7 @@
 	)
 	(label "USBC_D+"
 		(at 45.72 31.75 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1973,6 +1978,7 @@
 	(hierarchical_label "USBC_UART_RX"
 		(shape input)
 		(at 149.86 43.18 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1984,6 +1990,7 @@
 	(hierarchical_label "USBC_UART_TX"
 		(shape input)
 		(at 149.86 40.64 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1995,6 +2002,7 @@
 	(hierarchical_label "5V_USBC"
 		(shape input)
 		(at 119.38 29.21 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3061,7 +3069,7 @@
 			(uuid "cb815584-5fa9-456e-a28f-8626403429ff")
 		)
 		(instances
-			(project ""
+			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/795903a0-6fb6-4696-956b-ef2670233793"
 					(reference "J8")
 					(unit 1)

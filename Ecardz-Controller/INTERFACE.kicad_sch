@@ -5182,6 +5182,7 @@
 	)
 	(label "VCOM"
 		(at 233.68 82.55 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5192,6 +5193,7 @@
 	)
 	(label "TSDA"
 		(at 233.68 39.37 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5202,6 +5204,7 @@
 	)
 	(label "VGH"
 		(at 233.68 74.93 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5212,6 +5215,7 @@
 	)
 	(label "VSH2"
 		(at 233.68 34.29 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5222,6 +5226,7 @@
 	)
 	(label "VGL"
 		(at 233.68 80.01 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5232,6 +5237,7 @@
 	)
 	(label "BUSY"
 		(at 233.68 44.45 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5242,6 +5248,7 @@
 	)
 	(label "BUTTON5"
 		(at 45.72 132.08 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5252,6 +5259,7 @@
 	)
 	(label "CS#"
 		(at 233.68 52.07 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5262,6 +5270,7 @@
 	)
 	(label "VSH1"
 		(at 233.68 72.39 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5272,6 +5281,7 @@
 	)
 	(label "VSL"
 		(at 233.68 77.47 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5282,6 +5292,7 @@
 	)
 	(label "BUTTON7"
 		(at 45.72 127 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5292,6 +5303,7 @@
 	)
 	(label "BUTTON4"
 		(at 45.72 134.62 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5302,6 +5314,7 @@
 	)
 	(label "VCL"
 		(at 233.68 62.23 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5312,6 +5325,7 @@
 	)
 	(label "GDR"
 		(at 233.68 26.67 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5322,6 +5336,7 @@
 	)
 	(label "SCL"
 		(at 233.68 54.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5332,6 +5347,7 @@
 	)
 	(label "SDA"
 		(at 233.68 57.15 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5342,6 +5358,7 @@
 	)
 	(label "BS1"
 		(at 233.68 41.91 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5352,6 +5369,7 @@
 	)
 	(label "VGH"
 		(at 35.56 35.56 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5362,6 +5380,7 @@
 	)
 	(label "VGL"
 		(at 58.42 60.96 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5372,6 +5391,7 @@
 	)
 	(label "VDDIO"
 		(at 233.68 59.69 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5382,6 +5402,7 @@
 	)
 	(label "D{slash}C#"
 		(at 233.68 49.53 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5392,6 +5413,7 @@
 	)
 	(label "BUTTON1"
 		(at 45.72 142.24 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5402,6 +5424,7 @@
 	)
 	(label "TSCL"
 		(at 233.68 36.83 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5412,6 +5435,7 @@
 	)
 	(label "VPP"
 		(at 233.68 69.85 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5422,6 +5446,7 @@
 	)
 	(label "RESE"
 		(at 233.68 29.21 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5432,6 +5457,7 @@
 	)
 	(label "VDD_1.8V"
 		(at 233.68 67.31 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5442,6 +5468,7 @@
 	)
 	(label "BUTTON6"
 		(at 45.72 129.54 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5452,6 +5479,7 @@
 	)
 	(label "RES#"
 		(at 233.68 46.99 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5462,6 +5490,7 @@
 	)
 	(label "BUTTON2"
 		(at 45.72 139.7 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5472,6 +5501,7 @@
 	)
 	(label "VCL"
 		(at 128.27 48.26 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5482,6 +5512,7 @@
 	)
 	(label "BUTTON3"
 		(at 45.72 137.16 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5493,6 +5524,7 @@
 	(hierarchical_label "SPI_EINK_MOSI"
 		(shape input)
 		(at 226.06 57.15 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5504,6 +5536,7 @@
 	(hierarchical_label "BUTTON2"
 		(shape input)
 		(at 36.83 139.7 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5515,6 +5548,7 @@
 	(hierarchical_label "TSDA"
 		(shape input)
 		(at 226.06 39.37 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5526,6 +5560,7 @@
 	(hierarchical_label "EINK_BUSY"
 		(shape input)
 		(at 226.06 44.45 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5537,6 +5572,7 @@
 	(hierarchical_label "SPI_LCD_SCK"
 		(shape input)
 		(at 186.69 144.78 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5548,6 +5584,7 @@
 	(hierarchical_label "SPI_EINK_D{slash}C"
 		(shape input)
 		(at 226.06 49.53 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5559,6 +5596,7 @@
 	(hierarchical_label "EINK_RES"
 		(shape input)
 		(at 226.06 46.99 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5570,6 +5608,7 @@
 	(hierarchical_label "BUTTON4"
 		(shape input)
 		(at 36.83 134.62 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5581,6 +5620,7 @@
 	(hierarchical_label "SPI_LCD_DC"
 		(shape input)
 		(at 186.69 139.7 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5592,6 +5632,7 @@
 	(hierarchical_label "SPI_EINK_CS"
 		(shape input)
 		(at 226.06 52.07 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5603,6 +5644,7 @@
 	(hierarchical_label "TSCL"
 		(shape input)
 		(at 226.06 36.83 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5614,6 +5656,7 @@
 	(hierarchical_label "SPI_LCD_MISO"
 		(shape input)
 		(at 186.69 149.86 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5625,6 +5668,7 @@
 	(hierarchical_label "BUTTON3"
 		(shape input)
 		(at 36.83 137.16 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5636,6 +5680,7 @@
 	(hierarchical_label "BUTTON5"
 		(shape input)
 		(at 36.83 132.08 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5647,6 +5692,7 @@
 	(hierarchical_label "BUZZER"
 		(shape input)
 		(at 25.4 179.07 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5658,6 +5704,7 @@
 	(hierarchical_label "BUTTON6"
 		(shape input)
 		(at 36.83 129.54 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5669,6 +5716,7 @@
 	(hierarchical_label "SPI_EINK_SCK"
 		(shape input)
 		(at 226.06 54.61 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5680,6 +5728,7 @@
 	(hierarchical_label "BUTTON7"
 		(shape input)
 		(at 36.83 127 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5691,6 +5740,7 @@
 	(hierarchical_label "BUTTON1"
 		(shape input)
 		(at 36.83 142.24 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5702,6 +5752,7 @@
 	(hierarchical_label "SPI_LCD_CS"
 		(shape input)
 		(at 186.69 134.62 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5713,6 +5764,7 @@
 	(hierarchical_label "PWR_INDICATOR"
 		(shape input)
 		(at 130.81 129.54 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5724,6 +5776,7 @@
 	(hierarchical_label "SPI_LCD_MOSI"
 		(shape input)
 		(at 186.69 142.24 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5735,6 +5788,7 @@
 	(hierarchical_label "LCD_PWM_BRIGHT"
 		(shape input)
 		(at 228.6 147.32 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5926,7 +5980,7 @@
 			(uuid "88456860-b607-45d3-9151-2f405290a7e5")
 		)
 		(instances
-			(project ""
+			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/c8fd81b3-86d5-41d1-a22c-ff1dbf0b272c"
 					(reference "Q2")
 					(unit 1)
@@ -10292,7 +10346,7 @@
 			(uuid "b68b0557-9b9a-44be-8054-c2d997ecc346")
 		)
 		(instances
-			(project ""
+			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/c8fd81b3-86d5-41d1-a22c-ff1dbf0b272c"
 					(reference "J9")
 					(unit 1)

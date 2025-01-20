@@ -107,6 +107,145 @@
 				)
 			)
 		)
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016) hide)
@@ -3305,6 +3444,12 @@
 		)
 	)
 	(junction
+		(at 199.39 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1231ce15-aa32-4a57-8343-d1e327e7eecd")
+	)
+	(junction
 		(at 25.4 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3509,6 +3654,12 @@
 		(uuid "f34fd49e-c86b-4955-acc2-01e88d95833d")
 	)
 	(junction
+		(at 201.93 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7756d69-4dc5-4dfc-8096-37735d0602d0")
+	)
+	(junction
 		(at 102.87 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3551,10 +3702,6 @@
 		(uuid "864d24d0-3a81-4cb3-b206-69c2f8aa55c8")
 	)
 	(no_connect
-		(at 160.02 81.28)
-		(uuid "8e74e00a-37d6-4953-8a11-74492ec02fd6")
-	)
-	(no_connect
 		(at 160.02 55.88)
 		(uuid "acb92223-1e0b-4779-a936-6f80b36e61b6")
 	)
@@ -3593,10 +3740,6 @@
 	(no_connect
 		(at 160.02 53.34)
 		(uuid "e38bf17f-8829-478b-80b0-328918494b1f")
-	)
-	(no_connect
-		(at 121.92 66.04)
-		(uuid "ec09a93d-0ee5-4af9-b7f7-025d13945090")
 	)
 	(no_connect
 		(at 74.93 101.6)
@@ -3698,6 +3841,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 81.28) (xy 160.02 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a76fa19-fca4-46ad-83e1-de82e8548132")
+	)
+	(wire
+		(pts
 			(xy 66.04 116.84) (xy 66.04 147.32)
 		)
 		(stroke
@@ -3765,6 +3918,16 @@
 			(type default)
 		)
 		(uuid "15e703dc-24da-42bb-aa2c-2d2ae685a0fa")
+	)
+	(wire
+		(pts
+			(xy 172.72 85.09) (xy 180.34 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "166047bf-a378-40bb-9885-fe79ee0544ff")
 	)
 	(wire
 		(pts
@@ -3878,16 +4041,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 57.15) (xy 229.87 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "255b16e4-5a09-40eb-9831-ab12092a6616")
-	)
-	(wire
-		(pts
 			(xy 160.02 96.52) (xy 165.1 96.52)
 		)
 		(stroke
@@ -3898,7 +4051,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 116.84) (xy 228.6 116.84)
+			(xy 160.02 116.84) (xy 199.39 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3915,6 +4068,16 @@
 			(type default)
 		)
 		(uuid "2cd49100-8778-455c-891b-7f7d7d7c616f")
+	)
+	(wire
+		(pts
+			(xy 166.37 77.47) (xy 166.37 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d50cfca-9e54-447f-9605-10acac8e5f74")
 	)
 	(wire
 		(pts
@@ -3948,6 +4111,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 57.15) (xy 229.87 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37cc374e-18fb-4d1d-9764-df0412b63fc8")
+	)
+	(wire
+		(pts
 			(xy 78.74 78.74) (xy 78.74 83.82)
 		)
 		(stroke
@@ -3965,6 +4138,16 @@
 			(type default)
 		)
 		(uuid "3adaff33-19b9-402c-adcb-d1456e25e012")
+	)
+	(wire
+		(pts
+			(xy 222.25 33.02) (xy 222.25 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eda5a8d-505e-493b-9efb-f23014eea231")
 	)
 	(wire
 		(pts
@@ -4248,6 +4431,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 77.47) (xy 166.37 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a3a84fe-198b-453c-b431-16e7f2bec658")
+	)
+	(wire
+		(pts
 			(xy 257.81 116.84) (xy 257.81 114.3)
 		)
 		(stroke
@@ -4265,6 +4458,16 @@
 			(type default)
 		)
 		(uuid "5bda8416-5c5c-4f64-b444-69313c78d98a")
+	)
+	(wire
+		(pts
+			(xy 201.93 114.3) (xy 215.9 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c265545-7f6f-4ac2-9f1d-7e0471cbf79f")
 	)
 	(wire
 		(pts
@@ -4305,6 +4508,16 @@
 			(type default)
 		)
 		(uuid "5f41cc2b-cac4-4d76-bf27-5cbf836ae7cf")
+	)
+	(wire
+		(pts
+			(xy 222.25 40.64) (xy 222.25 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6138ca22-4557-448c-96c2-458e53227207")
 	)
 	(wire
 		(pts
@@ -4648,6 +4861,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 66.04) (xy 121.92 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9504a260-5aeb-4e10-b19a-e69046756e76")
+	)
+	(wire
+		(pts
 			(xy 160.02 88.9) (xy 165.1 88.9)
 		)
 		(stroke
@@ -4655,6 +4878,16 @@
 			(type default)
 		)
 		(uuid "9512b9b5-bedd-427b-bb8e-66b8717e84f5")
+	)
+	(wire
+		(pts
+			(xy 199.39 116.84) (xy 228.6 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95750df5-4347-4204-b278-7754808f2c1e")
 	)
 	(wire
 		(pts
@@ -4928,7 +5161,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 114.3) (xy 215.9 114.3)
+			(xy 160.02 114.3) (xy 201.93 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4975,6 +5208,16 @@
 			(type default)
 		)
 		(uuid "c015f021-8b4e-402c-ac9e-de6d58cca911")
+	)
+	(wire
+		(pts
+			(xy 222.25 30.48) (xy 237.49 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4e96b18-1c14-4304-9309-5ec0bc207447")
 	)
 	(wire
 		(pts
@@ -5025,6 +5268,16 @@
 			(type default)
 		)
 		(uuid "ce10f4fb-8be6-426e-a4d7-5b1da67e6856")
+	)
+	(wire
+		(pts
+			(xy 201.93 99.06) (xy 199.39 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce347ff3-838b-4617-a9f4-eedf58cddc69")
 	)
 	(wire
 		(pts
@@ -5135,6 +5388,16 @@
 			(type default)
 		)
 		(uuid "d5914e0b-934e-40cf-8b85-c82ec6dd4a36")
+	)
+	(wire
+		(pts
+			(xy 199.39 99.06) (xy 199.39 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5ec532b-e091-4b5f-8773-23ab9641eda7")
 	)
 	(wire
 		(pts
@@ -5328,6 +5591,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 101.6) (xy 201.93 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebd1fb97-a606-4803-956c-c946f04ac8e3")
+	)
+	(wire
+		(pts
 			(xy 215.9 137.16) (xy 215.9 149.86)
 		)
 		(stroke
@@ -5502,6 +5775,7 @@
 	)
 	(label "SD_SCK"
 		(at 87.63 93.98 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5512,6 +5786,7 @@
 	)
 	(label "LED_DEBUG_B"
 		(at 120.65 124.46 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5522,6 +5797,7 @@
 	)
 	(label "BUTTON_2"
 		(at 58.42 17.78 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5532,6 +5808,7 @@
 	)
 	(label "SPI_LCD_SCK"
 		(at 162.56 58.42 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5542,6 +5819,7 @@
 	)
 	(label "SPI_LCD_CS"
 		(at 109.22 96.52 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5552,6 +5830,7 @@
 	)
 	(label "BUTTON_5"
 		(at 109.22 101.6 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5562,6 +5841,7 @@
 	)
 	(label "SD_CS"
 		(at 16.51 101.6 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5572,6 +5852,7 @@
 	)
 	(label "SPI_LCD_MISO"
 		(at 162.56 60.96 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5582,6 +5863,7 @@
 	)
 	(label "NFC_B_SDA"
 		(at 218.44 106.68 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5592,6 +5874,7 @@
 	)
 	(label "LED_NFC_WORKING"
 		(at 120.65 121.92 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5602,6 +5885,7 @@
 	)
 	(label "BUTTON_7"
 		(at 58.42 30.48 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5612,6 +5896,7 @@
 	)
 	(label "NFC_A_SDA"
 		(at 227.33 52.07 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5622,6 +5907,7 @@
 	)
 	(label "BUTTON_3"
 		(at 109.22 111.76 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5632,6 +5918,7 @@
 	)
 	(label "BUTTON_4"
 		(at 109.22 104.14 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5642,6 +5929,7 @@
 	)
 	(label "SD_MOSI"
 		(at 34.29 113.03 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5652,6 +5940,7 @@
 	)
 	(label "NFC_A_BUSY"
 		(at 227.33 57.15 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5660,8 +5949,20 @@
 		)
 		(uuid "4455e9be-6c11-4e3e-8ead-1f6069e11f88")
 	)
+	(label "NFC_A_BUSY"
+		(at 107.95 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4534a0e8-11ec-426d-a44d-0b1d57359837")
+	)
 	(label "BUTTON_1"
 		(at 171.45 127 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5672,6 +5973,7 @@
 	)
 	(label "PWR_INDICATOR"
 		(at 162.56 71.12 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5682,6 +5984,7 @@
 	)
 	(label "NFC_A_SCL"
 		(at 227.33 54.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5692,6 +5995,7 @@
 	)
 	(label "LED_NFC_DONE"
 		(at 120.65 119.38 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5702,6 +6006,7 @@
 	)
 	(label "BUTTON_6"
 		(at 171.45 68.58 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5712,6 +6017,7 @@
 	)
 	(label "SD_CARD_DETECT"
 		(at 96.52 83.82 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5722,6 +6028,7 @@
 	)
 	(label "SD_SCK"
 		(at 168.91 45.72 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5732,6 +6039,7 @@
 	)
 	(label "SPI_LCD_DC"
 		(at 109.22 99.06 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5742,6 +6050,7 @@
 	)
 	(label "BUTTON_2"
 		(at 109.22 114.3 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5752,6 +6061,7 @@
 	)
 	(label "SD_MISO"
 		(at 87.63 99.06 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5762,6 +6072,7 @@
 	)
 	(label "SD_CARD_DETECT"
 		(at 179.07 109.22 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5772,6 +6083,7 @@
 	)
 	(label "BUTTON_3"
 		(at 58.42 20.32 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5782,6 +6094,7 @@
 	)
 	(label "BUTTON_5"
 		(at 58.42 25.4 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5792,6 +6105,7 @@
 	)
 	(label "BUTTON_1"
 		(at 58.42 15.24 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5802,6 +6116,7 @@
 	)
 	(label "SPI_LCD_DC"
 		(at 176.53 55.88 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5812,6 +6127,7 @@
 	)
 	(label "BUTTON_7"
 		(at 171.45 66.04 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5822,6 +6138,7 @@
 	)
 	(label "BUTTON_6"
 		(at 58.42 27.94 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5832,6 +6149,7 @@
 	)
 	(label "NFC_B_BUSY"
 		(at 218.44 111.76 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5842,6 +6160,7 @@
 	)
 	(label "NFC_A_SCL"
 		(at 109.22 86.36 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5852,6 +6171,7 @@
 	)
 	(label "NFC_A_SDA"
 		(at 109.22 88.9 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5862,6 +6182,7 @@
 	)
 	(label "SPI_LCD_CS"
 		(at 176.53 53.34 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5872,6 +6193,7 @@
 	)
 	(label "BUTTON_4"
 		(at 58.42 22.86 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5882,6 +6204,7 @@
 	)
 	(label "SD_MOSI"
 		(at 109.22 93.98 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5892,6 +6215,7 @@
 	)
 	(label "NFC_B_SCL"
 		(at 218.44 109.22 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5902,6 +6226,7 @@
 	)
 	(label "SPI_LCD_MOSI"
 		(at 162.56 63.5 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5912,6 +6237,7 @@
 	)
 	(label "SD_CS"
 		(at 167.64 48.26 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5922,6 +6248,7 @@
 	)
 	(label "LED_DISPLAY_R"
 		(at 162.56 73.66 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5932,6 +6259,7 @@
 	)
 	(label "LED_DISPLAY_B"
 		(at 162.56 76.2 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5943,6 +6271,7 @@
 	(hierarchical_label "EINK_RES"
 		(shape input)
 		(at 97.79 73.66 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5954,6 +6283,7 @@
 	(hierarchical_label "NFC_I_SENSE"
 		(shape input)
 		(at 161.29 50.8 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5965,6 +6295,7 @@
 	(hierarchical_label "SPI_LCD_SCK"
 		(shape input)
 		(at 198.12 58.42 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5976,6 +6307,7 @@
 	(hierarchical_label "BUTTON7"
 		(shape output)
 		(at 86.36 30.48 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5987,6 +6319,7 @@
 	(hierarchical_label "SPI_EINK_SCK"
 		(shape input)
 		(at 165.1 96.52 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5998,6 +6331,7 @@
 	(hierarchical_label "I2C_NFC_SDA"
 		(shape input)
 		(at 252.73 52.07 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6009,6 +6343,7 @@
 	(hierarchical_label "USBC_UART_RX"
 		(shape input)
 		(at 234.95 114.3 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6020,6 +6355,7 @@
 	(hierarchical_label "SPI_LCD_MOSI"
 		(shape input)
 		(at 198.12 63.5 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6031,6 +6367,7 @@
 	(hierarchical_label "EINK_BUSY"
 		(shape input)
 		(at 97.79 76.2 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6042,6 +6379,7 @@
 	(hierarchical_label "I2C_NFC_SCL"
 		(shape input)
 		(at 252.73 54.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6053,6 +6391,7 @@
 	(hierarchical_label "BUTTON4"
 		(shape output)
 		(at 86.36 22.86 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6064,6 +6403,7 @@
 	(hierarchical_label "BUTTON1"
 		(shape output)
 		(at 86.36 15.24 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6075,6 +6415,7 @@
 	(hierarchical_label "SPI_EINK_MISO"
 		(shape input)
 		(at 165.1 99.06 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6086,6 +6427,7 @@
 	(hierarchical_label "SPI_EINK_CS"
 		(shape input)
 		(at 119.38 68.58 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6097,6 +6439,7 @@
 	(hierarchical_label "NFC_BUSY"
 		(shape input)
 		(at 252.73 57.15 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6108,6 +6451,7 @@
 	(hierarchical_label "SPI_EINK_MOSI"
 		(shape input)
 		(at 165.1 101.6 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6119,6 +6463,7 @@
 	(hierarchical_label "SPI_LCD_MISO"
 		(shape input)
 		(at 198.12 60.96 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6130,6 +6475,7 @@
 	(hierarchical_label "BUTTON5"
 		(shape output)
 		(at 86.36 25.4 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6141,6 +6487,7 @@
 	(hierarchical_label "BUTTON2"
 		(shape output)
 		(at 86.36 17.78 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6152,6 +6499,7 @@
 	(hierarchical_label "BUZZER"
 		(shape input)
 		(at 165.1 88.9 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6163,6 +6511,7 @@
 	(hierarchical_label "SPI_LCD_DC"
 		(shape input)
 		(at 198.12 55.88 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6174,6 +6523,7 @@
 	(hierarchical_label "BUTTON3"
 		(shape output)
 		(at 86.36 20.32 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6185,6 +6535,7 @@
 	(hierarchical_label "USBC_UART_TX"
 		(shape input)
 		(at 234.95 116.84 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6196,6 +6547,7 @@
 	(hierarchical_label "PWR_INDICATOR"
 		(shape output)
 		(at 179.07 71.12 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6207,6 +6559,7 @@
 	(hierarchical_label "SPI_LCD_CS"
 		(shape input)
 		(at 198.12 53.34 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6218,6 +6571,7 @@
 	(hierarchical_label "LCD_PWM_BRIGHT"
 		(shape input)
 		(at 165.1 91.44 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6229,6 +6583,7 @@
 	(hierarchical_label "SPI_EINK_D{slash}C"
 		(shape input)
 		(at 119.38 71.12 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6240,6 +6595,7 @@
 	(hierarchical_label "BUTTON6"
 		(shape output)
 		(at 86.36 27.94 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7004,7 +7360,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "20e93409-4d9c-4789-aec8-8973688a78dd")
 		(property "Reference" "R18"
@@ -9197,6 +9553,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 180.34 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89ef1ff6-a1f7-4acc-acf8-adda43c42444")
+		(property "Reference" "#PWR071"
+			(at 180.34 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 180.34 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad9613ee-e114-4b0a-869a-3f7774316c31")
+		)
+		(instances
+			(project "Ecardz-Controller"
+				(path "/74270717-a116-451e-ac88-5a07ab66056e/24ee7b4c-70f3-405d-afd9-1146a9b5f360"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 185.42 143.51 0)
 		(unit 1)
@@ -9801,6 +10223,154 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 172.72 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6b4405c-c8be-4610-a62f-33a5f4db29de")
+		(property "Reference" "R58"
+			(at 175.26 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 175.26 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 173.736 81.534 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 172.72 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0603FR-0710KL"
+			(at 172.72 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "096cf296-478d-4683-ad58-81515e8bc57c")
+		)
+		(pin "1"
+			(uuid "a8be2f43-3fef-47dc-bd54-c7397b1d7dca")
+		)
+		(instances
+			(project "Ecardz-Controller"
+				(path "/74270717-a116-451e-ac88-5a07ab66056e/24ee7b4c-70f3-405d-afd9-1146a9b5f360"
+					(reference "R58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 207.01 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a974aa74-2890-492e-813a-756129b9702f")
+		(property "Reference" "J11"
+			(at 209.55 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 209.55 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
+			(at 207.01 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 207.01 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "787ce2d3-fd7c-4809-8a1f-240282a87dfd")
+		)
+		(pin "2"
+			(uuid "ab07d45d-8d8f-4aaf-8e9a-3abfd224b187")
+		)
+		(instances
+			(project "Ecardz-Controller"
+				(path "/74270717-a116-451e-ac88-5a07ab66056e/24ee7b4c-70f3-405d-afd9-1146a9b5f360"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 77.47 140.97 0)
 		(mirror y)
 		(unit 1)
@@ -10110,7 +10680,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b7215d0f-83dd-455a-a45d-149c02a2562a")
 		(property "Reference" "R17"
@@ -11200,6 +11770,85 @@
 			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/24ee7b4c-70f3-405d-afd9-1146a9b5f360"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 222.25 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "fc4427bb-25b0-4e0e-a9e3-d5e008c969e1")
+		(property "Reference" "R59"
+			(at 224.79 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 224.79 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 223.266 37.084 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 222.25 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "ERJ-3EKF4701V"
+			(at 222.25 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ee75f2f7-16dc-4969-a707-73edff79a764")
+		)
+		(pin "1"
+			(uuid "aa7056df-2d47-4fa2-b3ec-f550180cca9f")
+		)
+		(instances
+			(project "Ecardz-Controller"
+				(path "/74270717-a116-451e-ac88-5a07ab66056e/24ee7b4c-70f3-405d-afd9-1146a9b5f360"
+					(reference "R59")
 					(unit 1)
 				)
 			)

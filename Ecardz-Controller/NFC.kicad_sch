@@ -3750,6 +3750,7 @@
 	(hierarchical_label "NFC_I_SENSE"
 		(shape output)
 		(at 156.21 177.8 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3761,6 +3762,7 @@
 	(hierarchical_label "I2C_NFC_SCL"
 		(shape input)
 		(at 133.35 16.51 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3772,6 +3774,7 @@
 	(hierarchical_label "NFC_BUSY"
 		(shape input)
 		(at 133.35 19.05 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3783,6 +3786,7 @@
 	(hierarchical_label "I2C_NFC_SDA"
 		(shape input)
 		(at 133.35 13.97 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3794,6 +3798,7 @@
 	(hierarchical_label "PWR"
 		(shape input)
 		(at 39.37 40.64 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4577,7 +4582,7 @@
 			(uuid "84e1431a-7a71-4484-96e9-ec10ea5205ab")
 		)
 		(instances
-			(project ""
+			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/414d1147-8205-4839-9169-5f8f29a4e15a"
 					(reference "IC1")
 					(unit 1)
@@ -6831,7 +6836,7 @@
 			(uuid "9074bf4e-c0a6-478f-a865-b8f38bf94db8")
 		)
 		(instances
-			(project ""
+			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/414d1147-8205-4839-9169-5f8f29a4e15a"
 					(reference "Y1")
 					(unit 1)
@@ -7083,7 +7088,7 @@
 			(uuid "8e2b5a17-51df-417e-bead-31241ba51c91")
 		)
 		(instances
-			(project ""
+			(project "Ecardz-Controller"
 				(path "/74270717-a116-451e-ac88-5a07ab66056e/414d1147-8205-4839-9169-5f8f29a4e15a"
 					(reference "IC2")
 					(unit 1)
