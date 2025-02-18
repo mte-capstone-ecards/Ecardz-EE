@@ -314,6 +314,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 91.44) (xy 113.03 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "487a98b6-ea56-41c3-87cb-40adb3db51e1")
+	)
+	(wire
+		(pts
 			(xy 92.71 21.59) (xy 92.71 25.4)
 		)
 		(stroke
@@ -361,6 +371,16 @@
 			(type default)
 		)
 		(uuid "8841d4c0-a0c4-45ad-aa1c-954ac50a2209")
+	)
+	(wire
+		(pts
+			(xy 153.67 83.82) (xy 168.91 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa01add1-bbfe-4355-aed6-81a080a04333")
 	)
 	(wire
 		(pts
@@ -832,6 +852,16 @@
 			)
 			(uuid "592e4e8e-8ee6-49ef-97db-5d9f5dfdc2b5")
 		)
+		(pin "NFC_POWER" input
+			(at 168.91 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "74d6b9a8-40a4-4141-a971-3f8e3782d063")
+		)
 		(instances
 			(project "Ecardz-Proto"
 				(path "/2adbba85-9270-4efb-857d-656bb51406ca"
@@ -891,7 +921,7 @@
 			(uuid "74ff4e45-50dc-490d-b854-f8ef380e2555")
 		)
 		(pin "TSCL" input
-			(at 101.6 91.44 0)
+			(at 101.6 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -901,7 +931,7 @@
 			(uuid "15d87312-a7d4-4fcb-9e7b-717fb1b68b87")
 		)
 		(pin "TSDA" input
-			(at 101.6 93.98 0)
+			(at 101.6 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -949,6 +979,16 @@
 				(justify right)
 			)
 			(uuid "da456d87-77cd-4763-aca3-af52c4488c83")
+		)
+		(pin "EINK_POWER_CTRL_N" input
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7e8f825a-4df4-48f8-9ad5-16a8cc764de0")
 		)
 		(instances
 			(project "Ecardz-Proto"
@@ -1087,6 +1127,26 @@
 				(justify right)
 			)
 			(uuid "664f5608-5215-44e0-9f82-54a7153673fa")
+		)
+		(pin "NFC_POWER" input
+			(at 153.67 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c3b5cbd1-4e78-4120-b304-330fa694ec57")
+		)
+		(pin "EINK_POWER_CTRL_N" input
+			(at 113.03 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "291933f8-d711-4cbc-b0d3-3a826b456f15")
 		)
 		(instances
 			(project "Ecardz-Proto"
