@@ -2239,6 +2239,12 @@
 		(uuid "b5c7346f-5de5-4f9b-8ff2-4a2f190ce3d8")
 	)
 	(junction
+		(at 24.13 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cad75704-5131-4876-bb13-e7ecd9248faa")
+	)
+	(junction
 		(at 110.49 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2255,6 +2261,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dcf7e394-3258-4c0c-9b73-d6a03bacc00d")
+	)
+	(junction
+		(at 24.13 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e031700f-3ac7-4eac-a6bb-61187d3ce1a2")
 	)
 	(junction
 		(at 90.17 64.77)
@@ -2464,6 +2476,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 147.32) (xy 22.86 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "211ebbf3-57d2-4d87-aa71-0bf9d1bb918e")
+	)
+	(wire
+		(pts
 			(xy 144.78 116.84) (xy 121.92 116.84)
 		)
 		(stroke
@@ -2471,6 +2493,16 @@
 			(type default)
 		)
 		(uuid "22e93a5e-3e69-4d33-8cd6-52ddf7424983")
+	)
+	(wire
+		(pts
+			(xy 24.13 128.27) (xy 24.13 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23d3de78-8bd2-455a-8139-4e929e89e850")
 	)
 	(wire
 		(pts
@@ -2804,6 +2836,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 140.97) (xy 34.29 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "761fe2c5-7636-46d5-9243-cc294522ea64")
+	)
+	(wire
+		(pts
 			(xy 34.29 137.16) (xy 34.29 140.97)
 		)
 		(stroke
@@ -2904,7 +2946,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 148.59) (xy 29.21 143.51)
+			(xy 24.13 148.59) (xy 24.13 147.32)
 		)
 		(stroke
 			(width 0)
@@ -3184,7 +3226,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 140.97) (xy 34.29 140.97)
+			(xy 22.86 140.97) (xy 24.13 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3381,6 +3423,16 @@
 			(type default)
 		)
 		(uuid "d94fbeee-57dd-4808-bb49-834c912047ab")
+	)
+	(wire
+		(pts
+			(xy 24.13 147.32) (xy 22.86 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc01115c-d891-4b6f-8512-93899b0b4869")
 	)
 	(wire
 		(pts
@@ -4484,6 +4536,82 @@
 		(uuid "e5161d8c-10f3-43d4-98af-cb87448a903c")
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 24.13 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "168ca714-9e65-4a47-9181-b5749c9e9a21")
+		(property "Reference" "TP8"
+			(at 26.67 142.7479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 26.67 145.2879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 29.21 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 24.13 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" ""
+			(at 24.13 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f45bac3-1ad2-475d-8bd2-7fbbffa3f27a")
+		)
+		(instances
+			(project "Ecardz-Proto"
+				(path "/2adbba85-9270-4efb-857d-656bb51406ca/fb28d19f-d7f8-44fd-bba1-2dc19a83839b"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 59.69 133.35 0)
 		(unit 1)
@@ -4779,7 +4907,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 24.13 143.51 180)
+		(at 17.78 143.51 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4788,7 +4916,7 @@
 		(fields_autoplaced yes)
 		(uuid "2ebf6d47-ccf9-456c-a1f0-d325998246c7")
 		(property "Reference" "J1"
-			(at 24.13 134.62 0)
+			(at 17.78 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4796,15 +4924,15 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 24.13 137.16 0)
+			(at 17.78 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 24.13 143.51 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical "
+			(at 17.78 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4813,7 +4941,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 143.51 0)
+			(at 17.78 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4822,7 +4950,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 24.13 143.51 0)
+			(at 17.78 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5845,7 +5973,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 29.21 148.59 0)
+		(at 24.13 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5854,7 +5982,7 @@
 		(fields_autoplaced yes)
 		(uuid "7291054f-0f51-4a9f-9cd7-b20825e00ca1")
 		(property "Reference" "#PWR09"
-			(at 29.21 154.94 0)
+			(at 24.13 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5863,7 +5991,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 29.21 153.67 0)
+			(at 24.13 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5871,7 +5999,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 148.59 0)
+			(at 24.13 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5880,7 +6008,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 148.59 0)
+			(at 24.13 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5889,7 +6017,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 29.21 148.59 0)
+			(at 24.13 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5937,7 +6065,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 40.64 142.24 0)
 			(effects
 				(font
@@ -6115,6 +6243,82 @@
 			(project "Ecardz-Proto"
 				(path "/2adbba85-9270-4efb-857d-656bb51406ca/fb28d19f-d7f8-44fd-bba1-2dc19a83839b"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 24.13 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91ff4dfa-5cbf-493c-a5b9-e9b49f0b846b")
+		(property "Reference" "TP4"
+			(at 26.67 123.6979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 26.67 126.2379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 29.21 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 24.13 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" ""
+			(at 24.13 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "051da69e-3aa8-4754-b34b-b74d9d72aed6")
+		)
+		(instances
+			(project "Ecardz-Proto"
+				(path "/2adbba85-9270-4efb-857d-656bb51406ca/fb28d19f-d7f8-44fd-bba1-2dc19a83839b"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
