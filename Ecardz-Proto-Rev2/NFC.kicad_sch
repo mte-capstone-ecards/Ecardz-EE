@@ -1575,6 +1575,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 77.47) (xy 132.08 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1abedfba-f2b8-4913-ab09-8872ae33f62a")
+	)
+	(wire
+		(pts
 			(xy 132.08 40.64) (xy 139.7 40.64)
 		)
 		(stroke
@@ -2175,6 +2185,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 77.47) (xy 143.51 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad0a8103-9155-46bd-bd57-d51043817d04")
+	)
+	(wire
+		(pts
 			(xy 238.76 53.34) (xy 250.19 53.34)
 		)
 		(stroke
@@ -2295,7 +2315,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 40.64) (xy 132.08 82.55)
+			(xy 132.08 40.64) (xy 132.08 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2435,7 +2455,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 66.04) (xy 143.51 82.55)
+			(xy 143.51 66.04) (xy 143.51 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3405,6 +3425,94 @@
 			(project "Ecardz-Proto"
 				(path "/2adbba85-9270-4efb-857d-656bb51406ca/95527a5c-8cb7-439d-944b-2d67c4df2ece"
 					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 132.08 73.66 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47809a9f-18d3-4659-8779-c12561fb19b8")
+		(property "Reference" "R18"
+			(at 134.62 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0R"
+			(at 134.62 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 131.064 73.406 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 132.08 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 132.08 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "CRCW0603590RFKEA"
+			(at 132.08 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "541-590HTR-ND"
+			(at 132.08 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a1523d8-c3c1-4b57-aa44-20dbdbc410cd")
+		)
+		(pin "2"
+			(uuid "8dd3a601-74c1-4fa7-bfc3-139aa102f0f8")
+		)
+		(instances
+			(project "Ecardz-Proto"
+				(path "/2adbba85-9270-4efb-857d-656bb51406ca/95527a5c-8cb7-439d-944b-2d67c4df2ece"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -5302,6 +5410,94 @@
 			(project "Ecardz-Proto"
 				(path "/2adbba85-9270-4efb-857d-656bb51406ca/95527a5c-8cb7-439d-944b-2d67c4df2ece"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 143.51 73.66 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc3fa58f-7757-4f68-8b8f-081dc8812e8c")
+		(property "Reference" "R19"
+			(at 146.05 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0R"
+			(at 146.05 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 142.494 73.406 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 143.51 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 143.51 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "CRCW0603590RFKEA"
+			(at 143.51 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "541-590HTR-ND"
+			(at 143.51 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c64955c-1373-40f1-9be9-b95047dcd400")
+		)
+		(pin "2"
+			(uuid "c6978046-0b08-4f49-82fd-062b6a7576da")
+		)
+		(instances
+			(project "Ecardz-Proto"
+				(path "/2adbba85-9270-4efb-857d-656bb51406ca/95527a5c-8cb7-439d-944b-2d67c4df2ece"
+					(reference "R19")
 					(unit 1)
 				)
 			)
