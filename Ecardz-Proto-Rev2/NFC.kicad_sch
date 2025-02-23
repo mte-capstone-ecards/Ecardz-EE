@@ -4163,7 +4163,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7dadece5-8559-478d-854f-410d42a84521")
 		(property "Reference" "J5"
 			(at 33.274 32.004 90)
