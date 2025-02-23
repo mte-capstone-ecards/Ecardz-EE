@@ -1214,6 +1214,12 @@
 		(uuid "065db490-5b1c-406d-9671-37c9349b745d")
 	)
 	(junction
+		(at 132.08 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ffe95d5-f576-414e-9e20-318f792414eb")
+	)
+	(junction
 		(at 161.29 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1262,12 +1268,6 @@
 		(uuid "3cb6d1e9-5c1f-4a73-a214-5ed38727b242")
 	)
 	(junction
-		(at 132.08 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "402f6c80-1590-452a-8302-f47269bd4169")
-	)
-	(junction
 		(at 73.66 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1314,6 +1314,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70ea9598-e0fd-4cd6-b7a1-4693e5980f92")
+	)
+	(junction
+		(at 143.51 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "819af65a-a54c-4e1f-af99-0ff1020170a2")
+	)
+	(junction
+		(at 132.08 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8413ef09-f95b-47bd-9f5d-2fcf667d5c0d")
 	)
 	(junction
 		(at 250.19 60.96)
@@ -1406,6 +1418,12 @@
 		(uuid "d26ae875-1b7d-4f58-9cc2-d82c7627ca38")
 	)
 	(junction
+		(at 143.51 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d67b85a1-f182-4c2c-8371-c1bf8b438b97")
+	)
+	(junction
 		(at 222.25 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1422,12 +1440,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dff65418-946e-473c-8ab0-042f632118a7")
-	)
-	(junction
-		(at 139.7 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e542f368-e088-4fdc-9063-0a0cbed4a18b")
 	)
 	(junction
 		(at 81.28 38.1)
@@ -1482,6 +1494,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe2bb633-fbd4-43df-8078-ad4c8b8d77b3")
+	)
+	(wire
+		(pts
+			(xy 132.08 99.06) (xy 133.35 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02f2403e-9054-4778-bbc5-c48a2e450668")
 	)
 	(wire
 		(pts
@@ -1575,23 +1597,13 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 77.47) (xy 132.08 82.55)
+			(xy 132.08 77.47) (xy 132.08 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1abedfba-f2b8-4913-ab09-8872ae33f62a")
-	)
-	(wire
-		(pts
-			(xy 132.08 40.64) (xy 139.7 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bee1b1f-7397-48b9-8c5f-7531d591b8cd")
 	)
 	(wire
 		(pts
@@ -1615,7 +1627,17 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 40.64) (xy 139.7 38.1)
+			(xy 132.08 102.87) (xy 143.51 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27842933-3124-4e2c-99b6-2b11604b3298")
+	)
+	(wire
+		(pts
+			(xy 139.7 38.1) (xy 139.7 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1645,13 +1667,13 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 66.04) (xy 139.7 40.64)
+			(xy 140.97 86.36) (xy 143.51 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "35b2e5ae-33b7-4f0e-bada-97fc5d0d8704")
+		(uuid "35274426-0c6f-483c-bf3e-9d7bca13eeb9")
 	)
 	(wire
 		(pts
@@ -1712,6 +1734,16 @@
 			(type default)
 		)
 		(uuid "43a0ee4d-d34b-4ba0-9399-9f28cc4941be")
+	)
+	(wire
+		(pts
+			(xy 143.51 102.87) (xy 143.51 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46392c00-56ed-4b58-ae2d-63109b85cf2d")
 	)
 	(wire
 		(pts
@@ -1782,16 +1814,6 @@
 			(type default)
 		)
 		(uuid "57238257-486c-44ec-9f49-4def3c7ebb30")
-	)
-	(wire
-		(pts
-			(xy 143.51 90.17) (xy 143.51 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5785d4d7-8fbd-4294-9b7b-9218c9b8ec0f")
 	)
 	(wire
 		(pts
@@ -1872,6 +1894,16 @@
 			(type default)
 		)
 		(uuid "5ea41792-edff-4211-98ad-7b7ea44da1ee")
+	)
+	(wire
+		(pts
+			(xy 132.08 86.36) (xy 132.08 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f140bc0-ca41-44cf-892e-6b6a527e6b37")
 	)
 	(wire
 		(pts
@@ -1965,6 +1997,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 86.36) (xy 133.35 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73e627a9-5d7c-4875-b891-6edf807077d8")
+	)
+	(wire
+		(pts
 			(xy 200.66 60.96) (xy 213.36 60.96)
 		)
 		(stroke
@@ -2012,6 +2054,16 @@
 			(type default)
 		)
 		(uuid "7fb70618-aed6-4cda-a763-abbdac4d8826")
+	)
+	(wire
+		(pts
+			(xy 140.97 99.06) (xy 143.51 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fe67c57-bf0b-4fa5-9099-1c686e28ab86")
 	)
 	(wire
 		(pts
@@ -2135,6 +2187,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 99.06) (xy 132.08 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2d6a23e-9816-45e6-a4d7-9d6c762a2737")
+	)
+	(wire
+		(pts
 			(xy 146.05 26.67) (xy 146.05 30.48)
 		)
 		(stroke
@@ -2185,7 +2247,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 77.47) (xy 143.51 82.55)
+			(xy 143.51 77.47) (xy 143.51 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2345,13 +2407,13 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 90.17) (xy 132.08 91.44)
+			(xy 143.51 99.06) (xy 143.51 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dbab3555-e263-45ab-b02c-847a6dca278e")
+		(uuid "dd609582-58b6-4d7e-a47c-42e126e696b0")
 	)
 	(wire
 		(pts
@@ -2472,6 +2534,17 @@
 			(type default)
 		)
 		(uuid "fcc7cf2b-a777-4213-b8f3-6fde7b3b5390")
+	)
+	(label "antenna"
+		(at 134.62 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "91e5de58-1d1e-463e-848b-1fc2355fc602")
 	)
 	(label "VDD_NFC"
 		(at 50.8 35.56 0)
@@ -2773,72 +2846,6 @@
 			(project "Ecardz-Proto"
 				(path "/2adbba85-9270-4efb-857d-656bb51406ca/95527a5c-8cb7-439d-944b-2d67c4df2ece"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 132.08 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "036c9424-f334-4c74-9d88-48a38f9fa585")
-		(property "Reference" "#PWR027"
-			(at 132.08 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 132.08 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "15c379d1-332c-4278-aaa2-80f24103bcf1")
-		)
-		(instances
-			(project "Ecardz-Proto"
-				(path "/2adbba85-9270-4efb-857d-656bb51406ca/95527a5c-8cb7-439d-944b-2d67c4df2ece"
-					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -3266,7 +3273,7 @@
 	(symbol
 		(lib_name "C_1")
 		(lib_id "Device:C")
-		(at 132.08 86.36 0)
+		(at 137.16 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3275,25 +3282,23 @@
 		(fields_autoplaced yes)
 		(uuid "37b4b20c-2302-421b-9200-14a05d51fd67")
 		(property "Reference" "C21"
-			(at 135.89 85.0899 0)
+			(at 137.16 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "7pF"
-			(at 135.89 87.6299 0)
+			(at 137.16 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 133.0452 90.17 0)
+			(at 140.97 85.3948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3302,7 +3307,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 86.36 0)
+			(at 137.16 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3311,7 +3316,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 132.08 86.36 0)
+			(at 137.16 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3320,7 +3325,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "GRM0335C1E7R0CA01D"
-			(at 132.08 86.36 0)
+			(at 137.16 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3329,7 +3334,7 @@
 			)
 		)
 		(property "Digikey Part Number" "490-13324-2-ND"
-			(at 132.08 86.36 0)
+			(at 137.16 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4640,72 +4645,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 143.51 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b621b4a6-9736-402c-b315-b61d72e2fa06")
-		(property "Reference" "#PWR028"
-			(at 143.51 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 143.51 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 143.51 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4c2e9840-e231-4f9c-96dc-ae159439689e")
-		)
-		(instances
-			(project "Ecardz-Proto"
-				(path "/2adbba85-9270-4efb-857d-656bb51406ca/95527a5c-8cb7-439d-944b-2d67c4df2ece"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Zener")
 		(at 200.66 33.02 270)
 		(unit 1)
@@ -4788,6 +4727,93 @@
 			(project "Ecardz-Proto"
 				(path "/2adbba85-9270-4efb-857d-656bb51406ca/95527a5c-8cb7-439d-944b-2d67c4df2ece"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "C_1")
+		(lib_id "Device:C")
+		(at 137.16 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c42fbb0a-28d6-431c-aa97-0e27617b3e76")
+		(property "Reference" "C20"
+			(at 137.16 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "7pF"
+			(at 137.16 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 140.97 98.0948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 137.16 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "GRM0335C1E7R0CA01D"
+			(at 137.16 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "490-13324-2-ND"
+			(at 137.16 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "efee34ca-0436-47ed-95b0-dbfce1e6865a")
+		)
+		(pin "2"
+			(uuid "893db4eb-45a8-455c-be4e-1b9c9b3d7b23")
+		)
+		(instances
+			(project "Ecardz-Proto"
+				(path "/2adbba85-9270-4efb-857d-656bb51406ca/95527a5c-8cb7-439d-944b-2d67c4df2ece"
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -5086,95 +5112,6 @@
 			(project "Ecardz-Proto"
 				(path "/2adbba85-9270-4efb-857d-656bb51406ca/95527a5c-8cb7-439d-944b-2d67c4df2ece"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "C_1")
-		(lib_id "Device:C")
-		(at 143.51 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f050e365-1935-4083-9c2f-e698fa25f876")
-		(property "Reference" "C20"
-			(at 147.32 85.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "7pF"
-			(at 147.32 87.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 144.4752 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 143.51 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "GRM0335C1E7R0CA01D"
-			(at 143.51 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey Part Number" "490-13324-2-ND"
-			(at 143.51 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "10f584dd-7b6d-41de-952c-f0aea4bba6f9")
-		)
-		(pin "2"
-			(uuid "8593fbd7-daae-4c67-8d64-d624a7c58696")
-		)
-		(instances
-			(project "Ecardz-Proto"
-				(path "/2adbba85-9270-4efb-857d-656bb51406ca/95527a5c-8cb7-439d-944b-2d67c4df2ece"
-					(reference "C20")
 					(unit 1)
 				)
 			)
